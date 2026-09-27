@@ -1,0 +1,14 @@
+{
+  "review_id": "MGR-FM3-P2-HR-0001",
+  "audit_version": "0.1",
+  "events": [
+    {
+      "event_id": "HR-E001",
+      "timestamp_utc": "2026-09-27T10:30:57.256232+00:00",
+      "event": "REVIEW_PACKAGE_CREATED",
+      "status": "PENDING_HUMAN_REVIEW",
+      "actor": "SYSTEM",
+      "details": "Persistent human review package created from validated Checkpoint 8 artifacts."
+    }
+  ]
+}

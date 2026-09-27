@@ -1,0 +1,11 @@
+{
+  "project": "string",
+  "disease": "string",
+  "evidence_records": "list",
+  "loaded_agents": "list",
+  "review_status": "string",
+  "uncertainty": "list",
+  "knowledge_gaps": "list",
+  "next_action": "string",
+  "execution_trace": "list"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "rule_id": "RR001",
+    "name": "Evidence Grounding",
+    "rule": "Every factual reasoning item must reference one or more evidence records.",
+    "enforced": true
+  },
+  {
+    "rule_id": "RR002",
+    "name": "No Unsupported Claims",
+    "rule": "Missing evidence must not be converted into a scientific claim.",
+    "enforced": true
+  },
+  {
+    "rule_id": "RR003",
+    "name": "Known-Inferred Separation",
+    "rule": "Observed evidence and model inference must remain separate.",
+    "enforced": true
+  },
+  {
+    "rule_id": "RR004",
+    "name": "Uncertainty Preservation",
+    "rule": "Uncertainty must be retained in the reasoning state.",
+    "enforced": true
+  },
+  {
+    "rule_id": "RR005",
+    "name": "Knowledge Gap Preservation",
+    "rule": "Missing evidence must be explicitly recorded.",
+    "enforced": true
+  },
+  {
+    "rule_id": "RR006",
+    "name": "Contradiction Preservation",
+    "rule": "Conflicting evidence must not be silently removed.",
+    "enforced": true
+  },
+  {
+    "rule_id": "RR007",
+    "name": "Human Review Gate",
+    "rule": "High-consequence scientific decisions require human review.",
+    "enforced": true
+  },
+  {
+    "rule_id": "RR008",
+    "name": "No Automatic Clinical Recommendation",
+    "rule": "The reasoning layer cannot automatically issue clinical recommendations.",
+    "enforced": true
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "llm_execution": false,
+  "scientific_conclusions": false,
+  "automatic_decision": false,
+  "human_review_required": true,
+  "unsupported_inference_blocked": true,
+  "automatic_critique_iteration": false,
+  "automatic_contradiction_resolution": false,
+  "agent_source_links_fabricated": false,
+  "auditability_required": true,
+  "reproducibility_required": true
+}

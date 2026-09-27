@@ -1,0 +1,72 @@
+[
+  {
+    "criterion_id": "EVAL_01",
+    "name": "Correctness",
+    "description": "Is the generated result consistent with validated inputs?"
+  },
+  {
+    "criterion_id": "EVAL_02",
+    "name": "Evidence Quality",
+    "description": "Is the supporting evidence appropriate and traceable?"
+  },
+  {
+    "criterion_id": "EVAL_03",
+    "name": "Citation Accuracy",
+    "description": "Are claims correctly linked to supporting evidence?"
+  },
+  {
+    "criterion_id": "EVAL_04",
+    "name": "Tool Selection",
+    "description": "Were appropriate tools selected for the task?"
+  },
+  {
+    "criterion_id": "EVAL_05",
+    "name": "Reasoning Path",
+    "description": "Is the reasoning workflow traceable and reproducible?"
+  },
+  {
+    "criterion_id": "EVAL_06",
+    "name": "Completeness",
+    "description": "Are required evidence and decision dimensions represented?"
+  },
+  {
+    "criterion_id": "EVAL_07",
+    "name": "Safety",
+    "description": "Are human review and scientific safety controls preserved?"
+  },
+  {
+    "criterion_id": "EVAL_08",
+    "name": "Reproducibility",
+    "description": "Can the workflow be reconstructed from stored artifacts?"
+  },
+  {
+    "criterion_id": "EVAL_09",
+    "name": "Uncertainty Calibration",
+    "description": "Are uncertainty and knowledge gaps preserved?"
+  },
+  {
+    "criterion_id": "EVAL_10",
+    "name": "Human Acceptance",
+    "description": "Can a qualified reviewer inspect and approve the output?"
+  },
+  {
+    "criterion_id": "EVAL_11",
+    "name": "Contradiction Handling",
+    "description": "Are contradictions detected and preserved without unsupported resolution?"
+  },
+  {
+    "criterion_id": "EVAL_12",
+    "name": "Decision Traceability",
+    "description": "Can decision-support elements be traced to upstream evidence?"
+  },
+  {
+    "criterion_id": "EVAL_13",
+    "name": "Latency",
+    "description": "Can execution time be measured for workflow components?"
+  },
+  {
+    "criterion_id": "EVAL_14",
+    "name": "Cost",
+    "description": "Can model and tool execution cost be measured when activated?"
+  }
+]

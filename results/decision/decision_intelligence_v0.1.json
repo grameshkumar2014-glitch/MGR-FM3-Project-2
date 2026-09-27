@@ -1,0 +1,205 @@
+{
+  "artifact": "MGR-FM3-P2-Decision-Intelligence",
+  "version": "0.1",
+  "created_utc": "2026-09-27T10:44:28.910906+00:00",
+  "contract": {
+    "project": "MGR-FM3-PROJECT-2",
+    "component": "Decision Intelligence",
+    "version": "0.1",
+    "purpose": "Create a structured decision-support layer from validated evidence, wisdom engines, reasoning, and critique outputs.",
+    "decision_type": "decision_support",
+    "autonomous_decision": false,
+    "scientific_conclusion_generation": false,
+    "human_authority": true,
+    "required_inputs": [
+      "validated_evidence",
+      "knowledge_graph",
+      "wisdom_engine_outputs",
+      "reasoning_context",
+      "reasoning_rules",
+      "critique_findings"
+    ],
+    "decision_dimensions": [
+      "evidence_support",
+      "mechanistic_relevance",
+      "therapeutic_efficacy",
+      "safety",
+      "biomarker_relevance",
+      "clinical_trial_relevance",
+      "development_considerations",
+      "uncertainty",
+      "knowledge_gaps",
+      "contradictions",
+      "evidence_traceability"
+    ],
+    "required_outputs": [
+      "decision_context",
+      "decision_options",
+      "decision_criteria",
+      "evidence_trace",
+      "uncertainty_register",
+      "knowledge_gap_register",
+      "contradiction_register",
+      "human_review_requirements",
+      "decision_limitations"
+    ]
+  },
+  "decision_context": {
+    "disease": "Alzheimer Disease",
+    "project": "MGR-FM3-PROJECT-2",
+    "evidence_records": 10,
+    "knowledge_graph_available": true,
+    "wisdom_engines_available": 24,
+    "wisdom_baseline_outputs": 24,
+    "reasoning_modules_available": 7,
+    "reasoning_rules_available": 8,
+    "reasoning_graph_nodes": 11,
+    "reasoning_graph_edges": 12,
+    "critique_targets": 8,
+    "critique_findings": 6,
+    "critique_loop_status": "READY_FOR_REVIEW"
+  },
+  "decision_options": [
+    {
+      "option_id": "OPTION_01",
+      "name": "Proceed to further evidence investigation",
+      "description": "Collect additional evidence to address unresolved uncertainties and knowledge gaps before a scientific decision.",
+      "requires_human_review": true
+    },
+    {
+      "option_id": "OPTION_02",
+      "name": "Proceed to focused hypothesis evaluation",
+      "description": "Evaluate a defined scientific hypothesis using additional targeted evidence and appropriate validation.",
+      "requires_human_review": true
+    },
+    {
+      "option_id": "OPTION_03",
+      "name": "Hold pending contradiction or evidence resolution",
+      "description": "Pause decision progression when evidence conflicts, uncertainty, or missing information requires resolution.",
+      "requires_human_review": true
+    },
+    {
+      "option_id": "OPTION_04",
+      "name": "Escalate for expert scientific review",
+      "description": "Route the decision context to a qualified human reviewer when evidence or consequences require expert assessment.",
+      "requires_human_review": true
+    }
+  ],
+  "decision_criteria": [
+    {
+      "criterion_id": "CRITERION_01",
+      "name": "Evidence Support",
+      "description": "Are claims traceable to available evidence?"
+    },
+    {
+      "criterion_id": "CRITERION_02",
+      "name": "Evidence Quality",
+      "description": "Is the supporting evidence sufficiently characterized?"
+    },
+    {
+      "criterion_id": "CRITERION_03",
+      "name": "Mechanistic Relevance",
+      "description": "Is mechanistic relevance supported by the evidence?"
+    },
+    {
+      "criterion_id": "CRITERION_04",
+      "name": "Therapeutic Relevance",
+      "description": "Is therapeutic relevance supported by available evidence?"
+    },
+    {
+      "criterion_id": "CRITERION_05",
+      "name": "Safety Considerations",
+      "description": "Are safety-related considerations represented?"
+    },
+    {
+      "criterion_id": "CRITERION_06",
+      "name": "Clinical Relevance",
+      "description": "Are clinical and development considerations represented?"
+    },
+    {
+      "criterion_id": "CRITERION_07",
+      "name": "Uncertainty",
+      "description": "Are uncertainties explicitly preserved?"
+    },
+    {
+      "criterion_id": "CRITERION_08",
+      "name": "Knowledge Gaps",
+      "description": "Are unresolved knowledge gaps explicitly preserved?"
+    },
+    {
+      "criterion_id": "CRITERION_09",
+      "name": "Contradictions",
+      "description": "Are detected or unresolved contradictions represented?"
+    },
+    {
+      "criterion_id": "CRITERION_10",
+      "name": "Traceability",
+      "description": "Can decision-support elements be traced to source artifacts?"
+    }
+  ],
+  "evidence_trace": {
+    "source_evidence_fabric": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/evidence/evidence_fabric_v0.1.json",
+    "source_knowledge_graph": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/knowledge_graph/alzheimer_knowledge_graph_v0.1.json",
+    "source_wisdom_registry": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/wisdom_engines/wisdom_engine_registry_v0.1.json",
+    "source_wisdom_outputs": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/wisdom_engines/wisdom_engine_baseline_outputs_v0.1.json",
+    "source_reasoning_context": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/src/reasoning/reasoning_context_v0.1.json",
+    "source_reasoning_rules": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/src/reasoning/reasoning_rules_v0.1.json",
+    "source_reasoning_graph": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/src/reasoning/reasoning_graph_v0.1.json",
+    "source_critique_report": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/src/reasoning/critique/critique_report_v0.1.json",
+    "agent_source_links_available": false,
+    "agent_source_links_note": "No agent-to-source links were available in the validated knowledge graph. This limitation is preserved and not fabricated."
+  },
+  "uncertainty_register": {
+    "status": "PRESERVED",
+    "automatic_resolution": false,
+    "human_review_required": true,
+    "source": "validated upstream evidence and reasoning artifacts"
+  },
+  "knowledge_gap_register": {
+    "status": "PRESERVED",
+    "automatic_resolution": false,
+    "human_review_required": true,
+    "source": "validated upstream evidence and reasoning artifacts"
+  },
+  "contradiction_register": {
+    "status": "PRESERVED",
+    "candidate_contradictions": 0,
+    "automatic_scientific_confirmation": false,
+    "human_review_required": true,
+    "source": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/results/contradiction_registry_v0.1.json"
+  },
+  "human_review_requirements": {
+    "required": true,
+    "decision_authority": "HUMAN",
+    "automatic_approval": false,
+    "automatic_rejection": false,
+    "automatic_scientific_conclusion": false,
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "required_actions": [
+      "review evidence support",
+      "review uncertainty",
+      "review knowledge gaps",
+      "review contradictions",
+      "review decision options",
+      "record human decision"
+    ]
+  },
+  "limitations": [
+    "LLM execution has not started.",
+    "Scientific conclusions are disabled.",
+    "Decision intelligence is decision support, not autonomous decision making.",
+    "Human review is mandatory.",
+    "Unsupported inference is blocked.",
+    "Automatic reasoning-loop iterations are disabled.",
+    "Agent-to-source links are not available and are not fabricated.",
+    "Baseline wisdom-engine outputs are structural decision-support inputs.",
+    "No option is automatically selected as the scientific decision."
+  ],
+  "safety_state": {
+    "llm_execution": false,
+    "scientific_conclusions": false,
+    "human_review_required": true,
+    "unsupported_inference": false,
+    "automatic_decision": false
+  }
+}

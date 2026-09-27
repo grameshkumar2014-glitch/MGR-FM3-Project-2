@@ -1,0 +1,66 @@
+{
+  "engine_id": 24,
+  "engine_name": "Decision",
+  "domain": "Decision Wisdom",
+  "purpose": "Integrate evidence across the wisdom engines for structured decision analysis.",
+  "version": "0.1",
+  "status": "ARCHITECTURE_VALIDATED",
+  "execution_mode": "DETERMINISTIC_BASELINE",
+  "scientific_validation_status": "NOT_YET_VALIDATED",
+  "llm_execution": false,
+  "scientific_conclusions_enabled": false,
+  "human_review_required": true,
+  "required_evidence": [
+    "integrated evidence",
+    "uncertainty",
+    "contradictions"
+  ],
+  "dependencies": [
+    "BioDeficit",
+    "Target",
+    "Mechanism",
+    "Modality",
+    "NewMolecule",
+    "Binding",
+    "Efficacy",
+    "Safety",
+    "Biomarker",
+    "ADME_DMPK",
+    "PK_PD",
+    "Delivery",
+    "Immunogenicity",
+    "Resistance",
+    "Synthesis",
+    "CMC",
+    "Manufacturing",
+    "Stability",
+    "IP_Patent",
+    "ClinicalTrial",
+    "Regulatory",
+    "PV",
+    "Failure"
+  ],
+  "input_schema": {
+    "evidence_records": "list",
+    "knowledge_graph": "object",
+    "uncertainty": "list",
+    "contradictions": "list"
+  },
+  "output_schema": {
+    "engine_id": "string",
+    "engine_name": "string",
+    "evidence_count": "integer",
+    "evidence_ids": "list",
+    "knowledge_gaps": "list",
+    "uncertainties": "list",
+    "status": "string",
+    "human_review_required": "boolean"
+  },
+  "guardrails": {
+    "no_unsupported_inference": true,
+    "no_automatic_clinical_recommendation": true,
+    "evidence_traceability_required": true,
+    "uncertainty_required": true,
+    "human_review_required": true
+  }
+}

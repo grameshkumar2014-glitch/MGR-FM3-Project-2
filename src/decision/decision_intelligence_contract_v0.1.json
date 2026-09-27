@@ -1,0 +1,42 @@
+{
+  "project": "MGR-FM3-PROJECT-2",
+  "component": "Decision Intelligence",
+  "version": "0.1",
+  "purpose": "Create a structured decision-support layer from validated evidence, wisdom engines, reasoning, and critique outputs.",
+  "decision_type": "decision_support",
+  "autonomous_decision": false,
+  "scientific_conclusion_generation": false,
+  "human_authority": true,
+  "required_inputs": [
+    "validated_evidence",
+    "knowledge_graph",
+    "wisdom_engine_outputs",
+    "reasoning_context",
+    "reasoning_rules",
+    "critique_findings"
+  ],
+  "decision_dimensions": [
+    "evidence_support",
+    "mechanistic_relevance",
+    "therapeutic_efficacy",
+    "safety",
+    "biomarker_relevance",
+    "clinical_trial_relevance",
+    "development_considerations",
+    "uncertainty",
+    "knowledge_gaps",
+    "contradictions",
+    "evidence_traceability"
+  ],
+  "required_outputs": [
+    "decision_context",
+    "decision_options",
+    "decision_criteria",
+    "evidence_trace",
+    "uncertainty_register",
+    "knowledge_gap_register",
+    "contradiction_register",
+    "human_review_requirements",
+    "decision_limitations"
+  ]
+}

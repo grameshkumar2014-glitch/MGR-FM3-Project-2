@@ -1,0 +1,162 @@
+{
+  "workflow_id": "MGR-FM3-P2-E2E-0001",
+  "workflow_version": "0.1",
+  "disease": "Alzheimer Disease",
+  "status": "INTEGRATION_VALIDATED",
+  "current_stage": "HUMAN_REVIEW",
+  "next_stage": "FINAL_EVALUATION_AND_SAFETY",
+  "stage_count": 9,
+  "validated_stage_count": 9,
+  "pipeline": [
+    {
+      "stage_id": "STAGE_01",
+      "name": "Evidence Foundation",
+      "checkpoint": 2
+    },
+    {
+      "stage_id": "STAGE_02",
+      "name": "Evidence Fabric",
+      "checkpoint": 10
+    },
+    {
+      "stage_id": "STAGE_03",
+      "name": "Knowledge Graph",
+      "checkpoint": 10
+    },
+    {
+      "stage_id": "STAGE_04",
+      "name": "Wisdom Engines",
+      "checkpoint": 12
+    },
+    {
+      "stage_id": "STAGE_05",
+      "name": "AI Reasoning",
+      "checkpoint": 13
+    },
+    {
+      "stage_id": "STAGE_06",
+      "name": "Critique Loop",
+      "checkpoint": 14
+    },
+    {
+      "stage_id": "STAGE_07",
+      "name": "Decision Intelligence",
+      "checkpoint": 15
+    },
+    {
+      "stage_id": "STAGE_08",
+      "name": "Observability and Evaluation",
+      "checkpoint": 16
+    },
+    {
+      "stage_id": "STAGE_09",
+      "name": "Human Review",
+      "checkpoint": 9
+    }
+  ],
+  "stage_validation": [
+    {
+      "stage_id": "STAGE_01",
+      "name": "Evidence Foundation",
+      "checkpoint": 2,
+      "checkpoint_passed": true,
+      "status": "READY"
+    },
+    {
+      "stage_id": "STAGE_02",
+      "name": "Evidence Fabric",
+      "checkpoint": 10,
+      "checkpoint_passed": true,
+      "status": "READY"
+    },
+    {
+      "stage_id": "STAGE_03",
+      "name": "Knowledge Graph",
+      "checkpoint": 10,
+      "checkpoint_passed": true,
+      "status": "READY"
+    },
+    {
+      "stage_id": "STAGE_04",
+      "name": "Wisdom Engines",
+      "checkpoint": 12,
+      "checkpoint_passed": true,
+      "status": "READY"
+    },
+    {
+      "stage_id": "STAGE_05",
+      "name": "AI Reasoning",
+      "checkpoint": 13,
+      "checkpoint_passed": true,
+      "status": "READY"
+    },
+    {
+      "stage_id": "STAGE_06",
+      "name": "Critique Loop",
+      "checkpoint": 14,
+      "checkpoint_passed": true,
+      "status": "READY"
+    },
+    {
+      "stage_id": "STAGE_07",
+      "name": "Decision Intelligence",
+      "checkpoint": 15,
+      "checkpoint_passed": true,
+      "status": "READY"
+    },
+    {
+      "stage_id": "STAGE_08",
+      "name": "Observability and Evaluation",
+      "checkpoint": 16,
+      "checkpoint_passed": true,
+      "status": "READY"
+    },
+    {
+      "stage_id": "STAGE_09",
+      "name": "Human Review",
+      "checkpoint": 9,
+      "checkpoint_passed": true,
+      "status": "READY"
+    }
+  ],
+  "data_flow_checks": {
+    "evidence_to_fabric": true,
+    "fabric_to_knowledge_graph": true,
+    "knowledge_graph_to_wisdom_engines": true,
+    "wisdom_engines_to_reasoning": true,
+    "reasoning_to_critique": true,
+    "critique_to_decision": true,
+    "decision_to_evaluation": true,
+    "evaluation_to_human_review": true
+  },
+  "traceability": {
+    "evidence_records": 10,
+    "evidence_fabric_records": 10,
+    "knowledge_graph_nodes": 21,
+    "knowledge_graph_edges": 20,
+    "wisdom_engines": 24,
+    "wisdom_baseline_outputs": 24,
+    "reasoning_graph_nodes": 11,
+    "reasoning_graph_edges": 12,
+    "critique_findings": 6,
+    "decision_options": 4,
+    "decision_criteria": 10,
+    "agent_source_links_available": false,
+    "agent_source_links_fabricated": false
+  },
+  "safety_state": {
+    "llm_execution": false,
+    "scientific_conclusions": false,
+    "automatic_decision": false,
+    "unsupported_inference": false,
+    "automatic_critique_iteration": false,
+    "automatic_contradiction_resolution": false,
+    "human_review_required": true,
+    "human_review_bypass": false,
+    "agent_source_links_fabricated": false
+  },
+  "human_review": {
+    "required": true,
+    "status": "PENDING_HUMAN_REVIEW"
+  }
+}

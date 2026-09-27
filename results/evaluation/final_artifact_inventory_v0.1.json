@@ -1,0 +1,543 @@
+{
+  "project": "MGR FM3 Project 2",
+  "version": "0.1.0",
+  "generated_at_utc": "2026-09-27T10:57:15.367409+00:00",
+  "artifact_count": 107,
+  "artifacts": [
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 268,
+      "sha256": "7518ba355a3bb905e0822e37c565d7925b933644103cdec92bf4b3e01dbbbb70"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2500,
+      "sha256": "6c9060d81f96cdbdd21ef0e8bdfb5400b695618f096b3d7358c8a4f4eba86033"
+    },
+    {
+      "path": "config/disease_biology_agent_specification_v0.1.json",
+      "size_bytes": 794,
+      "sha256": "ae3d086866ec4104a0677e4dab93927b61390c528ed4ecf446c5802a2ef4cc52"
+    },
+    {
+      "path": "config/human_review_gate_specification_v0.1.json",
+      "size_bytes": 533,
+      "sha256": "ce6975e020b2c8db4b304bf2e0a3ae46e91e8eb3a073fa489e7832a791351337"
+    },
+    {
+      "path": "config/project_specification.json",
+      "size_bytes": 370,
+      "sha256": "cbe26d5c2eecd656ed5a9372ee1a6f300a3ef82b96084ffa00e1e8d8b5dab719"
+    },
+    {
+      "path": "config/project_status.json",
+      "size_bytes": 1599,
+      "sha256": "9af71ec5e4cf61f159a06ef62c7a7059df141ac0e52625e8e2efeaf695748876"
+    },
+    {
+      "path": "config/runtime_info.json",
+      "size_bytes": 501,
+      "sha256": "a26119413b90a0cec20bd37e5a1485f21e81a24f4416c5f3b96c0c53bc0866f4"
+    },
+    {
+      "path": "data/processed/alzheimer_evidence_foundation_v0.1.json",
+      "size_bytes": 20531,
+      "sha256": "489d1e5215892996d3a784c4633853a5a36c70375a957bb9151383eae99921db"
+    },
+    {
+      "path": "docs/DEVELOPMENT_AND_RELEASE.md",
+      "size_bytes": 852,
+      "sha256": "a3a1939460932995371c243e2cac617aaf6f0d5011e073cd0d98f5207249a9d4"
+    },
+    {
+      "path": "docs/MASTER_ROADMAP.md",
+      "size_bytes": 1392,
+      "sha256": "53ace53cffdb7292273de95e57dfc473af883712d68688f729874fa5bacdf0a7"
+    },
+    {
+      "path": "docs/VALIDATION_HISTORY_v0.1.json",
+      "size_bytes": 370,
+      "sha256": "e1da5194ff89c56def121aa58f46db6529b87df516d5ad065e89e02eeb99c371"
+    },
+    {
+      "path": "evidence/evidence_fabric_v0.1.json",
+      "size_bytes": 8571,
+      "sha256": "2e52e422fac041e14750e9023a32acdd4db1e7bfbc489a9aa6b5e6a3f64d8f34"
+    },
+    {
+      "path": "knowledge_graph/alzheimer_knowledge_graph_v0.1.json",
+      "size_bytes": 10937,
+      "sha256": "cce0d1a5664cb18b2cd72be5a8deef8cecedea26459ca369fd2d671a393b8dfb"
+    },
+    {
+      "path": "reports/alzheimer_intelligence_dossier_v0.1.json",
+      "size_bytes": 27108,
+      "sha256": "d4fe08d348a33773c8f4cb6e2d4bdc95d7cd10ef0b58d334245e5f5633068157"
+    },
+    {
+      "path": "reports/alzheimer_intelligence_dossier_v0.1.md",
+      "size_bytes": 2373,
+      "sha256": "24ab51a83924c41096e0191108de8c1469861829360cbdbc714d299b77813b00"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 63,
+      "sha256": "68ec83c7c89131771e7ce3f7627a68b3090084baec42ba3361bedef41a5e78cb"
+    },
+    {
+      "path": "results/agents/biomarker_intelligence_agent_output_v0.1.json",
+      "size_bytes": 206,
+      "sha256": "022f05f53e55f13b9069dc1426c7b3aab465fedcb2994a25a5cbbb4697262bdb"
+    },
+    {
+      "path": "results/agents/clinical_trial_intelligence_agent_output_v0.1.json",
+      "size_bytes": 216,
+      "sha256": "eba63d6944ba6bf53ad55b218383fe278408b45091b6d23fadc4678591fac268"
+    },
+    {
+      "path": "results/agents/disease_biology_agent_output_v0.1.json",
+      "size_bytes": 18088,
+      "sha256": "915246f9ab805e2749e7f784e4a9d1fe2fbff7cb9ca226a3e6427471e2bc94eb"
+    },
+    {
+      "path": "results/agents/evidence_reviewer_agent_output_v0.1.json",
+      "size_bytes": 195,
+      "sha256": "d239a29862183d10006abc9f90a92b990e3245719491e32bfa26348569bbbf4a"
+    },
+    {
+      "path": "results/agents/safety_intelligence_agent_output_v0.1.json",
+      "size_bytes": 200,
+      "sha256": "1c6dee1d7bfb7b5a377aa9eebcb86790476cd1b0c945203625c06937a7298bd9"
+    },
+    {
+      "path": "results/agents/target_intelligence_agent_output_v0.1.json",
+      "size_bytes": 200,
+      "sha256": "6390feb61370564c037122e5323dd33940212c743caa818f9508a2dabc1aa44d"
+    },
+    {
+      "path": "results/agents/therapeutic_efficacy_agent_output_v0.1.json",
+      "size_bytes": 202,
+      "sha256": "786c147a3ef0f870d369a0b55c65e020c623489a37539cba7fd9641ce65ae4a7"
+    },
+    {
+      "path": "results/checkpoint_0_google_drive_bootstrap.json",
+      "size_bytes": 851,
+      "sha256": "742d9178706a1379e50f074c88fb67a3c29bc23882b63981ce36042d2f8f7f42"
+    },
+    {
+      "path": "results/checkpoint_10_evidence_fabric_knowledge_graph_validation.json",
+      "size_bytes": 1079,
+      "sha256": "80fa82c985bf9ed7f096fc18c0ccba835651154858dbd53c253e0af799b16f9c"
+    },
+    {
+      "path": "results/checkpoint_11_contradiction_validation.json",
+      "size_bytes": 1050,
+      "sha256": "c813988d3c326a81241139035c1d3a28c436d84a94122574e12096f726df2de0"
+    },
+    {
+      "path": "results/checkpoint_12_24_wisdom_engines_validation.json",
+      "size_bytes": 1009,
+      "sha256": "31fe5da89a91d3d7ed865a8c8dfd3eb64490d2d6fe23a7c47c57b389c0fd02c2"
+    },
+    {
+      "path": "results/checkpoint_13_ai_reasoning_validation.json",
+      "size_bytes": 1239,
+      "sha256": "60d4f07476a02098f35c6b7fb6ca819b40bb27733138796007723598c87ea71f"
+    },
+    {
+      "path": "results/checkpoint_14_critique_reasoning_validation.json",
+      "size_bytes": 1087,
+      "sha256": "d717b1c5375a95ab2be8b17243cdd8a452ff667c03e63afcc695665ed9ab083e"
+    },
+    {
+      "path": "results/checkpoint_15_decision_intelligence_validation.json",
+      "size_bytes": 622,
+      "sha256": "d6ba97496e041c52624e852e12f656e2e05559a89ecdd97973558d1bed5a1a71"
+    },
+    {
+      "path": "results/checkpoint_16_langsmith_validation.json",
+      "size_bytes": 621,
+      "sha256": "eb57113094b63871d22f83f6736621b67c390216c1c86e956edbf72f35293869"
+    },
+    {
+      "path": "results/checkpoint_17_end_to_end_integration_validation.json",
+      "size_bytes": 561,
+      "sha256": "b8a63e65cc1e48d970ec670db5253427fc9eab3c18cae6abc6805b4a6a93689e"
+    },
+    {
+      "path": "results/checkpoint_18_final_evaluation_safety_validation.json",
+      "size_bytes": 2068,
+      "sha256": "9bf62a7ba463bf92cc176ec90db3971319e885e57860d433caeca66df0b87049"
+    },
+    {
+      "path": "results/checkpoint_19_github_production_repository_validation.json",
+      "size_bytes": 717,
+      "sha256": "c26283b2d9f8d4b9972a03e4a30edf2e6b64796e37145d4ad1487beada81d20f"
+    },
+    {
+      "path": "results/checkpoint_1_framework_validation.json",
+      "size_bytes": 842,
+      "sha256": "9322a5a39fa54967277376c9244712a5ba3bf70f427395ee6eb005c9e0ed3338"
+    },
+    {
+      "path": "results/checkpoint_2_evidence_foundation_validation.json",
+      "size_bytes": 1072,
+      "sha256": "877624407d3d0e207303c1131460713b58baf6fe4cc9a009fefd12d408c04c31"
+    },
+    {
+      "path": "results/checkpoint_3_disease_biology_agent_validation.json",
+      "size_bytes": 938,
+      "sha256": "36164da24f4088da746a99a1a4e038e080f247a24472e0ee0f10d93bd64be34a"
+    },
+    {
+      "path": "results/checkpoint_4_langgraph_validation.json",
+      "size_bytes": 1035,
+      "sha256": "3742b01ea008adee0012214b9faabcb1ca265b59c9bc83b9d2771e9237b8ed81"
+    },
+    {
+      "path": "results/checkpoint_5_human_review_gate_validation.json",
+      "size_bytes": 1005,
+      "sha256": "25a57a7ea6aaa8050b7b9e14d27c4d555366b68a4f04703d1fc308641ef1ca5a"
+    },
+    {
+      "path": "results/checkpoint_6_multi_agent_validation.json",
+      "size_bytes": 3304,
+      "sha256": "5e20f1a82138aa046496526406231d613d232bd6bd513d5d1b8ec35cb542f2e3"
+    },
+    {
+      "path": "results/checkpoint_7_evaluation_validation.json",
+      "size_bytes": 1408,
+      "sha256": "86e01deec037faea44f533d2d14d9ff0d3c6652fe8aeb4147b210a555a2d460b"
+    },
+    {
+      "path": "results/checkpoint_8_reporting_validation.json",
+      "size_bytes": 1018,
+      "sha256": "85c5d797f2f12f8f3a95ba0b06c5638b3f82a932c115b1edf7900a3df31698cf"
+    },
+    {
+      "path": "results/checkpoint_9_human_review_validation.json",
+      "size_bytes": 871,
+      "sha256": "29feb7c300bef8a9ee37139a455cca93bcc621e5a71ffacc5fdc39e8ddcdf9a6"
+    },
+    {
+      "path": "results/contradiction_registry_v0.1.json",
+      "size_bytes": 1114,
+      "sha256": "bbfd81195c65d2b85db05d270221b896e5a047349e8e8788e5c85e52e1963875"
+    },
+    {
+      "path": "results/decision/decision_intelligence_v0.1.json",
+      "size_bytes": 7658,
+      "sha256": "81181ebd9c570bc5bd3b644c29b92aac725cb37520b591b7df227789e378891e"
+    },
+    {
+      "path": "results/evaluation/final_artifact_hash_manifest_v0.1.json",
+      "size_bytes": 957,
+      "sha256": "442d1319af502f766596ba97b5ddc527426cbbaa961ed7ce734a504c02efe196"
+    },
+    {
+      "path": "results/evaluation/final_safety_report_v0.1.json",
+      "size_bytes": 2068,
+      "sha256": "9bf62a7ba463bf92cc176ec90db3971319e885e57860d433caeca66df0b87049"
+    },
+    {
+      "path": "results/evaluation/github_repository_manifest_v0.1.json",
+      "size_bytes": 1799,
+      "sha256": "970aeacee170d72e5aa6fb9db9afae49529dca8b1f1f65400493e94a578e145c"
+    },
+    {
+      "path": "results/evaluation/langsmith_evaluation_package_v0.1.json",
+      "size_bytes": 6996,
+      "sha256": "1ae14d3d0cb679d556f3541f834e723c68baaa49e546bf5ca8c2ddfd3270fdf1"
+    },
+    {
+      "path": "results/human_review/human_review_audit_v0.1.json",
+      "size_bytes": 388,
+      "sha256": "81e556a724f21a7161777b5bc31147c0ef9c9cf65b22a1f2441cc16ea47ac176"
+    },
+    {
+      "path": "results/human_review/human_review_form_v0.1.json",
+      "size_bytes": 610,
+      "sha256": "794e2a5b9e45ec8174852de9c296340f6b424bad2d45c9400337afca6708dd90"
+    },
+    {
+      "path": "results/human_review/human_review_package_v0.1.json",
+      "size_bytes": 1287,
+      "sha256": "cce3fe8949a40a471458dc5b32b0c0d39c46d6270fe69bb3d760ab049a27d962"
+    },
+    {
+      "path": "results/langgraph_disease_biology_workflow_v0.1.json",
+      "size_bytes": 1035,
+      "sha256": "3742b01ea008adee0012214b9faabcb1ca265b59c9bc83b9d2771e9237b8ed81"
+    },
+    {
+      "path": "results/langgraph_human_review_workflow_v0.1.json",
+      "size_bytes": 1005,
+      "sha256": "25a57a7ea6aaa8050b7b9e14d27c4d555366b68a4f04703d1fc308641ef1ca5a"
+    },
+    {
+      "path": "results/langgraph_state_definition_v0.1.json",
+      "size_bytes": 243,
+      "sha256": "b8c4dfcef2a8b2f1d5a26123692879524ddc18d3e9763e53dde60b0f50db2623"
+    },
+    {
+      "path": "results/multi_agent/multi_agent_langgraph_workflow_v0.1.json",
+      "size_bytes": 3304,
+      "sha256": "5e20f1a82138aa046496526406231d613d232bd6bd513d5d1b8ec35cb542f2e3"
+    },
+    {
+      "path": "src/decision/decision_context_v0.1.json",
+      "size_bytes": 429,
+      "sha256": "7cb3a18ce0fe9916488f65bce08a0b98715978d866e5ff2a2901558829513b86"
+    },
+    {
+      "path": "src/decision/decision_criteria_v0.1.json",
+      "size_bytes": 1507,
+      "sha256": "bb4c8dd37e96a4bd3397f6eb223130935c7f0c5986a983ee3b5e5d79999b797c"
+    },
+    {
+      "path": "src/decision/decision_intelligence_contract_v0.1.json",
+      "size_bytes": 1133,
+      "sha256": "7c08539ed650aec77d376449d6e88fed10e2cfee24ffeceb6928a999483b0f58"
+    },
+    {
+      "path": "src/decision/decision_options_v0.1.json",
+      "size_bytes": 1053,
+      "sha256": "c9f7f22d88bb73cefdfd5a001af46c6e9871ff4ffbe7b43d3e71006c0c97aef7"
+    },
+    {
+      "path": "src/evaluation/langsmith_evaluation_criteria_v0.1.json",
+      "size_bytes": 2074,
+      "sha256": "a6a8756f252db3c7f910d832370e16fb74e13c268d81a034bc5d0af4e939bd5d"
+    },
+    {
+      "path": "src/evaluation/langsmith_evaluation_dataset_v0.1.json",
+      "size_bytes": 860,
+      "sha256": "954481c07ab28617561e7d18efcdeffbf06332e7ef7711a60eabe46d285d37b2"
+    },
+    {
+      "path": "src/evaluation/langsmith_monitoring_contract_v0.1.json",
+      "size_bytes": 656,
+      "sha256": "cc13d3b05c0fa6e7602e354d3808d2786c3295c93d6957137125b884c3a36e9e"
+    },
+    {
+      "path": "src/evaluation/langsmith_reproducibility_contract_v0.1.json",
+      "size_bytes": 508,
+      "sha256": "0b34a686736a31e45cdfd98b188c5d7a8de21b65a8e432b87b1886e0a454128f"
+    },
+    {
+      "path": "src/evaluation/langsmith_safety_contract_v0.1.json",
+      "size_bytes": 367,
+      "sha256": "b69152b4fc2d3a8ca9fd45b5ffdc7e9e54eb563a56958e1c3c0332fc530ec1e1"
+    },
+    {
+      "path": "src/evaluation/langsmith_trace_schema_v0.1.json",
+      "size_bytes": 564,
+      "sha256": "54f44ac15b99ee96dc8fbe5e7816225e4da1d71dc56b59d6b7c651d683ff2d16"
+    },
+    {
+      "path": "src/evaluation/langsmith_tracing_contract_v0.1.json",
+      "size_bytes": 1023,
+      "sha256": "f31bf3d0248f12db96c92c02c35aa3f2f815afb56880149e0ee070f191a7cea5"
+    },
+    {
+      "path": "src/integration/end_to_end_integration_contract_v0.1.json",
+      "size_bytes": 1508,
+      "sha256": "a23ce651ad6e46284e60bb7b83707147e8731f13ade21d24acff7ad987977441"
+    },
+    {
+      "path": "src/integration/end_to_end_pipeline_v0.1.json",
+      "size_bytes": 815,
+      "sha256": "6465be93309d62edd832114bb665700c32a0dbed83953168a0daa0bc34f4c6c3"
+    },
+    {
+      "path": "src/integration/end_to_end_traceability_v0.1.json",
+      "size_bytes": 403,
+      "sha256": "d2bb10d7d2f2148041eb5ea6176bb5d910b552bb76ac67a9c848dcff42967db6"
+    },
+    {
+      "path": "src/integration/end_to_end_workflow_state_v0.1.json",
+      "size_bytes": 3880,
+      "sha256": "cb3d8037b74006b9a0afe5239409ceef94719827ce5b2863feba9d3ce9633f12"
+    },
+    {
+      "path": "src/reasoning/ai_reasoning_contract_v0.1.json",
+      "size_bytes": 1266,
+      "sha256": "e62975c910cfa90c49731d812aed9d9e65402bbee4e6dd8d9d4677194ed67457"
+    },
+    {
+      "path": "src/reasoning/critique/critique_report_v0.1.json",
+      "size_bytes": 3234,
+      "sha256": "a7255738a82917a39a60e2d13e41d124be27bf579f2146d0f349f08d0292b73b"
+    },
+    {
+      "path": "src/reasoning/critique/critique_state_schema_v0.1.json",
+      "size_bytes": 441,
+      "sha256": "7bb40a98a277bf0c226e30f64c358a1937f87b045487208a3f6e8816efdc7e4d"
+    },
+    {
+      "path": "src/reasoning/critique/critique_targets_v0.1.json",
+      "size_bytes": 1526,
+      "sha256": "0b06a9629a69153e007d498bf25f72e52f563b1435da92495347c9ca4401ed32"
+    },
+    {
+      "path": "src/reasoning/critique/reasoning_loop_contract_v0.1.json",
+      "size_bytes": 711,
+      "sha256": "06ae8de790f9406599fcbac982ae76b8f3262f78e565d9b5415a5dc93ec7bfde"
+    },
+    {
+      "path": "src/reasoning/reasoning_context_v0.1.json",
+      "size_bytes": 1403,
+      "sha256": "ddcb96cb70834a91de1c4ef0aa5fe12217d92160316185f0a003b7a0159c0c6a"
+    },
+    {
+      "path": "src/reasoning/reasoning_graph_v0.1.json",
+      "size_bytes": 1271,
+      "sha256": "881970c0038f1ff315061eb11dd777bd6615a53315b45157672953571b3c8e21"
+    },
+    {
+      "path": "src/reasoning/reasoning_modules_v0.1.json",
+      "size_bytes": 948,
+      "sha256": "0ad5e022de207c8fa3e8c177761e9c091e6615fc890c893dd42e99b1d7d0b7c2"
+    },
+    {
+      "path": "src/reasoning/reasoning_rules_v0.1.json",
+      "size_bytes": 1356,
+      "sha256": "e493e07e2752daa88abe6e808ac67643e02d01111a5149a0460dc0d1a42ae81a"
+    },
+    {
+      "path": "src/reasoning/reasoning_state_schema_v0.1.json",
+      "size_bytes": 970,
+      "sha256": "dfdad902d98738e0dc93efb88102fc461c3af16a1c7faeee956c4b98a11e9fd8"
+    },
+    {
+      "path": "wisdom_engines/01_BioDeficit_engine_v0.1.json",
+      "size_bytes": 1172,
+      "sha256": "69c300503203a9fe1f37f372e30e93dcff18407ecfc63c5bd321cfec29b9f535"
+    },
+    {
+      "path": "wisdom_engines/02_Target_engine_v0.1.json",
+      "size_bytes": 1180,
+      "sha256": "a89e233d9b0408e52b47c4d53b0d1dec7742cf9677717cb77350f8456302166e"
+    },
+    {
+      "path": "wisdom_engines/03_Mechanism_engine_v0.1.json",
+      "size_bytes": 1213,
+      "sha256": "a055eaef3e33567bdcfd63969177b924b24cb58ee928b9d8a8766e5c737acff5"
+    },
+    {
+      "path": "wisdom_engines/04_Modality_engine_v0.1.json",
+      "size_bytes": 1189,
+      "sha256": "3a7b1c23efa9db9708f5a703ff379bdeec2be0b53b23b44ee288f0f5ec9ca72f"
+    },
+    {
+      "path": "wisdom_engines/05_NewMolecule_engine_v0.1.json",
+      "size_bytes": 1216,
+      "sha256": "0f5d187b20ddd82b89f7125df01517bed31d3e18624a9d217b70fda729f64552"
+    },
+    {
+      "path": "wisdom_engines/06_Binding_engine_v0.1.json",
+      "size_bytes": 1184,
+      "sha256": "d2f5f6982178d4e987b24fc8aa47b8511c76b5f0eada298730d164bda8bb9fda"
+    },
+    {
+      "path": "wisdom_engines/07_Efficacy_engine_v0.1.json",
+      "size_bytes": 1170,
+      "sha256": "573a23b87540b47e971aa2e9791c907cd5083c3d96430e5d6805306f419b23fd"
+    },
+    {
+      "path": "wisdom_engines/08_Safety_engine_v0.1.json",
+      "size_bytes": 1165,
+      "sha256": "c5c0f0ffc72712c8af54ec5f7ad48d2af923b65f04b1049280bc723effb009a2"
+    },
+    {
+      "path": "wisdom_engines/09_Biomarker_engine_v0.1.json",
+      "size_bytes": 1193,
+      "sha256": "8cd70244d55759e38b957161b795389632a7c05b5b620fcc349df507b8b7be84"
+    },
+    {
+      "path": "wisdom_engines/10_ADME_DMPK_engine_v0.1.json",
+      "size_bytes": 1183,
+      "sha256": "f8e66f16102c08e5faafc6a94271fa5975c7602237db8bd74efd2b71f2e5f646"
+    },
+    {
+      "path": "wisdom_engines/11_PK_PD_engine_v0.1.json",
+      "size_bytes": 1172,
+      "sha256": "4638c2d12784e447133c9834359b0ac2758efc18a1e0e928a0751393f76fb985"
+    },
+    {
+      "path": "wisdom_engines/12_Delivery_engine_v0.1.json",
+      "size_bytes": 1178,
+      "sha256": "50f60426a04e5e9a3c1445e4d443becc61ea833dbc82d889136dabab90104ab5"
+    },
+    {
+      "path": "wisdom_engines/13_Immunogenicity_engine_v0.1.json",
+      "size_bytes": 1181,
+      "sha256": "c974573d4c47402538f3e810e06628767a3638d85cc3f9121d7bc88e89d1e4ba"
+    },
+    {
+      "path": "wisdom_engines/14_Resistance_engine_v0.1.json",
+      "size_bytes": 1191,
+      "sha256": "b41f1d69a9d358f4fa0fd7dfcea8ee198a3aee9add945e2059cb9be98951c300"
+    },
+    {
+      "path": "wisdom_engines/15_Synthesis_engine_v0.1.json",
+      "size_bytes": 1159,
+      "sha256": "84fa6858d5f25e41f7fa0eda7610db1d6087eb0a649bea41d0245160fde21441"
+    },
+    {
+      "path": "wisdom_engines/16_CMC_engine_v0.1.json",
+      "size_bytes": 1155,
+      "sha256": "9d5c761a8f4fc42e30088fefab708c4a5095da2d0486b3e1dacd3c8c321c09e3"
+    },
+    {
+      "path": "wisdom_engines/17_Manufacturing_engine_v0.1.json",
+      "size_bytes": 1153,
+      "sha256": "ab2572376a9150961dbd3c39b55804beebfd79dc6fbd9d68cbe05543e20666cc"
+    },
+    {
+      "path": "wisdom_engines/18_Stability_engine_v0.1.json",
+      "size_bytes": 1160,
+      "sha256": "b5164710abdf80cc0a1f34b17a3445569716e73f51bba380f4fcffcc81052a31"
+    },
+    {
+      "path": "wisdom_engines/19_IP_Patent_engine_v0.1.json",
+      "size_bytes": 1152,
+      "sha256": "d8c3f255e2174d15d8fa1ce02f4beca9e4ea51c82f35cf2f0f957b3a3a8cdea1"
+    },
+    {
+      "path": "wisdom_engines/20_ClinicalTrial_engine_v0.1.json",
+      "size_bytes": 1216,
+      "sha256": "887968d49a5eb4ce8b8f648ae81dd8aca1ea165f4676ca3819c02eacf85f7dd8"
+    },
+    {
+      "path": "wisdom_engines/21_Regulatory_engine_v0.1.json",
+      "size_bytes": 1184,
+      "sha256": "83d6685734bc986f45d5782d7c4ef534af8a3b2c7c777a6abd50fab4a9746ada"
+    },
+    {
+      "path": "wisdom_engines/22_PV_engine_v0.1.json",
+      "size_bytes": 1190,
+      "sha256": "0b6666db487e3c8c615e7fe73c53ba5113136377f21ece06597b7faf2e014127"
+    },
+    {
+      "path": "wisdom_engines/23_Failure_engine_v0.1.json",
+      "size_bytes": 1248,
+      "sha256": "e5c689c0ab937f5f9c7b32577aa53fdda3d1e296f7e41fa2058d430790d62f06"
+    },
+    {
+      "path": "wisdom_engines/24_Decision_engine_v0.1.json",
+      "size_bytes": 1571,
+      "sha256": "95f28756c9965f5ffe5cacf8fe5764e1a69b3387e1cebea7f348001a091b098b"
+    },
+    {
+      "path": "wisdom_engines/wisdom_engine_baseline_outputs_v0.1.json",
+      "size_bytes": 15712,
+      "sha256": "898971ff4d806c6b65cf3fe4ebb5ea92c4f8e2b912fe13756a97984f413d172b"
+    },
+    {
+      "path": "wisdom_engines/wisdom_engine_registry_v0.1.json",
+      "size_bytes": 33680,
+      "sha256": "a097ae69d49cab7a1e943200652e70add13008ad2cf0eb72b5b0c6c20216bf32"
+    }
+  ]
+}

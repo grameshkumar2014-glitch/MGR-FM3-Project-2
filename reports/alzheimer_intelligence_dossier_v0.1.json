@@ -1,0 +1,867 @@
+{
+  "project": "MGR FM3 - Project 2",
+  "title": "Alzheimer Disease Intelligence Dossier",
+  "version": "0.1",
+  "checkpoint": 8,
+  "status": "PASSED",
+  "generated_utc": "2026-09-27T10:27:19.073079+00:00",
+  "source_evidence": {
+    "database": "PubMed",
+    "record_count": 10,
+    "unique_pmids": 10,
+    "pmids": [
+      "16472207",
+      "17622778",
+      "20008648",
+      "22306201",
+      "27654282",
+      "28985936",
+      "36155517",
+      "36597577",
+      "36940723",
+      "40088370"
+    ]
+  },
+  "what_we_know": {
+    "description": "Evidence records retrieved from PubMed and preserved with PMID-level provenance.",
+    "evidence_record_count": 10,
+    "unique_pmid_count": 10,
+    "source_database": "PubMed",
+    "grounding_status": "Evidence grounded",
+    "citation_linkage": "PMID linked",
+    "multi_agent_signals": 43,
+    "grounded_multi_agent_signals": 43,
+    "evidence_records": [
+      {
+        "pmid": "36597577",
+        "title": "Mitochondria in Aging and Alzheimer's Disease: Focus on Mitophagy.",
+        "journal": "The Neuroscientist : a review journal bringing neurobiology, neurology and psychiatry",
+        "publication_year": "2024",
+        "source": "PubMed",
+        "citation": {
+          "database": "PubMed",
+          "pmid": "36597577"
+        }
+      },
+      {
+        "pmid": "36940723",
+        "title": "AGEs RAGE Pathways: Alzheimer's Disease.",
+        "journal": "Drug research",
+        "publication_year": "2023",
+        "source": "PubMed",
+        "citation": {
+          "database": "PubMed",
+          "pmid": "36940723"
+        }
+      },
+      {
+        "pmid": "40088370",
+        "title": "Interplay between PI3k/AKT signaling and caspase pathway in Alzheimer disease: mechanism and therapeutic implications.",
+        "journal": "Inflammopharmacology",
+        "publication_year": "2025",
+        "source": "PubMed",
+        "citation": {
+          "database": "PubMed",
+          "pmid": "40088370"
+        }
+      },
+      {
+        "pmid": "17622778",
+        "title": "Current insights into molecular mechanisms of Alzheimer disease and their implications for therapeutic approaches.",
+        "journal": "Neuro-degenerative diseases",
+        "publication_year": "2007",
+        "source": "PubMed",
+        "citation": {
+          "database": "PubMed",
+          "pmid": "17622778"
+        }
+      },
+      {
+        "pmid": "36155517",
+        "title": "An Alzheimer's Disease Mechanism Based on Early Pathology, Anatomy, Vascular-Induced Flow, and Migration of Maximum Flow Stress Energy Location with Increasing Vascular Disease.",
+        "journal": "Journal of Alzheimer's disease : JAD",
+        "publication_year": "2022",
+        "source": "PubMed",
+        "citation": {
+          "database": "PubMed",
+          "pmid": "36155517"
+        }
+      },
+      {
+        "pmid": "27654282",
+        "title": "Potential of the Antibody Against cis-Phosphorylated Tau in the Early Diagnosis, Treatment, and Prevention of Alzheimer Disease and Brain Injury.",
+        "journal": "JAMA neurology",
+        "publication_year": "2016",
+        "source": "PubMed",
+        "citation": {
+          "database": "PubMed",
+          "pmid": "27654282"
+        }
+      },
+      {
+        "pmid": "16472207",
+        "title": "Amyloid beta: the alternate hypothesis.",
+        "journal": "Current Alzheimer research",
+        "publication_year": "2006",
+        "source": "PubMed",
+        "citation": {
+          "database": "PubMed",
+          "pmid": "16472207"
+        }
+      },
+      {
+        "pmid": "20008648",
+        "title": "Mild cognitive impairment: ten years later.",
+        "journal": "Archives of neurology",
+        "publication_year": "2009",
+        "source": "PubMed",
+        "citation": {
+          "database": "PubMed",
+          "pmid": "20008648"
+        }
+      },
+      {
+        "pmid": "28985936",
+        "title": "Applications of Resting-State Functional Connectivity to Neurodegenerative Disease.",
+        "journal": "Neuroimaging clinics of North America",
+        "publication_year": "2017",
+        "source": "PubMed",
+        "citation": {
+          "database": "PubMed",
+          "pmid": "28985936"
+        }
+      },
+      {
+        "pmid": "22306201",
+        "title": "RNA modifications by oxidation: a novel disease mechanism?",
+        "journal": "Free radical biology & medicine",
+        "publication_year": "2012",
+        "source": "PubMed",
+        "citation": {
+          "database": "PubMed",
+          "pmid": "22306201"
+        }
+      }
+    ]
+  },
+  "what_we_infer": {
+    "description": "Structured biological signals extracted from the available evidence records.",
+    "signal_count": 27,
+    "causal_inference_performed": false,
+    "signals": [
+      {
+        "pmid": "36597577",
+        "signal": "amyloid",
+        "matched_terms": [
+          "amyloid"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "36597577",
+        "signal": "oxidative_stress",
+        "matched_terms": [
+          "oxidative"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "36597577",
+        "signal": "mitochondrial_dysfunction",
+        "matched_terms": [
+          "mitochondria",
+          "mitochondrial",
+          "mitochondrial dysfunction"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "36940723",
+        "signal": "amyloid",
+        "matched_terms": [
+          "amyloid",
+          "a\u03b2"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "36940723",
+        "signal": "tau",
+        "matched_terms": [
+          "tau"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "36940723",
+        "signal": "oxidative_stress",
+        "matched_terms": [
+          "oxidative",
+          "oxidative stress",
+          "reactive oxygen",
+          "reactive oxygen species"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "40088370",
+        "signal": "amyloid",
+        "matched_terms": [
+          "amyloid",
+          "a\u03b2"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "40088370",
+        "signal": "tau",
+        "matched_terms": [
+          "tau"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "40088370",
+        "signal": "neuroinflammation",
+        "matched_terms": [
+          "inflammation"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "40088370",
+        "signal": "oxidative_stress",
+        "matched_terms": [
+          "oxidative",
+          "oxidative stress"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "40088370",
+        "signal": "synaptic_dysfunction",
+        "matched_terms": [
+          "synaptic",
+          "synaptic dysfunction"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "40088370",
+        "signal": "mitochondrial_dysfunction",
+        "matched_terms": [
+          "mitochondria",
+          "mitochondrial",
+          "mitochondrial dysfunction"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "40088370",
+        "signal": "neuronal_loss",
+        "matched_terms": [
+          "neurodegeneration",
+          "neuronal loss"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "17622778",
+        "signal": "amyloid",
+        "matched_terms": [
+          "abeta",
+          "amyloid"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "17622778",
+        "signal": "vascular_mechanisms",
+        "matched_terms": [
+          "vascular"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "17622778",
+        "signal": "genetic_risk",
+        "matched_terms": [
+          "mutation"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "36155517",
+        "signal": "amyloid",
+        "matched_terms": [
+          "amyloid",
+          "a\u03b2"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "36155517",
+        "signal": "tau",
+        "matched_terms": [
+          "tau"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "36155517",
+        "signal": "vascular_mechanisms",
+        "matched_terms": [
+          "vascular"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "27654282",
+        "signal": "tau",
+        "matched_terms": [
+          "phosphorylated tau",
+          "tau"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "27654282",
+        "signal": "neuronal_loss",
+        "matched_terms": [
+          "neurodegeneration"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "16472207",
+        "signal": "amyloid",
+        "matched_terms": [
+          "abeta",
+          "amyloid"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "16472207",
+        "signal": "oxidative_stress",
+        "matched_terms": [
+          "oxidative",
+          "oxidative stress"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "16472207",
+        "signal": "genetic_risk",
+        "matched_terms": [
+          "genetic",
+          "mutation"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "28985936",
+        "signal": "neuronal_loss",
+        "matched_terms": [
+          "neurodegeneration"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "22306201",
+        "signal": "oxidative_stress",
+        "matched_terms": [
+          "oxidative"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      },
+      {
+        "pmid": "22306201",
+        "signal": "mitochondrial_dysfunction",
+        "matched_terms": [
+          "mitochondria",
+          "mitochondrial",
+          "mitochondrial dysfunction"
+        ],
+        "interpretation_status": "Structured evidence signal; not an independent causal conclusion."
+      }
+    ]
+  },
+  "what_we_do_not_know": {
+    "description": "Uncertainty and knowledge gaps explicitly preserved from the Disease Biology Agent.",
+    "uncertainty_count": 30,
+    "knowledge_gap_count": 30,
+    "uncertainties": [
+      {
+        "pmid": "36597577",
+        "uncertainty": "Biological significance cannot be established from keyword extraction alone."
+      },
+      {
+        "pmid": "36597577",
+        "uncertainty": "Causal relationships are not inferred."
+      },
+      {
+        "pmid": "36597577",
+        "uncertainty": "Evidence strength is not independently scored at this stage."
+      },
+      {
+        "pmid": "36940723",
+        "uncertainty": "Biological significance cannot be established from keyword extraction alone."
+      },
+      {
+        "pmid": "36940723",
+        "uncertainty": "Causal relationships are not inferred."
+      },
+      {
+        "pmid": "36940723",
+        "uncertainty": "Evidence strength is not independently scored at this stage."
+      },
+      {
+        "pmid": "40088370",
+        "uncertainty": "Biological significance cannot be established from keyword extraction alone."
+      },
+      {
+        "pmid": "40088370",
+        "uncertainty": "Causal relationships are not inferred."
+      },
+      {
+        "pmid": "40088370",
+        "uncertainty": "Evidence strength is not independently scored at this stage."
+      },
+      {
+        "pmid": "17622778",
+        "uncertainty": "Biological significance cannot be established from keyword extraction alone."
+      },
+      {
+        "pmid": "17622778",
+        "uncertainty": "Causal relationships are not inferred."
+      },
+      {
+        "pmid": "17622778",
+        "uncertainty": "Evidence strength is not independently scored at this stage."
+      },
+      {
+        "pmid": "36155517",
+        "uncertainty": "Biological significance cannot be established from keyword extraction alone."
+      },
+      {
+        "pmid": "36155517",
+        "uncertainty": "Causal relationships are not inferred."
+      },
+      {
+        "pmid": "36155517",
+        "uncertainty": "Evidence strength is not independently scored at this stage."
+      },
+      {
+        "pmid": "27654282",
+        "uncertainty": "Biological significance cannot be established from keyword extraction alone."
+      },
+      {
+        "pmid": "27654282",
+        "uncertainty": "Causal relationships are not inferred."
+      },
+      {
+        "pmid": "27654282",
+        "uncertainty": "Evidence strength is not independently scored at this stage."
+      },
+      {
+        "pmid": "16472207",
+        "uncertainty": "Biological significance cannot be established from keyword extraction alone."
+      },
+      {
+        "pmid": "16472207",
+        "uncertainty": "Causal relationships are not inferred."
+      },
+      {
+        "pmid": "16472207",
+        "uncertainty": "Evidence strength is not independently scored at this stage."
+      },
+      {
+        "pmid": "20008648",
+        "uncertainty": "Biological significance cannot be established from keyword extraction alone."
+      },
+      {
+        "pmid": "20008648",
+        "uncertainty": "Causal relationships are not inferred."
+      },
+      {
+        "pmid": "20008648",
+        "uncertainty": "Evidence strength is not independently scored at this stage."
+      },
+      {
+        "pmid": "28985936",
+        "uncertainty": "Biological significance cannot be established from keyword extraction alone."
+      },
+      {
+        "pmid": "28985936",
+        "uncertainty": "Causal relationships are not inferred."
+      },
+      {
+        "pmid": "28985936",
+        "uncertainty": "Evidence strength is not independently scored at this stage."
+      },
+      {
+        "pmid": "22306201",
+        "uncertainty": "Biological significance cannot be established from keyword extraction alone."
+      },
+      {
+        "pmid": "22306201",
+        "uncertainty": "Causal relationships are not inferred."
+      },
+      {
+        "pmid": "22306201",
+        "uncertainty": "Evidence strength is not independently scored at this stage."
+      }
+    ],
+    "knowledge_gaps": [
+      {
+        "pmid": "36597577",
+        "knowledge_gap": "Full-text methodological assessment is pending."
+      },
+      {
+        "pmid": "36597577",
+        "knowledge_gap": "Independent cross-study evidence synthesis is pending."
+      },
+      {
+        "pmid": "36597577",
+        "knowledge_gap": "Contradiction analysis is pending."
+      },
+      {
+        "pmid": "36940723",
+        "knowledge_gap": "Full-text methodological assessment is pending."
+      },
+      {
+        "pmid": "36940723",
+        "knowledge_gap": "Independent cross-study evidence synthesis is pending."
+      },
+      {
+        "pmid": "36940723",
+        "knowledge_gap": "Contradiction analysis is pending."
+      },
+      {
+        "pmid": "40088370",
+        "knowledge_gap": "Full-text methodological assessment is pending."
+      },
+      {
+        "pmid": "40088370",
+        "knowledge_gap": "Independent cross-study evidence synthesis is pending."
+      },
+      {
+        "pmid": "40088370",
+        "knowledge_gap": "Contradiction analysis is pending."
+      },
+      {
+        "pmid": "17622778",
+        "knowledge_gap": "Full-text methodological assessment is pending."
+      },
+      {
+        "pmid": "17622778",
+        "knowledge_gap": "Independent cross-study evidence synthesis is pending."
+      },
+      {
+        "pmid": "17622778",
+        "knowledge_gap": "Contradiction analysis is pending."
+      },
+      {
+        "pmid": "36155517",
+        "knowledge_gap": "Full-text methodological assessment is pending."
+      },
+      {
+        "pmid": "36155517",
+        "knowledge_gap": "Independent cross-study evidence synthesis is pending."
+      },
+      {
+        "pmid": "36155517",
+        "knowledge_gap": "Contradiction analysis is pending."
+      },
+      {
+        "pmid": "27654282",
+        "knowledge_gap": "Full-text methodological assessment is pending."
+      },
+      {
+        "pmid": "27654282",
+        "knowledge_gap": "Independent cross-study evidence synthesis is pending."
+      },
+      {
+        "pmid": "27654282",
+        "knowledge_gap": "Contradiction analysis is pending."
+      },
+      {
+        "pmid": "16472207",
+        "knowledge_gap": "Full-text methodological assessment is pending."
+      },
+      {
+        "pmid": "16472207",
+        "knowledge_gap": "Independent cross-study evidence synthesis is pending."
+      },
+      {
+        "pmid": "16472207",
+        "knowledge_gap": "Contradiction analysis is pending."
+      },
+      {
+        "pmid": "20008648",
+        "knowledge_gap": "Full-text methodological assessment is pending."
+      },
+      {
+        "pmid": "20008648",
+        "knowledge_gap": "Independent cross-study evidence synthesis is pending."
+      },
+      {
+        "pmid": "20008648",
+        "knowledge_gap": "Contradiction analysis is pending."
+      },
+      {
+        "pmid": "28985936",
+        "knowledge_gap": "Full-text methodological assessment is pending."
+      },
+      {
+        "pmid": "28985936",
+        "knowledge_gap": "Independent cross-study evidence synthesis is pending."
+      },
+      {
+        "pmid": "28985936",
+        "knowledge_gap": "Contradiction analysis is pending."
+      },
+      {
+        "pmid": "22306201",
+        "knowledge_gap": "Full-text methodological assessment is pending."
+      },
+      {
+        "pmid": "22306201",
+        "knowledge_gap": "Independent cross-study evidence synthesis is pending."
+      },
+      {
+        "pmid": "22306201",
+        "knowledge_gap": "Contradiction analysis is pending."
+      }
+    ]
+  },
+  "what_could_falsify": {
+    "status": "NOT_ESTABLISHED",
+    "description": "No formal falsification analysis was performed at this checkpoint.",
+    "required_future_analysis": [
+      "Full-text methodological assessment",
+      "Independent evidence synthesis",
+      "Contradiction detection",
+      "Cross-study comparison",
+      "Explicit hypothesis testing"
+    ]
+  },
+  "what_experiment_next": {
+    "status": "NOT_EXECUTED",
+    "description": "No new scientific experiment was executed at this checkpoint.",
+    "recommended_analysis_workflows": [
+      "Full-text evidence review",
+      "Evidence contradiction analysis",
+      "Knowledge graph construction",
+      "Cross-study evidence integration",
+      "Target and biomarker evidence analysis",
+      "Clinical evidence analysis"
+    ],
+    "human_review_required": true
+  },
+  "evidence_traceability": [
+    {
+      "pmid": "36597577",
+      "source": "PubMed",
+      "title": "Mitochondria in Aging and Alzheimer's Disease: Focus on Mitophagy.",
+      "agent": "Disease Biology Agent",
+      "multi_agent_processed": true
+    },
+    {
+      "pmid": "36940723",
+      "source": "PubMed",
+      "title": "AGEs RAGE Pathways: Alzheimer's Disease.",
+      "agent": "Disease Biology Agent",
+      "multi_agent_processed": true
+    },
+    {
+      "pmid": "40088370",
+      "source": "PubMed",
+      "title": "Interplay between PI3k/AKT signaling and caspase pathway in Alzheimer disease: mechanism and therapeutic implications.",
+      "agent": "Disease Biology Agent",
+      "multi_agent_processed": true
+    },
+    {
+      "pmid": "17622778",
+      "source": "PubMed",
+      "title": "Current insights into molecular mechanisms of Alzheimer disease and their implications for therapeutic approaches.",
+      "agent": "Disease Biology Agent",
+      "multi_agent_processed": true
+    },
+    {
+      "pmid": "36155517",
+      "source": "PubMed",
+      "title": "An Alzheimer's Disease Mechanism Based on Early Pathology, Anatomy, Vascular-Induced Flow, and Migration of Maximum Flow Stress Energy Location with Increasing Vascular Disease.",
+      "agent": "Disease Biology Agent",
+      "multi_agent_processed": true
+    },
+    {
+      "pmid": "27654282",
+      "source": "PubMed",
+      "title": "Potential of the Antibody Against cis-Phosphorylated Tau in the Early Diagnosis, Treatment, and Prevention of Alzheimer Disease and Brain Injury.",
+      "agent": "Disease Biology Agent",
+      "multi_agent_processed": true
+    },
+    {
+      "pmid": "16472207",
+      "source": "PubMed",
+      "title": "Amyloid beta: the alternate hypothesis.",
+      "agent": "Disease Biology Agent",
+      "multi_agent_processed": true
+    },
+    {
+      "pmid": "20008648",
+      "source": "PubMed",
+      "title": "Mild cognitive impairment: ten years later.",
+      "agent": "Disease Biology Agent",
+      "multi_agent_processed": true
+    },
+    {
+      "pmid": "28985936",
+      "source": "PubMed",
+      "title": "Applications of Resting-State Functional Connectivity to Neurodegenerative Disease.",
+      "agent": "Disease Biology Agent",
+      "multi_agent_processed": true
+    },
+    {
+      "pmid": "22306201",
+      "source": "PubMed",
+      "title": "RNA modifications by oxidation: a novel disease mechanism?",
+      "agent": "Disease Biology Agent",
+      "multi_agent_processed": true
+    }
+  ],
+  "multi_agent_summary": {
+    "checkpoint": 6,
+    "name": "Multi-Agent Intelligence",
+    "status": "PASSED",
+    "specialized_agents": [
+      "Target Intelligence Agent",
+      "Biomarker Intelligence Agent",
+      "Therapeutic Efficacy Agent",
+      "Safety Intelligence Agent",
+      "Clinical Trial Intelligence Agent",
+      "Evidence Reviewer Agent"
+    ],
+    "completed_agents": [
+      "Biomarker Intelligence Agent",
+      "Clinical Trial Intelligence Agent",
+      "Evidence Reviewer Agent",
+      "Safety Intelligence Agent",
+      "Target Intelligence Agent",
+      "Therapeutic Efficacy Agent"
+    ],
+    "agent_outputs": [
+      {
+        "agent": "Biomarker Intelligence Agent",
+        "version": "0.1",
+        "signal_type": "biomarker_intelligence",
+        "evidence_signals": 9,
+        "source_records": 10,
+        "human_review_status": "PENDING_HUMAN_REVIEW"
+      },
+      {
+        "agent": "Clinical Trial Intelligence Agent",
+        "version": "0.1",
+        "signal_type": "clinical_trial_intelligence",
+        "evidence_signals": 7,
+        "source_records": 10,
+        "human_review_status": "PENDING_HUMAN_REVIEW"
+      },
+      {
+        "agent": "Evidence Reviewer Agent",
+        "version": "0.1",
+        "signal_type": "evidence_review",
+        "evidence_signals": 10,
+        "source_records": 10,
+        "human_review_status": "PENDING_HUMAN_REVIEW"
+      },
+      {
+        "agent": "Safety Intelligence Agent",
+        "version": "0.1",
+        "signal_type": "safety_intelligence",
+        "evidence_signals": 2,
+        "source_records": 10,
+        "human_review_status": "PENDING_HUMAN_REVIEW"
+      },
+      {
+        "agent": "Target Intelligence Agent",
+        "version": "0.1",
+        "signal_type": "target_intelligence",
+        "evidence_signals": 9,
+        "source_records": 10,
+        "human_review_status": "PENDING_HUMAN_REVIEW"
+      },
+      {
+        "agent": "Therapeutic Efficacy Agent",
+        "version": "0.1",
+        "signal_type": "therapeutic_efficacy",
+        "evidence_signals": 6,
+        "source_records": 10,
+        "human_review_status": "PENDING_HUMAN_REVIEW"
+      }
+    ],
+    "total_evidence_signals": 43,
+    "grounded_evidence_signals": 43,
+    "citation_linked_signals": 43,
+    "uncertainty_preserved_signals": 43,
+    "knowledge_gap_preserved_signals": 43,
+    "synthesis_summary": {
+      "specialized_agent_count": 6,
+      "total_evidence_signals": 43,
+      "grounded_evidence_signals": 43,
+      "citation_linked_signals": 43,
+      "review_status": "PENDING_HUMAN_REVIEW",
+      "next_action": "HUMAN_REVIEW",
+      "uncertainty_preserved": true,
+      "knowledge_gaps_preserved": true
+    },
+    "execution_trace": [
+      "initialize_state",
+      "Biomarker Intelligence Agent",
+      "Clinical Trial Intelligence Agent",
+      "Evidence Reviewer Agent",
+      "Safety Intelligence Agent",
+      "Target Intelligence Agent",
+      "Therapeutic Efficacy Agent",
+      "multi_agent_synthesis"
+    ],
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "next_action": "HUMAN_REVIEW",
+    "validation_checks": {
+      "six_specialized_agents": true,
+      "evidence_signals_present": true,
+      "evidence_grounding": true,
+      "citation_linkage": true,
+      "uncertainty_preservation": true,
+      "knowledge_gap_preservation": true,
+      "synthesis_completed": true,
+      "synthesis_signal_count": true,
+      "human_review_required": true,
+      "correct_next_action": true
+    },
+    "timestamp_utc": "2026-09-27T10:24:48.914118+00:00"
+  },
+  "safety_state": {
+    "llm_execution": "NOT_STARTED",
+    "scientific_conclusions": "DISABLED",
+    "human_review": "REQUIRED",
+    "causal_inference": false,
+    "new_experiment_executed": false
+  },
+  "validation_checks": {
+    "evidence_foundation_present": true,
+    "unique_pmids": true,
+    "what_we_know_present": true,
+    "what_we_infer_present": true,
+    "what_we_do_not_know_present": true,
+    "what_could_falsify_present": true,
+    "what_experiment_next_present": true,
+    "traceability_complete": true,
+    "uncertainty_preserved": true,
+    "knowledge_gaps_preserved": true,
+    "human_review_required": true,
+    "scientific_conclusions_disabled": true
+  }
+}

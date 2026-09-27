@@ -1,0 +1,67 @@
+{
+  "artifact": "MGR-FM3-P2-End-to-End-Integration",
+  "version": "0.1",
+  "purpose": "Integrate the validated evidence, knowledge, wisdom, reasoning, critique, decision, evaluation, and human review layers into one controlled workflow.",
+  "pipeline": [
+    {
+      "stage_id": "STAGE_01",
+      "name": "Evidence Foundation",
+      "checkpoint": 2
+    },
+    {
+      "stage_id": "STAGE_02",
+      "name": "Evidence Fabric",
+      "checkpoint": 10
+    },
+    {
+      "stage_id": "STAGE_03",
+      "name": "Knowledge Graph",
+      "checkpoint": 10
+    },
+    {
+      "stage_id": "STAGE_04",
+      "name": "Wisdom Engines",
+      "checkpoint": 12
+    },
+    {
+      "stage_id": "STAGE_05",
+      "name": "AI Reasoning",
+      "checkpoint": 13
+    },
+    {
+      "stage_id": "STAGE_06",
+      "name": "Critique Loop",
+      "checkpoint": 14
+    },
+    {
+      "stage_id": "STAGE_07",
+      "name": "Decision Intelligence",
+      "checkpoint": 15
+    },
+    {
+      "stage_id": "STAGE_08",
+      "name": "Observability and Evaluation",
+      "checkpoint": 16
+    },
+    {
+      "stage_id": "STAGE_09",
+      "name": "Human Review",
+      "checkpoint": 9
+    }
+  ],
+  "state_transition": [
+    "EVIDENCE",
+    "EVIDENCE_FABRIC",
+    "KNOWLEDGE_GRAPH",
+    "WISDOM_ENGINES",
+    "AI_REASONING",
+    "CRITIQUE",
+    "DECISION_INTELLIGENCE",
+    "EVALUATION",
+    "HUMAN_REVIEW"
+  ],
+  "autonomous_scientific_decision": false,
+  "human_authority": true,
+  "llm_execution": false,
+  "scientific_conclusions": false
+}

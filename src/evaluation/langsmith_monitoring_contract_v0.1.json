@@ -1,0 +1,30 @@
+{
+  "metrics": [
+    "run_count",
+    "success_rate",
+    "failure_rate",
+    "latency",
+    "tool_usage",
+    "evidence_retrieval_count",
+    "citation_coverage",
+    "uncertainty_preservation",
+    "knowledge_gap_preservation",
+    "contradiction_detection",
+    "human_review_rate",
+    "human_rejection_rate",
+    "human_escalation_rate",
+    "model_cost",
+    "tool_cost"
+  ],
+  "alerts": [
+    "unsupported_inference",
+    "missing_evidence",
+    "missing_citation",
+    "schema_failure",
+    "contradiction_detected",
+    "safety_gate_failure",
+    "human_review_bypass",
+    "reproducibility_failure"
+  ],
+  "automatic_scientific_decision": false
+}

@@ -1,0 +1,14 @@
+{
+  "project_name": "MGR FM3 - Project 2",
+  "project_title": "Alzheimer Disease Intelligence Engine",
+  "version": "0.1.0",
+  "project_root": "/content/drive/MyDrive/MGR-FM3-PROJECT-2",
+  "storage": "Google Drive",
+  "execution_environment": "Google Colab",
+  "python_version": "3.13.15",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "created_utc": "2026-09-27T10:16:27.198255+00:00",
+  "llm_execution": "NOT_STARTED",
+  "scientific_conclusions": "DISABLED",
+  "human_review": "REQUIRED"
+}

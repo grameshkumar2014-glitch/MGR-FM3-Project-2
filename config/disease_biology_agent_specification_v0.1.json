@@ -1,0 +1,26 @@
+{
+  "agent_name": "Disease Biology Agent",
+  "version": "0.1",
+  "purpose": "Structured extraction of Alzheimer Disease biological signals from evidence records.",
+  "mode": "deterministic_evidence_extraction",
+  "llm_execution": false,
+  "scientific_conclusion_generation": false,
+  "causal_inference": false,
+  "human_review_required": true,
+  "required_outputs": [
+    "agent",
+    "agent_version",
+    "disease",
+    "evidence_record",
+    "biological_signals",
+    "evidence_type",
+    "population_or_model",
+    "evidence_limitations",
+    "uncertainty",
+    "knowledge_gaps",
+    "citation",
+    "human_review_status"
+  ],
+  "source": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+  "created_utc": "2026-09-27T10:20:30.677559+00:00"
+}

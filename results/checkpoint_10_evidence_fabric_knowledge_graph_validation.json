@@ -1,0 +1,35 @@
+{
+  "checkpoint": 10,
+  "name": "Evidence Fabric and Knowledge Graph",
+  "validation_timestamp_utc": "2026-09-27T10:31:57.961012+00:00",
+  "status": "PASSED",
+  "checks": {
+    "source_evidence_exists": true,
+    "agent_output_exists": true,
+    "multi_agent_output_exists": true,
+    "checkpoint_7_exists": true,
+    "checkpoint_8_exists": true,
+    "checkpoint_9_exists": true,
+    "evidence_fabric_created": true,
+    "unique_evidence_ids": true,
+    "provenance_present": true,
+    "knowledge_graph_created": true,
+    "graph_edges_provenance_linked": true,
+    "unsupported_inference_edges_disabled": true,
+    "human_review_required": true,
+    "llm_execution_disabled": true,
+    "scientific_conclusions_disabled": true
+  },
+  "statistics": {
+    "evidence_fabric_records": 10,
+    "knowledge_graph_nodes": 21,
+    "knowledge_graph_edges": 20,
+    "agent_to_source_links": 0
+  },
+  "next_action": "CHECKPOINT_11_CONTRADICTION_DETECTION",
+  "safety_state": {
+    "LLM_EXECUTION": "NOT_STARTED",
+    "SCIENTIFIC_CONCLUSIONS": "DISABLED",
+    "HUMAN_REVIEW": "REQUIRED"
+  }
+}

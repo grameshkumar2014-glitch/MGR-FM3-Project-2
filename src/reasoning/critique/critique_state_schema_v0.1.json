@@ -1,0 +1,22 @@
+{
+  "state_name": "AlzheimerCritiqueState",
+  "required_fields": [
+    "reasoning_context",
+    "critique_targets",
+    "critique_findings",
+    "uncertainties",
+    "knowledge_gaps",
+    "contradictions",
+    "repair_actions",
+    "loop_status",
+    "human_review_required"
+  ],
+  "allowed_loop_status": [
+    "NOT_STARTED",
+    "CRITIQUE_REQUIRED",
+    "REPAIR_REQUIRED",
+    "RECHECK_REQUIRED",
+    "READY_FOR_REVIEW",
+    "BLOCKED"
+  ]
+}

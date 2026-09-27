@@ -1,0 +1,41 @@
+{
+  "checkpoint": 5,
+  "name": "Human Review Gate",
+  "status": "PASSED",
+  "pending_result": {
+    "review_decision": "PENDING_HUMAN_REVIEW",
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "next_action": "HUMAN_REVIEW",
+    "execution_trace": [
+      "initialize_review",
+      "evaluate_pending"
+    ]
+  },
+  "approved_result": {
+    "review_decision": "APPROVED",
+    "review_status": "APPROVED",
+    "next_action": "CONTINUE_TO_SYNTHESIS",
+    "execution_trace": [
+      "initialize_review",
+      "evaluate_approved"
+    ]
+  },
+  "rejected_result": {
+    "review_decision": "REJECTED",
+    "review_status": "REJECTED",
+    "next_action": "STOP_AND_ESCALATE",
+    "execution_trace": [
+      "initialize_review",
+      "evaluate_rejected"
+    ]
+  },
+  "validation_checks": {
+    "pending_route": true,
+    "approved_route": true,
+    "rejected_route": true,
+    "pending_trace": true,
+    "approved_trace": true,
+    "rejected_trace": true
+  },
+  "timestamp_utc": "2026-09-27T10:22:06.912831+00:00"
+}

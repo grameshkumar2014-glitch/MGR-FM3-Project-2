@@ -1,0 +1,389 @@
+{
+  "artifact": "MGR FM3 Project 2 Alzheimer Evidence Knowledge Graph",
+  "version": "0.1",
+  "created_at_utc": "2026-09-27T10:31:57.961012+00:00",
+  "disease": "Alzheimer disease",
+  "node_count": 21,
+  "edge_count": 20,
+  "nodes": [
+    {
+      "node_id": "DISEASE:ALZHEIMERS",
+      "node_type": "Disease",
+      "label": "Alzheimer disease",
+      "provenance": []
+    },
+    {
+      "node_id": "EVIDENCE:EVID-36597577",
+      "node_type": "EvidenceRecord",
+      "label": "EVID-36597577",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "PUBMED:36597577",
+      "node_type": "PubMedArticle",
+      "label": "PMID 36597577",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "EVIDENCE:EVID-36940723",
+      "node_type": "EvidenceRecord",
+      "label": "EVID-36940723",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "PUBMED:36940723",
+      "node_type": "PubMedArticle",
+      "label": "PMID 36940723",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "EVIDENCE:EVID-40088370",
+      "node_type": "EvidenceRecord",
+      "label": "EVID-40088370",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "PUBMED:40088370",
+      "node_type": "PubMedArticle",
+      "label": "PMID 40088370",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "EVIDENCE:EVID-17622778",
+      "node_type": "EvidenceRecord",
+      "label": "EVID-17622778",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "PUBMED:17622778",
+      "node_type": "PubMedArticle",
+      "label": "PMID 17622778",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "EVIDENCE:EVID-36155517",
+      "node_type": "EvidenceRecord",
+      "label": "EVID-36155517",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "PUBMED:36155517",
+      "node_type": "PubMedArticle",
+      "label": "PMID 36155517",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "EVIDENCE:EVID-27654282",
+      "node_type": "EvidenceRecord",
+      "label": "EVID-27654282",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "PUBMED:27654282",
+      "node_type": "PubMedArticle",
+      "label": "PMID 27654282",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "EVIDENCE:EVID-16472207",
+      "node_type": "EvidenceRecord",
+      "label": "EVID-16472207",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "PUBMED:16472207",
+      "node_type": "PubMedArticle",
+      "label": "PMID 16472207",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "EVIDENCE:EVID-20008648",
+      "node_type": "EvidenceRecord",
+      "label": "EVID-20008648",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "PUBMED:20008648",
+      "node_type": "PubMedArticle",
+      "label": "PMID 20008648",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "EVIDENCE:EVID-28985936",
+      "node_type": "EvidenceRecord",
+      "label": "EVID-28985936",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "PUBMED:28985936",
+      "node_type": "PubMedArticle",
+      "label": "PMID 28985936",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "EVIDENCE:EVID-22306201",
+      "node_type": "EvidenceRecord",
+      "label": "EVID-22306201",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    },
+    {
+      "node_id": "PUBMED:22306201",
+      "node_type": "PubMedArticle",
+      "label": "PMID 22306201",
+      "provenance": [
+        "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "EDGE:EVID-36597577:SOURCE",
+      "source": "EVIDENCE:EVID-36597577",
+      "relation": "SOURCE_RECORD",
+      "target": "PUBMED:36597577",
+      "provenance": [
+        "36597577"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-36597577:DISEASE",
+      "source": "EVIDENCE:EVID-36597577",
+      "relation": "ABOUTS",
+      "target": "DISEASE:ALZHEIMERS",
+      "provenance": [
+        "36597577"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-36940723:SOURCE",
+      "source": "EVIDENCE:EVID-36940723",
+      "relation": "SOURCE_RECORD",
+      "target": "PUBMED:36940723",
+      "provenance": [
+        "36940723"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-36940723:DISEASE",
+      "source": "EVIDENCE:EVID-36940723",
+      "relation": "ABOUTS",
+      "target": "DISEASE:ALZHEIMERS",
+      "provenance": [
+        "36940723"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-40088370:SOURCE",
+      "source": "EVIDENCE:EVID-40088370",
+      "relation": "SOURCE_RECORD",
+      "target": "PUBMED:40088370",
+      "provenance": [
+        "40088370"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-40088370:DISEASE",
+      "source": "EVIDENCE:EVID-40088370",
+      "relation": "ABOUTS",
+      "target": "DISEASE:ALZHEIMERS",
+      "provenance": [
+        "40088370"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-17622778:SOURCE",
+      "source": "EVIDENCE:EVID-17622778",
+      "relation": "SOURCE_RECORD",
+      "target": "PUBMED:17622778",
+      "provenance": [
+        "17622778"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-17622778:DISEASE",
+      "source": "EVIDENCE:EVID-17622778",
+      "relation": "ABOUTS",
+      "target": "DISEASE:ALZHEIMERS",
+      "provenance": [
+        "17622778"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-36155517:SOURCE",
+      "source": "EVIDENCE:EVID-36155517",
+      "relation": "SOURCE_RECORD",
+      "target": "PUBMED:36155517",
+      "provenance": [
+        "36155517"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-36155517:DISEASE",
+      "source": "EVIDENCE:EVID-36155517",
+      "relation": "ABOUTS",
+      "target": "DISEASE:ALZHEIMERS",
+      "provenance": [
+        "36155517"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-27654282:SOURCE",
+      "source": "EVIDENCE:EVID-27654282",
+      "relation": "SOURCE_RECORD",
+      "target": "PUBMED:27654282",
+      "provenance": [
+        "27654282"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-27654282:DISEASE",
+      "source": "EVIDENCE:EVID-27654282",
+      "relation": "ABOUTS",
+      "target": "DISEASE:ALZHEIMERS",
+      "provenance": [
+        "27654282"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-16472207:SOURCE",
+      "source": "EVIDENCE:EVID-16472207",
+      "relation": "SOURCE_RECORD",
+      "target": "PUBMED:16472207",
+      "provenance": [
+        "16472207"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-16472207:DISEASE",
+      "source": "EVIDENCE:EVID-16472207",
+      "relation": "ABOUTS",
+      "target": "DISEASE:ALZHEIMERS",
+      "provenance": [
+        "16472207"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-20008648:SOURCE",
+      "source": "EVIDENCE:EVID-20008648",
+      "relation": "SOURCE_RECORD",
+      "target": "PUBMED:20008648",
+      "provenance": [
+        "20008648"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-20008648:DISEASE",
+      "source": "EVIDENCE:EVID-20008648",
+      "relation": "ABOUTS",
+      "target": "DISEASE:ALZHEIMERS",
+      "provenance": [
+        "20008648"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-28985936:SOURCE",
+      "source": "EVIDENCE:EVID-28985936",
+      "relation": "SOURCE_RECORD",
+      "target": "PUBMED:28985936",
+      "provenance": [
+        "28985936"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-28985936:DISEASE",
+      "source": "EVIDENCE:EVID-28985936",
+      "relation": "ABOUTS",
+      "target": "DISEASE:ALZHEIMERS",
+      "provenance": [
+        "28985936"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-22306201:SOURCE",
+      "source": "EVIDENCE:EVID-22306201",
+      "relation": "SOURCE_RECORD",
+      "target": "PUBMED:22306201",
+      "provenance": [
+        "22306201"
+      ],
+      "status": "EVIDENCE_LINKED"
+    },
+    {
+      "edge_id": "EDGE:EVID-22306201:DISEASE",
+      "source": "EVIDENCE:EVID-22306201",
+      "relation": "ABOUTS",
+      "target": "DISEASE:ALZHEIMERS",
+      "provenance": [
+        "22306201"
+      ],
+      "status": "EVIDENCE_LINKED"
+    }
+  ],
+  "graph_policy": {
+    "evidence_linked_only": true,
+    "unsupported_inference_edges": false,
+    "clinical_recommendations": false,
+    "human_review_required": true
+  },
+  "contradiction_policy": {
+    "automatic_scientific_confirmation": false,
+    "candidate_detection_enabled": true,
+    "human_review_required": true
+  }
+}

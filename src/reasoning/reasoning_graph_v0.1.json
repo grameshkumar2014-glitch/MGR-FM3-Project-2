@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    "EVIDENCE_INPUT",
+    "KNOWLEDGE_GRAPH",
+    "WISDOM_ENGINES",
+    "EVIDENCE_GROUNDING",
+    "EVIDENCE_SYNTHESIS",
+    "UNCERTAINTY_ANALYSIS",
+    "KNOWLEDGE_GAP_ANALYSIS",
+    "CONTRADICTION_ANALYSIS",
+    "REASONING_TRACE",
+    "HUMAN_REVIEW",
+    "OPTIONAL_LLM_REASONING"
+  ],
+  "edges": [
+    [
+      "EVIDENCE_INPUT",
+      "EVIDENCE_GROUNDING"
+    ],
+    [
+      "KNOWLEDGE_GRAPH",
+      "EVIDENCE_GROUNDING"
+    ],
+    [
+      "WISDOM_ENGINES",
+      "EVIDENCE_SYNTHESIS"
+    ],
+    [
+      "EVIDENCE_GROUNDING",
+      "EVIDENCE_SYNTHESIS"
+    ],
+    [
+      "EVIDENCE_SYNTHESIS",
+      "UNCERTAINTY_ANALYSIS"
+    ],
+    [
+      "EVIDENCE_SYNTHESIS",
+      "KNOWLEDGE_GAP_ANALYSIS"
+    ],
+    [
+      "EVIDENCE_SYNTHESIS",
+      "CONTRADICTION_ANALYSIS"
+    ],
+    [
+      "UNCERTAINTY_ANALYSIS",
+      "REASONING_TRACE"
+    ],
+    [
+      "KNOWLEDGE_GAP_ANALYSIS",
+      "REASONING_TRACE"
+    ],
+    [
+      "CONTRADICTION_ANALYSIS",
+      "REASONING_TRACE"
+    ],
+    [
+      "REASONING_TRACE",
+      "HUMAN_REVIEW"
+    ],
+    [
+      "HUMAN_REVIEW",
+      "OPTIONAL_LLM_REASONING"
+    ]
+  ],
+  "policy": {
+    "llm_before_human_review": false,
+    "automatic_scientific_conclusion": false,
+    "automatic_clinical_recommendation": false
+  }
+}

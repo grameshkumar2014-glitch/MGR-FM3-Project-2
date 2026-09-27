@@ -1,0 +1,37 @@
+{
+  "artifact": "MGR FM3 Project 2 AI Reasoning Layer",
+  "version": "0.1",
+  "created_at_utc": "2026-09-27T10:36:01.551278+00:00",
+  "disease": "Alzheimer disease",
+  "purpose": "Provide a controlled reasoning architecture that integrates evidence from the Wisdom Engines while preserving provenance, uncertainty, knowledge gaps, contradictions and human review.",
+  "reasoning_mode": "EVIDENCE_GROUNDED",
+  "execution_status": {
+    "architecture": "VALIDATED",
+    "llm_execution": "NOT_STARTED",
+    "scientific_conclusions": "DISABLED",
+    "human_review": "REQUIRED"
+  },
+  "reasoning_pipeline": [
+    "LOAD_EVIDENCE",
+    "LOAD_KNOWLEDGE_GRAPH",
+    "LOAD_WISDOM_ENGINE_OUTPUTS",
+    "CHECK_PROVENANCE",
+    "IDENTIFY_KNOWLEDGE_GAPS",
+    "IDENTIFY_UNCERTAINTY",
+    "CHECK_CONTRADICTIONS",
+    "GENERATE_STRUCTURED_REASONING_CONTEXT",
+    "HUMAN_REVIEW_GATE",
+    "OPTIONAL_LLM_REASONING"
+  ],
+  "reasoning_principles": [
+    "Evidence before inference",
+    "Trace every claim to evidence",
+    "Separate known from inferred",
+    "Preserve uncertainty",
+    "Preserve knowledge gaps",
+    "Do not hide contradictions",
+    "Do not invent missing evidence",
+    "Human review for high-consequence decisions",
+    "No automatic clinical recommendation"
+  ]
+}

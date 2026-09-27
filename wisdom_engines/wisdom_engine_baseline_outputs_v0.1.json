@@ -1,0 +1,610 @@
+{
+  "artifact": "MGR FM3 Project 2 - 24 Wisdom Engine Baseline",
+  "version": "0.1",
+  "created_at_utc": "2026-09-27T10:35:03.850649+00:00",
+  "outputs": [
+    {
+      "engine_id": 1,
+      "engine_name": "BioDeficit",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 2,
+      "engine_name": "Target",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 3,
+      "engine_name": "Mechanism",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 4,
+      "engine_name": "Modality",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 5,
+      "engine_name": "NewMolecule",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 6,
+      "engine_name": "Binding",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 7,
+      "engine_name": "Efficacy",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 8,
+      "engine_name": "Safety",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 9,
+      "engine_name": "Biomarker",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 10,
+      "engine_name": "ADME_DMPK",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 11,
+      "engine_name": "PK_PD",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 12,
+      "engine_name": "Delivery",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 13,
+      "engine_name": "Immunogenicity",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 14,
+      "engine_name": "Resistance",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 15,
+      "engine_name": "Synthesis",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 16,
+      "engine_name": "CMC",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 17,
+      "engine_name": "Manufacturing",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 18,
+      "engine_name": "Stability",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 19,
+      "engine_name": "IP_Patent",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 20,
+      "engine_name": "ClinicalTrial",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 21,
+      "engine_name": "Regulatory",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 22,
+      "engine_name": "PV",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 23,
+      "engine_name": "Failure",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    },
+    {
+      "engine_id": 24,
+      "engine_name": "Decision",
+      "evidence_count": 10,
+      "evidence_ids": [
+        "EVID-36597577",
+        "EVID-36940723",
+        "EVID-40088370",
+        "EVID-17622778",
+        "EVID-36155517",
+        "EVID-27654282",
+        "EVID-16472207",
+        "EVID-20008648",
+        "EVID-28985936",
+        "EVID-22306201"
+      ],
+      "knowledge_gaps": [
+        "Engine-specific evidence has not yet been curated."
+      ],
+      "uncertainties": [
+        "Scientific validation has not yet been performed."
+      ],
+      "status": "BASELINE_REGISTERED",
+      "human_review_required": true
+    }
+  ],
+  "scientific_conclusions": false,
+  "llm_execution": false,
+  "human_review_required": true
+}

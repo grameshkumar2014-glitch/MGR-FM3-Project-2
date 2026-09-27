@@ -1,0 +1,8 @@
+{
+  "agent": "Therapeutic Efficacy Agent",
+  "version": "0.1",
+  "signal_type": "therapeutic_efficacy",
+  "evidence_signals": 6,
+  "source_records": 10,
+  "human_review_status": "PENDING_HUMAN_REVIEW"
+}

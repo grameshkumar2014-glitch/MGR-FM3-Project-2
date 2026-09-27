@@ -1,0 +1,129 @@
+{
+  "project": "MGR FM3 Project 2",
+  "dependency_model": {
+    "checkpoint_00": {
+      "name": "Google Drive Bootstrap",
+      "depends_on": []
+    },
+    "checkpoint_01": {
+      "name": "Environment Validation",
+      "depends_on": [
+        "checkpoint_00"
+      ]
+    },
+    "checkpoint_02": {
+      "name": "Evidence Foundation",
+      "depends_on": [
+        "checkpoint_01"
+      ]
+    },
+    "checkpoint_03": {
+      "name": "Disease Biology Agent",
+      "depends_on": [
+        "checkpoint_02"
+      ]
+    },
+    "checkpoint_04": {
+      "name": "LangGraph Workflow",
+      "depends_on": [
+        "checkpoint_03"
+      ]
+    },
+    "checkpoint_05": {
+      "name": "Human Review Gate",
+      "depends_on": [
+        "checkpoint_04"
+      ]
+    },
+    "checkpoint_06": {
+      "name": "Multi-Agent Intelligence",
+      "depends_on": [
+        "checkpoint_05"
+      ]
+    },
+    "checkpoint_07": {
+      "name": "Evaluation and Reproducibility",
+      "depends_on": [
+        "checkpoint_06"
+      ]
+    },
+    "checkpoint_08": {
+      "name": "Evidence-Centered Reporting",
+      "depends_on": [
+        "checkpoint_07"
+      ]
+    },
+    "checkpoint_09": {
+      "name": "Human Review Implementation",
+      "depends_on": [
+        "checkpoint_08"
+      ]
+    },
+    "checkpoint_10": {
+      "name": "Evidence Fabric and Knowledge Graph",
+      "depends_on": [
+        "checkpoint_09"
+      ]
+    },
+    "checkpoint_11": {
+      "name": "Contradiction Detection",
+      "depends_on": [
+        "checkpoint_10"
+      ]
+    },
+    "checkpoint_12": {
+      "name": "24 Wisdom Engines",
+      "depends_on": [
+        "checkpoint_11"
+      ]
+    },
+    "checkpoint_13": {
+      "name": "AI Reasoning Layer",
+      "depends_on": [
+        "checkpoint_12"
+      ]
+    },
+    "checkpoint_14": {
+      "name": "Critique and Reasoning Loop",
+      "depends_on": [
+        "checkpoint_13"
+      ]
+    },
+    "checkpoint_15": {
+      "name": "Decision Intelligence",
+      "depends_on": [
+        "checkpoint_14"
+      ]
+    },
+    "checkpoint_16": {
+      "name": "LangSmith Tracing and Evaluation",
+      "depends_on": [
+        "checkpoint_15"
+      ]
+    },
+    "checkpoint_17": {
+      "name": "End-to-End Integration",
+      "depends_on": [
+        "checkpoint_16"
+      ]
+    },
+    "checkpoint_18": {
+      "name": "Final Evaluation and Safety",
+      "depends_on": [
+        "checkpoint_17"
+      ]
+    },
+    "checkpoint_19": {
+      "name": "GitHub Production Repository",
+      "depends_on": [
+        "checkpoint_18"
+      ]
+    },
+    "checkpoint_20": {
+      "name": "Final Documentation and Reproducibility",
+      "depends_on": [
+        "checkpoint_19"
+      ]
+    }
+  }
+}

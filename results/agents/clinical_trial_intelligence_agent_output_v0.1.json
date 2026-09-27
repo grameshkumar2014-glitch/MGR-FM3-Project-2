@@ -1,0 +1,8 @@
+{
+  "agent": "Clinical Trial Intelligence Agent",
+  "version": "0.1",
+  "signal_type": "clinical_trial_intelligence",
+  "evidence_signals": 7,
+  "source_records": 10,
+  "human_review_status": "PENDING_HUMAN_REVIEW"
+}

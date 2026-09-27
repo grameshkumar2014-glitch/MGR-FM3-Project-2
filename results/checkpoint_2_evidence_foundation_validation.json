@@ -1,0 +1,37 @@
+{
+  "checkpoint": 2,
+  "name": "Evidence Foundation",
+  "status": "PASSED",
+  "query": "\"Alzheimer Disease\"[Title/Abstract] AND \"disease mechanism\"[Title/Abstract]",
+  "record_count": 10,
+  "unique_pmid_count": 10,
+  "pmids": [
+    "36597577",
+    "36940723",
+    "40088370",
+    "17622778",
+    "36155517",
+    "27654282",
+    "16472207",
+    "20008648",
+    "28985936",
+    "22306201"
+  ],
+  "validation_checks": {
+    "pubmed_records_present": true,
+    "unique_pmids": true,
+    "required_schema_fields": true,
+    "pmid_provenance": true,
+    "raw_xml_exists": true,
+    "raw_xml_contains_10_articles": true,
+    "structured_evidence_exists": true
+  },
+  "safety_state": {
+    "llm_execution": "NOT_STARTED",
+    "scientific_conclusions": "DISABLED",
+    "human_review": "REQUIRED"
+  },
+  "raw_xml": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/raw/pubmed_alzheimer_mechanism.xml",
+  "structured_evidence": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+  "timestamp_utc": "2026-09-27T10:18:58.912939+00:00"
+}

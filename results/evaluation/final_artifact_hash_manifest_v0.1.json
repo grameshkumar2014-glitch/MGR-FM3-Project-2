@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-27T10:54:00.246474+00:00",
+  "algorithm": "SHA256",
+  "artifacts": {
+    "data/processed/alzheimer_evidence_foundation_v0.1.json": "489d1e5215892996d3a784c4633853a5a36c70375a957bb9151383eae99921db",
+    "evidence/evidence_fabric_v0.1.json": "2e52e422fac041e14750e9023a32acdd4db1e7bfbc489a9aa6b5e6a3f64d8f34",
+    "knowledge_graph/alzheimer_knowledge_graph_v0.1.json": "cce0d1a5664cb18b2cd72be5a8deef8cecedea26459ca369fd2d671a393b8dfb",
+    "wisdom_engines/wisdom_engine_registry_v0.1.json": "a097ae69d49cab7a1e943200652e70add13008ad2cf0eb72b5b0c6c20216bf32",
+    "src/reasoning/reasoning_graph_v0.1.json": "881970c0038f1ff315061eb11dd777bd6615a53315b45157672953571b3c8e21",
+    "results/decision/decision_intelligence_v0.1.json": "81181ebd9c570bc5bd3b644c29b92aac725cb37520b591b7df227789e378891e",
+    "src/integration/end_to_end_workflow_state_v0.1.json": "cb3d8037b74006b9a0afe5239409ceef94719827ce5b2863feba9d3ce9633f12"
+  }
+}

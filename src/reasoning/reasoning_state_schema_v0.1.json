@@ -1,0 +1,35 @@
+{
+  "state_name": "AlzheimerReasoningState",
+  "required_fields": {
+    "disease": "string",
+    "evidence_records": "list",
+    "knowledge_graph": "object",
+    "wisdom_engine_outputs": "list",
+    "known_facts": "list",
+    "inferences": "list",
+    "uncertainties": "list",
+    "knowledge_gaps": "list",
+    "contradictions": "list",
+    "evidence_trace": "list",
+    "reasoning_status": "string",
+    "human_review_required": "boolean",
+    "llm_execution": "boolean",
+    "scientific_conclusions_enabled": "boolean"
+  },
+  "initial_state": {
+    "disease": "Alzheimer disease",
+    "evidence_records": [],
+    "knowledge_graph": {},
+    "wisdom_engine_outputs": [],
+    "known_facts": [],
+    "inferences": [],
+    "uncertainties": [],
+    "knowledge_gaps": [],
+    "contradictions": [],
+    "evidence_trace": [],
+    "reasoning_status": "NOT_STARTED",
+    "human_review_required": true,
+    "llm_execution": false,
+    "scientific_conclusions_enabled": false
+  }
+}

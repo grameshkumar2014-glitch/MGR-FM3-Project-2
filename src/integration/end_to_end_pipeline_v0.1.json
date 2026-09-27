@@ -1,0 +1,47 @@
+[
+  {
+    "stage_id": "STAGE_01",
+    "name": "Evidence Foundation",
+    "checkpoint": 2
+  },
+  {
+    "stage_id": "STAGE_02",
+    "name": "Evidence Fabric",
+    "checkpoint": 10
+  },
+  {
+    "stage_id": "STAGE_03",
+    "name": "Knowledge Graph",
+    "checkpoint": 10
+  },
+  {
+    "stage_id": "STAGE_04",
+    "name": "Wisdom Engines",
+    "checkpoint": 12
+  },
+  {
+    "stage_id": "STAGE_05",
+    "name": "AI Reasoning",
+    "checkpoint": 13
+  },
+  {
+    "stage_id": "STAGE_06",
+    "name": "Critique Loop",
+    "checkpoint": 14
+  },
+  {
+    "stage_id": "STAGE_07",
+    "name": "Decision Intelligence",
+    "checkpoint": 15
+  },
+  {
+    "stage_id": "STAGE_08",
+    "name": "Observability and Evaluation",
+    "checkpoint": 16
+  },
+  {
+    "stage_id": "STAGE_09",
+    "name": "Human Review",
+    "checkpoint": 9
+  }
+]

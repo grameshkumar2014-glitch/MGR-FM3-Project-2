@@ -1,0 +1,51 @@
+{
+  "project": "MGR-FM3-PROJECT-2",
+  "version": "0.1",
+  "created_utc": "2026-09-27T10:55:22.052614+00:00",
+  "files": {
+    "README.md": {
+      "size_bytes": 2500,
+      "sha256": "6c9060d81f96cdbdd21ef0e8bdfb5400b695618f096b3d7358c8a4f4eba86033"
+    },
+    "LICENSE": {
+      "size_bytes": 798,
+      "sha256": "1da7bc846a945fa8a936944a616bd1151e73526e46d0e627e29901c7776f1c1b"
+    },
+    "CITATION.cff": {
+      "size_bytes": 268,
+      "sha256": "7518ba355a3bb905e0822e37c565d7925b933644103cdec92bf4b3e01dbbbb70"
+    },
+    "requirements.txt": {
+      "size_bytes": 63,
+      "sha256": "68ec83c7c89131771e7ce3f7627a68b3090084baec42ba3361bedef41a5e78cb"
+    },
+    ".gitignore": {
+      "size_bytes": 284,
+      "sha256": "a53721cedd8cb2e77c4e67fe3ca5d341dec08685dfd8e6bedf86ed8f866a2ef2"
+    },
+    ".env.example": {
+      "size_bytes": 165,
+      "sha256": "35d81b0881361a5e313a25c2ade14b3ed36c45b9b67977e0c903ea1122cdb1c8"
+    },
+    "docs/DEVELOPMENT_AND_RELEASE.md": {
+      "size_bytes": 852,
+      "sha256": "a3a1939460932995371c243e2cac617aaf6f0d5011e073cd0d98f5207249a9d4"
+    },
+    "docs/VALIDATION_HISTORY_v0.1.json": {
+      "size_bytes": 370,
+      "sha256": "e1da5194ff89c56def121aa58f46db6529b87df516d5ad065e89e02eeb99c371"
+    },
+    "results/checkpoint_18_final_evaluation_safety_validation.json": {
+      "size_bytes": 2068,
+      "sha256": "9bf62a7ba463bf92cc176ec90db3971319e885e57860d433caeca66df0b87049"
+    },
+    "results/evaluation/final_artifact_hash_manifest_v0.1.json": {
+      "size_bytes": 957,
+      "sha256": "442d1319af502f766596ba97b5ddc527426cbbaa961ed7ce734a504c02efe196"
+    },
+    "results/evaluation/final_safety_report_v0.1.json": {
+      "size_bytes": 2068,
+      "sha256": "9bf62a7ba463bf92cc176ec90db3971319e885e57860d433caeca66df0b87049"
+    }
+  }
+}

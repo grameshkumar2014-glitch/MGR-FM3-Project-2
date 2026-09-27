@@ -1,0 +1,40 @@
+{
+  "checkpoint": 4,
+  "workflow": "Alzheimer Disease Stateful Evidence Workflow",
+  "status": "PASSED",
+  "state_schema": {
+    "project": "string",
+    "disease": "string",
+    "evidence_records": "list",
+    "loaded_agents": "list",
+    "review_status": "string",
+    "uncertainty": "list",
+    "knowledge_gaps": "list",
+    "next_action": "string",
+    "execution_trace": "list"
+  },
+  "execution_trace": [
+    "initialize_state",
+    "load_disease_biology_agent",
+    "evidence_review"
+  ],
+  "evidence_record_count": 10,
+  "loaded_agents": [
+    "Disease Biology Agent"
+  ],
+  "review_status": "PENDING_HUMAN_REVIEW",
+  "next_action": "HUMAN_REVIEW",
+  "uncertainty_count": 3,
+  "knowledge_gap_count": 3,
+  "validation_checks": {
+    "workflow_compiled": true,
+    "execution_trace": true,
+    "evidence_loaded": true,
+    "agent_loaded": true,
+    "review_status": true,
+    "next_action": true,
+    "uncertainty_preserved": true,
+    "knowledge_gaps_preserved": true
+  },
+  "timestamp_utc": "2026-09-27T10:21:08.761031+00:00"
+}

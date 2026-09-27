@@ -1,0 +1,1114 @@
+{
+  "artifact": "MGR FM3 Project 2 - 24 Wisdom Engine Registry",
+  "version": "0.1",
+  "created_at_utc": "2026-09-27T10:35:03.850649+00:00",
+  "disease": "Alzheimer disease",
+  "engine_count": 24,
+  "engines": [
+    {
+      "engine_id": 1,
+      "engine_name": "BioDeficit",
+      "domain": "Disease Biology",
+      "purpose": "Identify and organize biological deficits relevant to Alzheimer disease.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "disease biology",
+        "mechanism",
+        "pathway"
+      ],
+      "dependencies": [],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 2,
+      "engine_name": "Target",
+      "domain": "Target Intelligence",
+      "purpose": "Organize target-level evidence and target hypotheses.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "target evidence",
+        "genetics",
+        "disease biology"
+      ],
+      "dependencies": [
+        "BioDeficit"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 3,
+      "engine_name": "Mechanism",
+      "domain": "Mechanism",
+      "purpose": "Organize mechanistic evidence linking biological processes and therapeutic hypotheses.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "mechanism",
+        "pathway",
+        "target evidence"
+      ],
+      "dependencies": [
+        "BioDeficit",
+        "Target"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 4,
+      "engine_name": "Modality",
+      "domain": "Therapeutic Modality",
+      "purpose": "Organize modality-level considerations for therapeutic intervention.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "target evidence",
+        "mechanism"
+      ],
+      "dependencies": [
+        "Target",
+        "Mechanism"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 5,
+      "engine_name": "NewMolecule",
+      "domain": "Molecule Intelligence",
+      "purpose": "Organize candidate-molecule evidence and development considerations.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "molecule",
+        "target",
+        "mechanism"
+      ],
+      "dependencies": [
+        "Target",
+        "Mechanism",
+        "Modality"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 6,
+      "engine_name": "Binding",
+      "domain": "Binding",
+      "purpose": "Organize evidence concerning molecular binding and target interaction.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "binding",
+        "target",
+        "molecule"
+      ],
+      "dependencies": [
+        "Target",
+        "NewMolecule"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 7,
+      "engine_name": "Efficacy",
+      "domain": "Therapeutic Efficacy",
+      "purpose": "Organize therapeutic efficacy evidence.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "efficacy",
+        "endpoint",
+        "model"
+      ],
+      "dependencies": [
+        "Mechanism",
+        "NewMolecule"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 8,
+      "engine_name": "Safety",
+      "domain": "Safety",
+      "purpose": "Organize safety and adverse-effect evidence.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "safety",
+        "adverse events",
+        "toxicity"
+      ],
+      "dependencies": [
+        "NewMolecule",
+        "Efficacy"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 9,
+      "engine_name": "Biomarker",
+      "domain": "Biomarkers",
+      "purpose": "Organize biomarker evidence and biomarker hypotheses.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "biomarker",
+        "disease biology",
+        "clinical evidence"
+      ],
+      "dependencies": [
+        "BioDeficit",
+        "Efficacy"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 10,
+      "engine_name": "ADME_DMPK",
+      "domain": "ADME/DMPK",
+      "purpose": "Organize absorption, distribution, metabolism and excretion evidence.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "ADME",
+        "DMPK",
+        "exposure"
+      ],
+      "dependencies": [
+        "NewMolecule",
+        "Safety"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 11,
+      "engine_name": "PK_PD",
+      "domain": "PK/PD",
+      "purpose": "Organize pharmacokinetic and pharmacodynamic evidence.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "PK",
+        "PD",
+        "exposure",
+        "response"
+      ],
+      "dependencies": [
+        "ADME_DMPK",
+        "Efficacy"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 12,
+      "engine_name": "Delivery",
+      "domain": "Drug Delivery",
+      "purpose": "Organize delivery and tissue-access evidence.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "delivery",
+        "distribution",
+        "tissue exposure"
+      ],
+      "dependencies": [
+        "ADME_DMPK",
+        "PK_PD"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 13,
+      "engine_name": "Immunogenicity",
+      "domain": "Immunogenicity",
+      "purpose": "Organize immunogenicity-related evidence.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "immune response",
+        "immunogenicity",
+        "safety"
+      ],
+      "dependencies": [
+        "Safety",
+        "Delivery"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 14,
+      "engine_name": "Resistance",
+      "domain": "Resistance",
+      "purpose": "Organize evidence for resistance and loss of therapeutic effect.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "resistance",
+        "mechanism",
+        "efficacy"
+      ],
+      "dependencies": [
+        "Mechanism",
+        "Efficacy"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 15,
+      "engine_name": "Synthesis",
+      "domain": "Chemical Synthesis",
+      "purpose": "Organize synthesis feasibility evidence.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "synthesis",
+        "molecule",
+        "chemistry"
+      ],
+      "dependencies": [
+        "NewMolecule"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 16,
+      "engine_name": "CMC",
+      "domain": "CMC",
+      "purpose": "Organize chemistry, manufacturing and controls considerations.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "CMC",
+        "manufacturing",
+        "quality"
+      ],
+      "dependencies": [
+        "Synthesis"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 17,
+      "engine_name": "Manufacturing",
+      "domain": "Manufacturing",
+      "purpose": "Organize manufacturing feasibility evidence.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "manufacturing",
+        "process",
+        "scale"
+      ],
+      "dependencies": [
+        "CMC"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 18,
+      "engine_name": "Stability",
+      "domain": "Stability",
+      "purpose": "Organize product stability evidence.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "stability",
+        "degradation",
+        "storage"
+      ],
+      "dependencies": [
+        "CMC",
+        "Manufacturing"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 19,
+      "engine_name": "IP_Patent",
+      "domain": "IP/Patent",
+      "purpose": "Organize intellectual-property and patent evidence.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "patent",
+        "IP",
+        "prior art"
+      ],
+      "dependencies": [
+        "NewMolecule"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 20,
+      "engine_name": "ClinicalTrial",
+      "domain": "Clinical Trials",
+      "purpose": "Organize clinical trial evidence and trial-design considerations.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "clinical trial",
+        "endpoint",
+        "patient"
+      ],
+      "dependencies": [
+        "Efficacy",
+        "Safety",
+        "Biomarker"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 21,
+      "engine_name": "Regulatory",
+      "domain": "Regulatory",
+      "purpose": "Organize regulatory evidence and development requirements.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "regulatory",
+        "clinical",
+        "safety"
+      ],
+      "dependencies": [
+        "ClinicalTrial",
+        "Safety"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 22,
+      "engine_name": "PV",
+      "domain": "Pharmacovigilance",
+      "purpose": "Organize post-market and pharmacovigilance evidence.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "pharmacovigilance",
+        "adverse events",
+        "safety"
+      ],
+      "dependencies": [
+        "Safety",
+        "ClinicalTrial"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 23,
+      "engine_name": "Failure",
+      "domain": "Failure Intelligence",
+      "purpose": "Organize failure evidence, failure modes and development lessons.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "failure",
+        "negative evidence",
+        "clinical outcome"
+      ],
+      "dependencies": [
+        "Efficacy",
+        "Safety",
+        "ClinicalTrial",
+        "Regulatory"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    },
+    {
+      "engine_id": 24,
+      "engine_name": "Decision",
+      "domain": "Decision Wisdom",
+      "purpose": "Integrate evidence across the wisdom engines for structured decision analysis.",
+      "version": "0.1",
+      "status": "ARCHITECTURE_VALIDATED",
+      "execution_mode": "DETERMINISTIC_BASELINE",
+      "scientific_validation_status": "NOT_YET_VALIDATED",
+      "llm_execution": false,
+      "scientific_conclusions_enabled": false,
+      "human_review_required": true,
+      "required_evidence": [
+        "integrated evidence",
+        "uncertainty",
+        "contradictions"
+      ],
+      "dependencies": [
+        "BioDeficit",
+        "Target",
+        "Mechanism",
+        "Modality",
+        "NewMolecule",
+        "Binding",
+        "Efficacy",
+        "Safety",
+        "Biomarker",
+        "ADME_DMPK",
+        "PK_PD",
+        "Delivery",
+        "Immunogenicity",
+        "Resistance",
+        "Synthesis",
+        "CMC",
+        "Manufacturing",
+        "Stability",
+        "IP_Patent",
+        "ClinicalTrial",
+        "Regulatory",
+        "PV",
+        "Failure"
+      ],
+      "input_schema": {
+        "evidence_records": "list",
+        "knowledge_graph": "object",
+        "uncertainty": "list",
+        "contradictions": "list"
+      },
+      "output_schema": {
+        "engine_id": "string",
+        "engine_name": "string",
+        "evidence_count": "integer",
+        "evidence_ids": "list",
+        "knowledge_gaps": "list",
+        "uncertainties": "list",
+        "status": "string",
+        "human_review_required": "boolean"
+      },
+      "guardrails": {
+        "no_unsupported_inference": true,
+        "no_automatic_clinical_recommendation": true,
+        "evidence_traceability_required": true,
+        "uncertainty_required": true,
+        "human_review_required": true
+      }
+    }
+  ],
+  "architecture_policy": {
+    "all_24_registered": true,
+    "all_dependencies_declared": true,
+    "deterministic_baseline": true,
+    "llm_execution_enabled": false,
+    "scientific_conclusions_enabled": false,
+    "human_review_required": true
+  }
+}

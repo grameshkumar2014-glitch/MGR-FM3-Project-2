@@ -1,0 +1,26 @@
+{
+  "name": "Evidence-Centered Critique and Reasoning Loop",
+  "version": "0.1",
+  "cycle": [
+    "REASON",
+    "CRITIQUE",
+    "IDENTIFY_GAPS",
+    "IDENTIFY_UNCERTAINTY",
+    "CHECK_CONTRADICTIONS",
+    "REQUEST_EVIDENCE_OR_REPAIR",
+    "RECHECK",
+    "HUMAN_REVIEW"
+  ],
+  "rules": [
+    "A critique cannot create evidence.",
+    "A knowledge gap cannot be converted into a fact.",
+    "Uncertainty cannot be silently removed.",
+    "A contradiction cannot be silently resolved.",
+    "Unsupported reasoning must be blocked.",
+    "High-consequence reasoning requires human review."
+  ],
+  "current_iteration": 1,
+  "llm_execution": false,
+  "scientific_conclusions": false,
+  "human_review_required": true
+}

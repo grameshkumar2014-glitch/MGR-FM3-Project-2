@@ -1,0 +1,41 @@
+{
+  "artifact": "MGR-FM3-P2-LangSmith-Tracing-Contract",
+  "version": "0.1",
+  "purpose": "Define observability, tracing, evaluation, monitoring, and reproducibility requirements for the Alzheimer Disease Intelligence Engine.",
+  "platform": "LangSmith",
+  "framework_compatibility": [
+    "LangChain",
+    "LangGraph"
+  ],
+  "tracing_mode": "CONTRACT_DEFINED",
+  "live_tracing": false,
+  "api_key_required_for_live_execution": true,
+  "llm_execution": false,
+  "scientific_conclusions": false,
+  "human_review_required": true,
+  "trace_requirements": [
+    "workflow_run",
+    "state_transition",
+    "agent_execution",
+    "tool_execution",
+    "evidence_retrieval",
+    "reasoning_step",
+    "critique_step",
+    "decision_support_step",
+    "human_review_step"
+  ],
+  "trace_metadata": [
+    "project_id",
+    "checkpoint_id",
+    "run_id",
+    "agent_id",
+    "tool_id",
+    "input_hash",
+    "output_hash",
+    "evidence_ids",
+    "uncertainty_ids",
+    "knowledge_gap_ids",
+    "review_status",
+    "timestamp"
+  ]
+}

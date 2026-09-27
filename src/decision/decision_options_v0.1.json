@@ -1,0 +1,26 @@
+[
+  {
+    "option_id": "OPTION_01",
+    "name": "Proceed to further evidence investigation",
+    "description": "Collect additional evidence to address unresolved uncertainties and knowledge gaps before a scientific decision.",
+    "requires_human_review": true
+  },
+  {
+    "option_id": "OPTION_02",
+    "name": "Proceed to focused hypothesis evaluation",
+    "description": "Evaluate a defined scientific hypothesis using additional targeted evidence and appropriate validation.",
+    "requires_human_review": true
+  },
+  {
+    "option_id": "OPTION_03",
+    "name": "Hold pending contradiction or evidence resolution",
+    "description": "Pause decision progression when evidence conflicts, uncertainty, or missing information requires resolution.",
+    "requires_human_review": true
+  },
+  {
+    "option_id": "OPTION_04",
+    "name": "Escalate for expert scientific review",
+    "description": "Route the decision context to a qualified human reviewer when evidence or consequences require expert assessment.",
+    "requires_human_review": true
+  }
+]

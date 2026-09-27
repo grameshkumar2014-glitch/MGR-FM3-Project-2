@@ -1,0 +1,6 @@
+langchain
+langchain-core
+langgraph
+langsmith
+pydantic
+requests

@@ -1,0 +1,35 @@
+{
+  "dataset_name": "MGR-FM3-P2-Alzheimer-Evaluation-v0.1",
+  "version": "0.1",
+  "status": "CONTRACT_DEFINED",
+  "llm_execution": false,
+  "sample_type": "validated_project_artifacts",
+  "evaluation_cases": [
+    {
+      "case_id": "CASE_001",
+      "name": "Evidence Grounding",
+      "target": "evidence_traceability"
+    },
+    {
+      "case_id": "CASE_002",
+      "name": "Reasoning Trace",
+      "target": "reasoning_reproducibility"
+    },
+    {
+      "case_id": "CASE_003",
+      "name": "Critique Preservation",
+      "target": "uncertainty_and_knowledge_gaps"
+    },
+    {
+      "case_id": "CASE_004",
+      "name": "Decision Traceability",
+      "target": "decision_support_traceability"
+    },
+    {
+      "case_id": "CASE_005",
+      "name": "Human Review Safety",
+      "target": "human_review_gate"
+    }
+  ],
+  "evaluation_criteria_count": 14
+}

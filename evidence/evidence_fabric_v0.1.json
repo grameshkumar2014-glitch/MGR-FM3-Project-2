@@ -1,0 +1,237 @@
+{
+  "artifact": "MGR FM3 Project 2 Evidence Fabric",
+  "version": "0.1",
+  "created_at_utc": "2026-09-27T10:31:57.961012+00:00",
+  "disease": "Alzheimer disease",
+  "records": [
+    {
+      "evidence_id": "EVID-36597577",
+      "source_type": "PubMed",
+      "pmid": "36597577",
+      "title": "Mitochondria in Aging and Alzheimer's Disease: Focus on Mitophagy.",
+      "abstract_present": true,
+      "provenance": {
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "4d271e9f793bc6aecafe686c1acc8a5bf8fb56c99adb82de4c7fc1741362000b"
+      },
+      "curation": {
+        "normalized": true,
+        "deduplicated": true,
+        "entity_resolution_status": "CONTROLLED_RECORD",
+        "human_verified": false
+      },
+      "safety": {
+        "scientific_conclusion": false,
+        "clinical_recommendation": false,
+        "requires_human_review": true
+      }
+    },
+    {
+      "evidence_id": "EVID-36940723",
+      "source_type": "PubMed",
+      "pmid": "36940723",
+      "title": "AGEs RAGE Pathways: Alzheimer's Disease.",
+      "abstract_present": true,
+      "provenance": {
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "244cf5af221dffb2db8d38c1681ad2a8cfb8547795b3a2408a56f817e9d5a858"
+      },
+      "curation": {
+        "normalized": true,
+        "deduplicated": true,
+        "entity_resolution_status": "CONTROLLED_RECORD",
+        "human_verified": false
+      },
+      "safety": {
+        "scientific_conclusion": false,
+        "clinical_recommendation": false,
+        "requires_human_review": true
+      }
+    },
+    {
+      "evidence_id": "EVID-40088370",
+      "source_type": "PubMed",
+      "pmid": "40088370",
+      "title": "Interplay between PI3k/AKT signaling and caspase pathway in Alzheimer disease: mechanism and therapeutic implications.",
+      "abstract_present": true,
+      "provenance": {
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "1eaebf3158fde4d35c53a46870578d9a1ed54674e5e29844358b710963f41dc8"
+      },
+      "curation": {
+        "normalized": true,
+        "deduplicated": true,
+        "entity_resolution_status": "CONTROLLED_RECORD",
+        "human_verified": false
+      },
+      "safety": {
+        "scientific_conclusion": false,
+        "clinical_recommendation": false,
+        "requires_human_review": true
+      }
+    },
+    {
+      "evidence_id": "EVID-17622778",
+      "source_type": "PubMed",
+      "pmid": "17622778",
+      "title": "Current insights into molecular mechanisms of Alzheimer disease and their implications for therapeutic approaches.",
+      "abstract_present": true,
+      "provenance": {
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "01562f5b4a0f7f7ad5ae52a3677c35652e69066a966e00c4a1ad25773b5d5f6f"
+      },
+      "curation": {
+        "normalized": true,
+        "deduplicated": true,
+        "entity_resolution_status": "CONTROLLED_RECORD",
+        "human_verified": false
+      },
+      "safety": {
+        "scientific_conclusion": false,
+        "clinical_recommendation": false,
+        "requires_human_review": true
+      }
+    },
+    {
+      "evidence_id": "EVID-36155517",
+      "source_type": "PubMed",
+      "pmid": "36155517",
+      "title": "An Alzheimer's Disease Mechanism Based on Early Pathology, Anatomy, Vascular-Induced Flow, and Migration of Maximum Flow Stress Energy Location with Increasing Vascular Disease.",
+      "abstract_present": true,
+      "provenance": {
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "1c8d4ab6d918ada5f1907aba6c8c87182cb7a1673a026c05d8e603ed0992096e"
+      },
+      "curation": {
+        "normalized": true,
+        "deduplicated": true,
+        "entity_resolution_status": "CONTROLLED_RECORD",
+        "human_verified": false
+      },
+      "safety": {
+        "scientific_conclusion": false,
+        "clinical_recommendation": false,
+        "requires_human_review": true
+      }
+    },
+    {
+      "evidence_id": "EVID-27654282",
+      "source_type": "PubMed",
+      "pmid": "27654282",
+      "title": "Potential of the Antibody Against cis-Phosphorylated Tau in the Early Diagnosis, Treatment, and Prevention of Alzheimer Disease and Brain Injury.",
+      "abstract_present": true,
+      "provenance": {
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "1fb07810c3e412684c4c77a3e30b8f4184ff38993f60b56dea6989e0eb6e8fd3"
+      },
+      "curation": {
+        "normalized": true,
+        "deduplicated": true,
+        "entity_resolution_status": "CONTROLLED_RECORD",
+        "human_verified": false
+      },
+      "safety": {
+        "scientific_conclusion": false,
+        "clinical_recommendation": false,
+        "requires_human_review": true
+      }
+    },
+    {
+      "evidence_id": "EVID-16472207",
+      "source_type": "PubMed",
+      "pmid": "16472207",
+      "title": "Amyloid beta: the alternate hypothesis.",
+      "abstract_present": true,
+      "provenance": {
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "ae2871a0205fd1d1a83e84cb7c927344cf8ddcc9c183194a1d8fe8bd25b70b1b"
+      },
+      "curation": {
+        "normalized": true,
+        "deduplicated": true,
+        "entity_resolution_status": "CONTROLLED_RECORD",
+        "human_verified": false
+      },
+      "safety": {
+        "scientific_conclusion": false,
+        "clinical_recommendation": false,
+        "requires_human_review": true
+      }
+    },
+    {
+      "evidence_id": "EVID-20008648",
+      "source_type": "PubMed",
+      "pmid": "20008648",
+      "title": "Mild cognitive impairment: ten years later.",
+      "abstract_present": true,
+      "provenance": {
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "f8a4348d03654e7baff93f43e42f34f498b81bbc2078bd72ff8e902d5312e38d"
+      },
+      "curation": {
+        "normalized": true,
+        "deduplicated": true,
+        "entity_resolution_status": "CONTROLLED_RECORD",
+        "human_verified": false
+      },
+      "safety": {
+        "scientific_conclusion": false,
+        "clinical_recommendation": false,
+        "requires_human_review": true
+      }
+    },
+    {
+      "evidence_id": "EVID-28985936",
+      "source_type": "PubMed",
+      "pmid": "28985936",
+      "title": "Applications of Resting-State Functional Connectivity to Neurodegenerative Disease.",
+      "abstract_present": true,
+      "provenance": {
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "a7562643fafdb6932c83c430d3e2c60d647fd9b2bad549508e219b8f6af14812"
+      },
+      "curation": {
+        "normalized": true,
+        "deduplicated": true,
+        "entity_resolution_status": "CONTROLLED_RECORD",
+        "human_verified": false
+      },
+      "safety": {
+        "scientific_conclusion": false,
+        "clinical_recommendation": false,
+        "requires_human_review": true
+      }
+    },
+    {
+      "evidence_id": "EVID-22306201",
+      "source_type": "PubMed",
+      "pmid": "22306201",
+      "title": "RNA modifications by oxidation: a novel disease mechanism?",
+      "abstract_present": true,
+      "provenance": {
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "33abdb7818e0d96a3bdda9f5c328a927464183f41d95f00cf479577e4f773aaa"
+      },
+      "curation": {
+        "normalized": true,
+        "deduplicated": true,
+        "entity_resolution_status": "CONTROLLED_RECORD",
+        "human_verified": false
+      },
+      "safety": {
+        "scientific_conclusion": false,
+        "clinical_recommendation": false,
+        "requires_human_review": true
+      }
+    }
+  ],
+  "pipeline": [
+    "raw_source",
+    "normalize",
+    "deduplicate",
+    "controlled_entity_record",
+    "provenance",
+    "human_review_required"
+  ],
+  "scientific_conclusions_enabled": false
+}

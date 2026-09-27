@@ -1,0 +1,46 @@
+{
+  "engine_id": 5,
+  "engine_name": "NewMolecule",
+  "domain": "Molecule Intelligence",
+  "purpose": "Organize candidate-molecule evidence and development considerations.",
+  "version": "0.1",
+  "status": "ARCHITECTURE_VALIDATED",
+  "execution_mode": "DETERMINISTIC_BASELINE",
+  "scientific_validation_status": "NOT_YET_VALIDATED",
+  "llm_execution": false,
+  "scientific_conclusions_enabled": false,
+  "human_review_required": true,
+  "required_evidence": [
+    "molecule",
+    "target",
+    "mechanism"
+  ],
+  "dependencies": [
+    "Target",
+    "Mechanism",
+    "Modality"
+  ],
+  "input_schema": {
+    "evidence_records": "list",
+    "knowledge_graph": "object",
+    "uncertainty": "list",
+    "contradictions": "list"
+  },
+  "output_schema": {
+    "engine_id": "string",
+    "engine_name": "string",
+    "evidence_count": "integer",
+    "evidence_ids": "list",
+    "knowledge_gaps": "list",
+    "uncertainties": "list",
+    "status": "string",
+    "human_review_required": "boolean"
+  },
+  "guardrails": {
+    "no_unsupported_inference": true,
+    "no_automatic_clinical_recommendation": true,
+    "evidence_traceability_required": true,
+    "uncertainty_required": true,
+    "human_review_required": true
+  }
+}

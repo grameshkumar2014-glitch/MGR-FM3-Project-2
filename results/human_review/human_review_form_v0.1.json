@@ -1,0 +1,25 @@
+{
+  "review_id": "MGR-FM3-P2-HR-0001",
+  "reviewer_identity": null,
+  "review_date_utc": null,
+  "decision_options": [
+    "APPROVE",
+    "REJECT",
+    "REQUEST_REVISION",
+    "ESCALATE"
+  ],
+  "required_review_fields": {
+    "evidence_reviewed": false,
+    "citations_checked": false,
+    "uncertainties_reviewed": false,
+    "knowledge_gaps_reviewed": false,
+    "safety_controls_reviewed": false,
+    "comments_entered": false,
+    "final_decision_entered": false
+  },
+  "decision": null,
+  "comments": [],
+  "evidence_concerns": [],
+  "required_follow_up_actions": [],
+  "signature_or_confirmation": null
+}

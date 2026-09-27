@@ -1,0 +1,50 @@
+[
+  {
+    "target_id": "CT001",
+    "name": "Evidence Grounding",
+    "question": "Does every factual reasoning item have traceable evidence?",
+    "failure_action": "REQUEST_EVIDENCE"
+  },
+  {
+    "target_id": "CT002",
+    "name": "Source Traceability",
+    "question": "Can every evidence item be traced to its source record?",
+    "failure_action": "REPAIR_PROVENANCE"
+  },
+  {
+    "target_id": "CT003",
+    "name": "Known versus Inferred",
+    "question": "Are observations clearly separated from inference?",
+    "failure_action": "SEPARATE_CLAIM_TYPES"
+  },
+  {
+    "target_id": "CT004",
+    "name": "Uncertainty",
+    "question": "Are uncertainty and confidence limitations preserved?",
+    "failure_action": "PRESERVE_UNCERTAINTY"
+  },
+  {
+    "target_id": "CT005",
+    "name": "Knowledge Gaps",
+    "question": "Are missing evidence and unresolved questions explicitly recorded?",
+    "failure_action": "REQUEST_ADDITIONAL_EVIDENCE"
+  },
+  {
+    "target_id": "CT006",
+    "name": "Contradictions",
+    "question": "Are conflicting evidence signals preserved rather than hidden?",
+    "failure_action": "ESCALATE_CONFLICT"
+  },
+  {
+    "target_id": "CT007",
+    "name": "Unsupported Inference",
+    "question": "Has any conclusion been introduced without sufficient evidence?",
+    "failure_action": "BLOCK_REASONING"
+  },
+  {
+    "target_id": "CT008",
+    "name": "Human Review",
+    "question": "Does the workflow route high-consequence reasoning to human review?",
+    "failure_action": "REQUIRE_HUMAN_REVIEW"
+  }
+]

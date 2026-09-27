@@ -1,0 +1,246 @@
+{
+  "artifact": "MGR-FM3-P2-LangSmith-Evaluation-Package",
+  "version": "0.1",
+  "created_utc": "2026-09-27T10:47:36.931064+00:00",
+  "tracing_contract": {
+    "artifact": "MGR-FM3-P2-LangSmith-Tracing-Contract",
+    "version": "0.1",
+    "purpose": "Define observability, tracing, evaluation, monitoring, and reproducibility requirements for the Alzheimer Disease Intelligence Engine.",
+    "platform": "LangSmith",
+    "framework_compatibility": [
+      "LangChain",
+      "LangGraph"
+    ],
+    "tracing_mode": "CONTRACT_DEFINED",
+    "live_tracing": false,
+    "api_key_required_for_live_execution": true,
+    "llm_execution": false,
+    "scientific_conclusions": false,
+    "human_review_required": true,
+    "trace_requirements": [
+      "workflow_run",
+      "state_transition",
+      "agent_execution",
+      "tool_execution",
+      "evidence_retrieval",
+      "reasoning_step",
+      "critique_step",
+      "decision_support_step",
+      "human_review_step"
+    ],
+    "trace_metadata": [
+      "project_id",
+      "checkpoint_id",
+      "run_id",
+      "agent_id",
+      "tool_id",
+      "input_hash",
+      "output_hash",
+      "evidence_ids",
+      "uncertainty_ids",
+      "knowledge_gap_ids",
+      "review_status",
+      "timestamp"
+    ]
+  },
+  "evaluation_criteria": [
+    {
+      "criterion_id": "EVAL_01",
+      "name": "Correctness",
+      "description": "Is the generated result consistent with validated inputs?"
+    },
+    {
+      "criterion_id": "EVAL_02",
+      "name": "Evidence Quality",
+      "description": "Is the supporting evidence appropriate and traceable?"
+    },
+    {
+      "criterion_id": "EVAL_03",
+      "name": "Citation Accuracy",
+      "description": "Are claims correctly linked to supporting evidence?"
+    },
+    {
+      "criterion_id": "EVAL_04",
+      "name": "Tool Selection",
+      "description": "Were appropriate tools selected for the task?"
+    },
+    {
+      "criterion_id": "EVAL_05",
+      "name": "Reasoning Path",
+      "description": "Is the reasoning workflow traceable and reproducible?"
+    },
+    {
+      "criterion_id": "EVAL_06",
+      "name": "Completeness",
+      "description": "Are required evidence and decision dimensions represented?"
+    },
+    {
+      "criterion_id": "EVAL_07",
+      "name": "Safety",
+      "description": "Are human review and scientific safety controls preserved?"
+    },
+    {
+      "criterion_id": "EVAL_08",
+      "name": "Reproducibility",
+      "description": "Can the workflow be reconstructed from stored artifacts?"
+    },
+    {
+      "criterion_id": "EVAL_09",
+      "name": "Uncertainty Calibration",
+      "description": "Are uncertainty and knowledge gaps preserved?"
+    },
+    {
+      "criterion_id": "EVAL_10",
+      "name": "Human Acceptance",
+      "description": "Can a qualified reviewer inspect and approve the output?"
+    },
+    {
+      "criterion_id": "EVAL_11",
+      "name": "Contradiction Handling",
+      "description": "Are contradictions detected and preserved without unsupported resolution?"
+    },
+    {
+      "criterion_id": "EVAL_12",
+      "name": "Decision Traceability",
+      "description": "Can decision-support elements be traced to upstream evidence?"
+    },
+    {
+      "criterion_id": "EVAL_13",
+      "name": "Latency",
+      "description": "Can execution time be measured for workflow components?"
+    },
+    {
+      "criterion_id": "EVAL_14",
+      "name": "Cost",
+      "description": "Can model and tool execution cost be measured when activated?"
+    }
+  ],
+  "evaluation_dataset": {
+    "dataset_name": "MGR-FM3-P2-Alzheimer-Evaluation-v0.1",
+    "version": "0.1",
+    "status": "CONTRACT_DEFINED",
+    "llm_execution": false,
+    "sample_type": "validated_project_artifacts",
+    "evaluation_cases": [
+      {
+        "case_id": "CASE_001",
+        "name": "Evidence Grounding",
+        "target": "evidence_traceability"
+      },
+      {
+        "case_id": "CASE_002",
+        "name": "Reasoning Trace",
+        "target": "reasoning_reproducibility"
+      },
+      {
+        "case_id": "CASE_003",
+        "name": "Critique Preservation",
+        "target": "uncertainty_and_knowledge_gaps"
+      },
+      {
+        "case_id": "CASE_004",
+        "name": "Decision Traceability",
+        "target": "decision_support_traceability"
+      },
+      {
+        "case_id": "CASE_005",
+        "name": "Human Review Safety",
+        "target": "human_review_gate"
+      }
+    ],
+    "evaluation_criteria_count": 14
+  },
+  "trace_schema": {
+    "trace_id": "unique_run_identifier",
+    "parent_trace_id": "optional_parent_run_identifier",
+    "project_id": "MGR-FM3-PROJECT-2",
+    "checkpoint_id": "workflow_checkpoint",
+    "component_type": [
+      "workflow",
+      "agent",
+      "tool",
+      "reasoning",
+      "critique",
+      "decision",
+      "human_review"
+    ],
+    "timestamp": "UTC ISO-8601",
+    "input_hash": "SHA256",
+    "output_hash": "SHA256",
+    "evidence_ids": [],
+    "uncertainty_ids": [],
+    "knowledge_gap_ids": [],
+    "contradiction_ids": [],
+    "status": "string",
+    "review_status": "string",
+    "error": null
+  },
+  "monitoring_contract": {
+    "metrics": [
+      "run_count",
+      "success_rate",
+      "failure_rate",
+      "latency",
+      "tool_usage",
+      "evidence_retrieval_count",
+      "citation_coverage",
+      "uncertainty_preservation",
+      "knowledge_gap_preservation",
+      "contradiction_detection",
+      "human_review_rate",
+      "human_rejection_rate",
+      "human_escalation_rate",
+      "model_cost",
+      "tool_cost"
+    ],
+    "alerts": [
+      "unsupported_inference",
+      "missing_evidence",
+      "missing_citation",
+      "schema_failure",
+      "contradiction_detected",
+      "safety_gate_failure",
+      "human_review_bypass",
+      "reproducibility_failure"
+    ],
+    "automatic_scientific_decision": false
+  },
+  "safety_contract": {
+    "llm_execution": false,
+    "scientific_conclusions": false,
+    "automatic_decision": false,
+    "human_review_required": true,
+    "unsupported_inference_blocked": true,
+    "automatic_critique_iteration": false,
+    "automatic_contradiction_resolution": false,
+    "agent_source_links_fabricated": false,
+    "auditability_required": true,
+    "reproducibility_required": true
+  },
+  "reproducibility_contract": {
+    "persistent_storage": "Google Drive",
+    "project_root": "/content/drive/MyDrive/MGR-FM3-PROJECT-2",
+    "version_control": "GitHub",
+    "trace_platform": "LangSmith",
+    "artifact_storage": "Google Drive",
+    "required_metadata": [
+      "timestamp",
+      "checkpoint",
+      "project_version",
+      "artifact_version",
+      "input_hash",
+      "output_hash"
+    ],
+    "environment_capture": true,
+    "configuration_capture": true,
+    "prompt_versioning": true,
+    "evidence_provenance": true,
+    "human_review_audit": true
+  },
+  "upstream_validation": {
+    "checkpoint_7_evaluation": true,
+    "checkpoint_13_reasoning": true,
+    "checkpoint_14_critique": true,
+    "checkpoint_15_decision": true
+  }
+}

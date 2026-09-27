@@ -1,0 +1,13 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "project_name": "Alzheimer Disease Intelligence Engine",
+  "disease": "Alzheimer Disease",
+  "framework": "LangChain",
+  "orchestration": "LangGraph",
+  "observability": "LangSmith",
+  "storage": "Google Drive",
+  "version": "0.1.0",
+  "llm_execution": false,
+  "scientific_conclusions_enabled": false,
+  "human_review_required": true
+}

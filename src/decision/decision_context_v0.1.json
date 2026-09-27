@@ -1,0 +1,15 @@
+{
+  "disease": "Alzheimer Disease",
+  "project": "MGR-FM3-PROJECT-2",
+  "evidence_records": 10,
+  "knowledge_graph_available": true,
+  "wisdom_engines_available": 24,
+  "wisdom_baseline_outputs": 24,
+  "reasoning_modules_available": 7,
+  "reasoning_rules_available": 8,
+  "reasoning_graph_nodes": 11,
+  "reasoning_graph_edges": 12,
+  "critique_targets": 8,
+  "critique_findings": 6,
+  "critique_loop_status": "READY_FOR_REVIEW"
+}

@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: "MGR-FM3 Project 2 - Alzheimer Disease Intelligence Engine"
+version: "0.1"
+date-released: "2026-09-27"
+type: software
+abstract: "Agentic AI architecture for evidence-centered Alzheimer Disease intelligence and decision support."
+license: MIT

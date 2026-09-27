@@ -1,0 +1,151 @@
+{
+  "project": "MGR FM3 - Project 2",
+  "disease": "Alzheimer Disease",
+  "evidence_type": "PubMed literature",
+  "query": "\"Alzheimer Disease\"[Title/Abstract] AND \"disease mechanism\"[Title/Abstract]",
+  "record_count": 10,
+  "unique_pmid_count": 10,
+  "records": [
+    {
+      "pmid": "36597577",
+      "title": "Mitochondria in Aging and Alzheimer's Disease: Focus on Mitophagy.",
+      "abstract": "Alzheimer's disease (AD) is characterized by the accumulation of amyloid \u03b2 and phosphorylated \u03c4 protein aggregates in the brain, which leads to the loss of neurons. Under the microscope, the function of mitochondria is uniquely primed to play a pivotal role in neuronal cell survival, energy metabolism, and cell death. Research studies indicate that mitochondrial dysfunction, excessive oxidative damage, and defective mitophagy in neurons are early indicators of AD. This review article summarizes the latest development of mitochondria in AD: 1) disease mechanism pathways, 2) the importance of mitochondria in neuronal functions, 3) metabolic pathways and functions, 4) the link between mitochondrial dysfunction and mitophagy mechanisms in AD, and 5) the development of potential mitochondrial-targeted therapeutics and interventions to treat patients with AD.",
+      "journal": "The Neuroscientist : a review journal bringing neurobiology, neurology and psychiatry",
+      "publication_year": "2024",
+      "source": "PubMed",
+      "query": "\"Alzheimer Disease\"[Title/Abstract] AND \"disease mechanism\"[Title/Abstract]",
+      "provenance": {
+        "database": "PubMed",
+        "pmid": "36597577",
+        "retrieval_utc": "2026-09-27T10:18:09.004436+00:00"
+      }
+    },
+    {
+      "pmid": "36940723",
+      "title": "AGEs RAGE Pathways: Alzheimer's Disease.",
+      "abstract": "Neurofibrillary tangles and plaques containing tau serve as the biological markers for Alzheimer disease (AD) and pathogenesis is widely believed to be driven by the production and deposition of the \u03b2-amyloid peptide (A\u03b2). The \u03b2-amyloid peptide (A\u03b2) that results from the modification of the amyloid precursor protein (APP) by builds up as amyloid deposits in neuronal cells. Thus, a protein misfolding process is involved in the production of amyloid. In a native, aqueous buffer, amyloid fibrils are usually exceedingly stable and nearly insoluble. Although amyloid is essentially a foreign substance made of self-proteins, the immune system has difficulty identifying and eliminating it as such for unknown reasons. While the amyloidal deposit may have a direct role in the disease mechanism in some disease states involving amyloidal deposition, this is not always the case. Current research has shown that PS1 (presenilin 1) and BACE (beta-site APP-cleaving enzyme) have - and -secretase activity that increases \u03b2-amyloid peptide (A\u03b2). Wealth of data has shown that oxidative stress and AD are closely connected that causes the death of neuronal cells by producing reactive oxygen species (ROS). Additionally, it has been demonstrated that advanced glycation end products (AGEs) and \u03b2-amyloidal peptide (A\u03b2) together increase neurotoxicity. The objective of this review is to compile the most recent and intriguing data of AGEs and receptor for advanced glycation end products (RAGE) pathways which are responsible for AD.",
+      "journal": "Drug research",
+      "publication_year": "2023",
+      "source": "PubMed",
+      "query": "\"Alzheimer Disease\"[Title/Abstract] AND \"disease mechanism\"[Title/Abstract]",
+      "provenance": {
+        "database": "PubMed",
+        "pmid": "36940723",
+        "retrieval_utc": "2026-09-27T10:18:09.004490+00:00"
+      }
+    },
+    {
+      "pmid": "40088370",
+      "title": "Interplay between PI3k/AKT signaling and caspase pathway in Alzheimer disease: mechanism and therapeutic implications.",
+      "abstract": "Alzheimer's disease, a neurodegenerative disorder, is characterized by cognitive impairment, neuronal loss, and synaptic dysfunction. The interplay between the phosphoinositide 3-kinase/protein kinase B (PI3K/AKT) signaling pathway and the caspase-mediated apoptotic cascade plays a pivotal role in its progression. The signaling pathway responsible for neuronal survival also regulates synaptic plasticity and resistance to oxidative stress, whereas caspase activation accelerates neurodegeneration by triggering cell death and inflammation. Dysregulation of these pathways leads to amyloid-beta (A\u03b2) accumulation, tau hyperphosphorylation, and mitochondrial dysfunction, creating a negative feedback loop and accelerating disease progression. Emerging treatment methods that target PI3K/AKT activation and caspase inhibition have showed promise in preclinical models, preventing neuronal apoptosis while retaining cognitive function. This review investigates the molecular processes driving PI3K/AKT and caspase crosstalk, their significance in Alzheimer's disease, and prospective therapeutic strategies aiming at regulating these pathways to improve disease outcomes.",
+      "journal": "Inflammopharmacology",
+      "publication_year": "2025",
+      "source": "PubMed",
+      "query": "\"Alzheimer Disease\"[Title/Abstract] AND \"disease mechanism\"[Title/Abstract]",
+      "provenance": {
+        "database": "PubMed",
+        "pmid": "40088370",
+        "retrieval_utc": "2026-09-27T10:18:09.004537+00:00"
+      }
+    },
+    {
+      "pmid": "17622778",
+      "title": "Current insights into molecular mechanisms of Alzheimer disease and their implications for therapeutic approaches.",
+      "abstract": "During the last 10 years, a lot of progress has been made in unraveling the pathogenic cascade leading to Alzheimer disease (AD). According to the most widely accepted hypothesis, production and aggregation of the amyloid beta (Abeta) peptide plays a key role in AD, and thus therapeutic interference with these processes is the subject of intense research. However, some important aspects of the disease mechanism are not yet fully understood. There is no consensus as yet on whether the disease acts through a loss- (LOF) or a gain-of-function (GOF) mechanism. While for many years, an increased production of Abeta42 was considered to be the prime culprit for the initiation of the disease process, and accordingly Abeta42 is elevated by AD-related presenilin(PS) mutations, recent data strongly suggest that PS mutations also lead to a LOF of PS towards a plethora of its substrates including amyloid precursor protein. How this PS LOF, especially decreased Abeta40 secretion due to mutant PS, impacts on the disease pathogenesis is yet to be elucidated. Secondly, vascular abnormalities--frequently observed to co-occur with AD--might also play a critical role in the initiation and aggravation of AD pathology given that the elimination of Abeta through a vascular route is an important brain Abeta clearance mechanism and its failure leads to formation of vascular amyloidosis and dense-core plaques. In this review, we will first focus on the important issue of a LOF versus a GOF mechanism for AD due to mutant PS, as well as on the possible role of vascular damage and reduced perfusion in AD. Special emphasis will be given to some of the AD mouse models that have helped to gain insights into the disease mechanism. Secondly, considering these mechanistic insights, we will discuss some therapeutic strategies which are currently in clinical or preclinical trials for AD.",
+      "journal": "Neuro-degenerative diseases",
+      "publication_year": "2007",
+      "source": "PubMed",
+      "query": "\"Alzheimer Disease\"[Title/Abstract] AND \"disease mechanism\"[Title/Abstract]",
+      "provenance": {
+        "database": "PubMed",
+        "pmid": "17622778",
+        "retrieval_utc": "2026-09-27T10:18:09.004561+00:00"
+      }
+    },
+    {
+      "pmid": "36155517",
+      "title": "An Alzheimer's Disease Mechanism Based on Early Pathology, Anatomy, Vascular-Induced Flow, and Migration of Maximum Flow Stress Energy Location with Increasing Vascular Disease.",
+      "abstract": "This paper suggests a chemical mechanism for the earliest stages of Alzheimer's disease (AD). Cerebrospinal fluid (CSF) flow stresses provide the energy needed to induce molecular conformation changes leading to AD by initiating amyloid-\u03b2 (A\u03b2) and tau aggregation. Shear and extensional flow stresses initiate aggregation in the laboratory and in natural biophysical processes. Energy-rich CSF flow regions are mainly found in lower brain regions. MRI studies reveal flow stress \"hot spots\" in basal cisterns and brain ventricles that have chaotic flow properties that can distort molecules such as A\u03b2 and tau trapped in these regions into unusual conformations. Such fluid disturbance is surrounded by tissue deformation. There is strong mapping overlap between the locations of these hot spots and of early-stage AD pathology. Our mechanism creates pure and mixed protein dimers, followed by tissue surface adsorption, and long-term tissue agitation ultimately inducing chemical reactions forming more stable, toxic oligomer seeds that initiate AD. It is proposed that different flow stress energies and flow types in different basal brain regions produce different neurotoxic aggregates. Proliferating artery hardening is responsible for enhanced heart systolic pulses that drive energetic CSF pulses, whose critical maximum systolic pulse energy location migrates further from the heart with increasing vascular disease. Two glymphatic systems, carotid and basilar, are suggested to contain the earliest A\u03b2 and tau AD disease pathologies. A key to the proposed AD mechanism is a comparison of early chronic traumatic encephalopathy and AD pathologies. Experiments that test the proposed mechanism are needed.",
+      "journal": "Journal of Alzheimer's disease : JAD",
+      "publication_year": "2022",
+      "source": "PubMed",
+      "query": "\"Alzheimer Disease\"[Title/Abstract] AND \"disease mechanism\"[Title/Abstract]",
+      "provenance": {
+        "database": "PubMed",
+        "pmid": "36155517",
+        "retrieval_utc": "2026-09-27T10:18:09.004598+00:00"
+      }
+    },
+    {
+      "pmid": "27654282",
+      "title": "Potential of the Antibody Against cis-Phosphorylated Tau in the Early Diagnosis, Treatment, and Prevention of Alzheimer Disease and Brain Injury.",
+      "abstract": "Alzheimer disease (AD) and chronic traumatic encephalopathy (CTE) share a common neuropathologic signature-neurofibrillary tangles made of phosphorylated tau-but do not have the same pathogenesis or symptoms. Although whether traumatic brain injury (TBI) could cause AD has not been established, CTE is shown to be associated with TBI. Until recently, whether and how TBI leads to tau-mediated neurodegeneration was unknown. The unique prolyl isomerase Pin1 protects against the development of tau-mediated neurodegeneration in AD by converting the phosphorylated Thr231-Pro motif in tau (ptau) from the pathogenic cis conformation to the physiologic trans conformation, thereby restoring ptau function. The recent development of antibodies able to distinguish and eliminate both conformations specifically has led to the discovery of cis-ptau as a precursor of tau-induced pathologic change and an early driver of neurodegeneration that directly links TBI to CTE and possibly to AD. Within hours of TBI in mice or neuronal stress in vitro, neurons prominently produce cis-ptau, which causes and spreads cis-ptau pathologic changes, termed cistauosis. Cistauosis eventually leads to widespread tau-mediated neurodegeneration and brain atrophy. Cistauosis is effectively blocked by the cis-ptau antibody, which targets intracellular cis-ptau for proteasome-mediated degradation and prevents extracellular cis-ptau from spreading to other neurons. Treating TBI mice with cis-ptau antibody not only blocks early cistauosis but also prevents development and spreading of tau-mediated neurodegeneration and brain atrophy and restores brain histopathologic features and functional outcomes. Thus, cistauosis is a common early disease mechanism for AD, TBI, and CTE, and cis-ptau and its antibody may be useful for early diagnosis, treatment, and prevention of these devastating diseases.",
+      "journal": "JAMA neurology",
+      "publication_year": "2016",
+      "source": "PubMed",
+      "query": "\"Alzheimer Disease\"[Title/Abstract] AND \"disease mechanism\"[Title/Abstract]",
+      "provenance": {
+        "database": "PubMed",
+        "pmid": "27654282",
+        "retrieval_utc": "2026-09-27T10:18:09.004621+00:00"
+      }
+    },
+    {
+      "pmid": "16472207",
+      "title": "Amyloid beta: the alternate hypothesis.",
+      "abstract": "Alzheimer disease (AD) is a devastating condition and patients, caregivers, clinicians, and scientists are eager to decipher the underlying disease mechanism and, thereafter, target this therapeutically. Most investigators studying the underlying cause of AD have focused on amyloid-beta (Abeta) such that the Amyloid Cascade Hypothesis is the predominant mechanism thought to be responsible for the disease. However, a number of caveats have led us to seriously question the validity of this hypothesis. First, in addition to increases in Abeta, genetic mutations in AD lead to increased vulnerability to oxidative/apoptotic insults indicating that the mutated protein disturbs redox balance. Whether mutations result in Abeta deposition that then causes oxidative stress or whether mutations cause oxidative stress that results in Abeta deposition is unclear. Indeed, while in vitro experiments show that Abeta can directly cause oxidative stress to cells in culture, it is apparent from other studies that the reverse is also true, namely that oxidative stress leads to increases in Abeta. Notably, in vivo studies in both sporadic and genetic forms of the disease show that oxidative stress temporally precedes increases in Abeta and that increases in Abeta are associated with a decrease in oxidative stress. Based on these findings, we herein propose an Alternate Amyloid Hypothesis in which pathogenic factors for disease lead to increased oxidative stress that then leads to increases in Abeta. Further, we propose that Abeta serves as a redox sensor and that oxidatively-induced Abeta serves to attenuate oxidative stress. Obviously, whether Abeta is the culprit, as argued by the Amyloid Cascade Hypothesis, or a much maligned protector, as argued by the Alternate Amyloid Hypothesis, is clearly important to decipher to advance our understanding and design efficacious therapeutics for this disease.",
+      "journal": "Current Alzheimer research",
+      "publication_year": "2006",
+      "source": "PubMed",
+      "query": "\"Alzheimer Disease\"[Title/Abstract] AND \"disease mechanism\"[Title/Abstract]",
+      "provenance": {
+        "database": "PubMed",
+        "pmid": "16472207",
+        "retrieval_utc": "2026-09-27T10:18:09.004642+00:00"
+      }
+    },
+    {
+      "pmid": "20008648",
+      "title": "Mild cognitive impairment: ten years later.",
+      "abstract": "In the past 10 years, there has been a virtual explosion in the literature concerning the construct of mild cognitive impairment. The interest in this topic demonstrates the increasing emphasis on the identification of the earliest features of cognitive disorders such as Alzheimer disease and other dementias. Mild cognitive impairment represents the earliest clinical features of these conditions and, hence, has become a focus of clinical, epidemiologic, neuroimaging, biomarker, neuropathological, disease mechanism, and clinical trials research. This review summarizes the progress that has been made while also recognizing the challenges that remain.",
+      "journal": "Archives of neurology",
+      "publication_year": "2009",
+      "source": "PubMed",
+      "query": "\"Alzheimer Disease\"[Title/Abstract] AND \"disease mechanism\"[Title/Abstract]",
+      "provenance": {
+        "database": "PubMed",
+        "pmid": "20008648",
+        "retrieval_utc": "2026-09-27T10:18:09.004671+00:00"
+      }
+    },
+    {
+      "pmid": "28985936",
+      "title": "Applications of Resting-State Functional Connectivity to Neurodegenerative Disease.",
+      "abstract": "Neurodegenerative diseases target specific large-scale neuronal networks, leading to distinct behavioral and cognitive dysfunctions. Resting-state functional magnetic resonance imaging (rsfMR imaging)-based functional connectivity method maps symptoms-associated functional network deterioration in\u00a0vivo. This article summarizes accumulating functional connectivity findings supporting the network-based neurodegeneration hypothesis. Understanding of disease mechanism can further guide early detection and predictions of disease progression and inform development of more effective treatment. With better clinical phenotyping and larger samples across multiple sites, we discuss several possible future directions to further develop rsfMR imaging-based functional connectivity methods into scientifically and clinically useful assays for neurodegenerative disorders.",
+      "journal": "Neuroimaging clinics of North America",
+      "publication_year": "2017",
+      "source": "PubMed",
+      "query": "\"Alzheimer Disease\"[Title/Abstract] AND \"disease mechanism\"[Title/Abstract]",
+      "provenance": {
+        "database": "PubMed",
+        "pmid": "28985936",
+        "retrieval_utc": "2026-09-27T10:18:09.004693+00:00"
+      }
+    },
+    {
+      "pmid": "22306201",
+      "title": "RNA modifications by oxidation: a novel disease mechanism?",
+      "abstract": "The past decade has provided exciting insights into a novel class of central (small) RNA molecules intimately involved in gene regulation. Only a small percentage of our DNA is translated into proteins by mRNA, yet 80% or more of the DNA is transcribed into RNA, and this RNA has been found to encompass various classes of novel regulatory RNAs, including, e.g., microRNAs. It is well known that DNA is constantly oxidized and repaired by complex genome maintenance mechanisms. Analogously, RNA also undergoes significant oxidation, and there are now convincing data suggesting that oxidation, and the consequent loss of integrity of RNA, is a mechanism for disease development. Oxidized RNA is found in a large variety of diseases, and interest has been especially devoted to degenerative brain diseases such as Alzheimer disease, in which up to 50-70% of specific mRNA molecules are reported oxidized, whereas other RNA molecules show virtually no oxidation. The iron-storage disease hemochromatosis exhibits the most prominent general increase in RNA oxidation ever observed. Oxidation of RNA primarily leads to strand breaks and to oxidative base modifications. Oxidized mRNA is recognized by the ribosomes, but the oxidation results in ribosomal stalling and dysfunction, followed by decreased levels of functional protein as well as the production of truncated proteins that do not undergo proper folding and may result in protein aggregation within the cell. Ribosomal dysfunction may also signal apoptosis by p53-independent pathways. There are very few reports on interventions that reduce RNA oxidation, one interesting observation being a reduction in RNA oxidation by ingestion of raw olive oil. High urinary excretion of 8-oxo-guanosine, a biomarker for RNA oxidation, is highly predictive of death in newly diagnosed type 2 diabetics; this demonstrates the clinical relevance of RNA oxidation. Taken collectively the available data suggest that RNA oxidation is a contributing factor in several diseases such as diabetes, hemochromatosis, heart failure, and \u03b2-cell destruction. The mechanism involves free iron and hydrogen peroxide from mitochondrial dysfunction that together lead to RNA oxidation that in turn gives rise to truncated proteins that may cause aggregation. Thus RNA oxidation may well be an important novel contributing mechanism for several diseases.",
+      "journal": "Free radical biology & medicine",
+      "publication_year": "2012",
+      "source": "PubMed",
+      "query": "\"Alzheimer Disease\"[Title/Abstract] AND \"disease mechanism\"[Title/Abstract]",
+      "provenance": {
+        "database": "PubMed",
+        "pmid": "22306201",
+        "retrieval_utc": "2026-09-27T10:18:09.004763+00:00"
+      }
+    }
+  ],
+  "created_utc": "2026-09-27T10:18:09.005267+00:00"
+}

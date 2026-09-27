@@ -1,0 +1,20 @@
+{
+  "persistent_storage": "Google Drive",
+  "project_root": "/content/drive/MyDrive/MGR-FM3-PROJECT-2",
+  "version_control": "GitHub",
+  "trace_platform": "LangSmith",
+  "artifact_storage": "Google Drive",
+  "required_metadata": [
+    "timestamp",
+    "checkpoint",
+    "project_version",
+    "artifact_version",
+    "input_hash",
+    "output_hash"
+  ],
+  "environment_capture": true,
+  "configuration_capture": true,
+  "prompt_versioning": true,
+  "evidence_provenance": true,
+  "human_review_audit": true
+}

@@ -1,0 +1,20 @@
+{
+  "checkpoint": 15,
+  "status": "PASSED",
+  "decision_contract_valid": true,
+  "decision_context_valid": true,
+  "decision_options_valid": true,
+  "decision_criteria_valid": true,
+  "evidence_trace_enabled": true,
+  "uncertainty_preserved": true,
+  "knowledge_gaps_preserved": true,
+  "contradictions_preserved": true,
+  "human_review_required": true,
+  "automatic_decision": false,
+  "unsupported_inference_blocked": true,
+  "llm_execution": false,
+  "scientific_conclusions": false,
+  "agent_source_links_fabricated": false,
+  "validation": "PASSED",
+  "next_action": "CHECKPOINT_16_LANGSMITH_TRACING_AND_EVALUATION"
+}

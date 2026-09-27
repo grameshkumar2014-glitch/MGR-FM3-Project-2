@@ -1,0 +1,33 @@
+{
+  "checkpoint": 11,
+  "name": "Contradiction Detection",
+  "validation_timestamp_utc": "2026-09-27T10:32:46.348949+00:00",
+  "status": "PASSED",
+  "checks": {
+    "evidence_fabric_exists": true,
+    "knowledge_graph_exists": true,
+    "checkpoint_10_validated": true,
+    "records_available": true,
+    "contradiction_registry_created": true,
+    "candidate_status_explicit": true,
+    "scientific_contradictions_not_confirmed": true,
+    "human_review_required": true,
+    "llm_not_used": true,
+    "limitations_documented": true,
+    "zero_agent_link_limitation_preserved": true,
+    "knowledge_graph_augmented": true
+  },
+  "statistics": {
+    "evidence_records_screened": 10,
+    "candidate_contradictions": 0,
+    "confirmed_scientific_contradictions": 0,
+    "agent_source_links_available": 0
+  },
+  "method": "Deterministic controlled lexical screening",
+  "next_action": "CHECKPOINT_12_24_WISDOM_ENGINES",
+  "safety_state": {
+    "LLM_EXECUTION": "NOT_STARTED",
+    "SCIENTIFIC_CONCLUSIONS": "DISABLED",
+    "HUMAN_REVIEW": "REQUIRED"
+  }
+}

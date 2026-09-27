@@ -1,0 +1,52 @@
+[
+  {
+    "criterion_id": "CRITERION_01",
+    "name": "Evidence Support",
+    "description": "Are claims traceable to available evidence?"
+  },
+  {
+    "criterion_id": "CRITERION_02",
+    "name": "Evidence Quality",
+    "description": "Is the supporting evidence sufficiently characterized?"
+  },
+  {
+    "criterion_id": "CRITERION_03",
+    "name": "Mechanistic Relevance",
+    "description": "Is mechanistic relevance supported by the evidence?"
+  },
+  {
+    "criterion_id": "CRITERION_04",
+    "name": "Therapeutic Relevance",
+    "description": "Is therapeutic relevance supported by available evidence?"
+  },
+  {
+    "criterion_id": "CRITERION_05",
+    "name": "Safety Considerations",
+    "description": "Are safety-related considerations represented?"
+  },
+  {
+    "criterion_id": "CRITERION_06",
+    "name": "Clinical Relevance",
+    "description": "Are clinical and development considerations represented?"
+  },
+  {
+    "criterion_id": "CRITERION_07",
+    "name": "Uncertainty",
+    "description": "Are uncertainties explicitly preserved?"
+  },
+  {
+    "criterion_id": "CRITERION_08",
+    "name": "Knowledge Gaps",
+    "description": "Are unresolved knowledge gaps explicitly preserved?"
+  },
+  {
+    "criterion_id": "CRITERION_09",
+    "name": "Contradictions",
+    "description": "Are detected or unresolved contradictions represented?"
+  },
+  {
+    "criterion_id": "CRITERION_10",
+    "name": "Traceability",
+    "description": "Can decision-support elements be traced to source artifacts?"
+  }
+]

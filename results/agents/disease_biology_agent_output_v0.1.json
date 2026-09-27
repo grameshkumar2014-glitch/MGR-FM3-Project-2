@@ -1,0 +1,541 @@
+{
+  "agent": "Disease Biology Agent",
+  "version": "0.1",
+  "disease": "Alzheimer Disease",
+  "source_evidence_records": 10,
+  "agent_records": 10,
+  "records": [
+    {
+      "agent": "Disease Biology Agent",
+      "agent_version": "0.1",
+      "disease": "Alzheimer Disease",
+      "evidence_record": {
+        "pmid": "36597577",
+        "title": "Mitochondria in Aging and Alzheimer's Disease: Focus on Mitophagy.",
+        "source": "PubMed"
+      },
+      "biological_signals": [
+        {
+          "signal": "amyloid",
+          "matched_terms": [
+            "amyloid"
+          ]
+        },
+        {
+          "signal": "oxidative_stress",
+          "matched_terms": [
+            "oxidative"
+          ]
+        },
+        {
+          "signal": "mitochondrial_dysfunction",
+          "matched_terms": [
+            "mitochondria",
+            "mitochondrial",
+            "mitochondrial dysfunction"
+          ]
+        }
+      ],
+      "evidence_type": "review_or_synthesis",
+      "population_or_model": "human_or_clinical_context",
+      "evidence_limitations": [
+        "Evidence is derived from a literature record.",
+        "Study-specific limitations require review of the full publication.",
+        "Abstract-level extraction may omit experimental detail."
+      ],
+      "uncertainty": [
+        "Biological significance cannot be established from keyword extraction alone.",
+        "Causal relationships are not inferred.",
+        "Evidence strength is not independently scored at this stage."
+      ],
+      "knowledge_gaps": [
+        "Full-text methodological assessment is pending.",
+        "Independent cross-study evidence synthesis is pending.",
+        "Contradiction analysis is pending."
+      ],
+      "citation": {
+        "database": "PubMed",
+        "pmid": "36597577",
+        "title": "Mitochondria in Aging and Alzheimer's Disease: Focus on Mitophagy."
+      },
+      "human_review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "agent": "Disease Biology Agent",
+      "agent_version": "0.1",
+      "disease": "Alzheimer Disease",
+      "evidence_record": {
+        "pmid": "36940723",
+        "title": "AGEs RAGE Pathways: Alzheimer's Disease.",
+        "source": "PubMed"
+      },
+      "biological_signals": [
+        {
+          "signal": "amyloid",
+          "matched_terms": [
+            "amyloid",
+            "a\u03b2"
+          ]
+        },
+        {
+          "signal": "tau",
+          "matched_terms": [
+            "tau"
+          ]
+        },
+        {
+          "signal": "oxidative_stress",
+          "matched_terms": [
+            "oxidative",
+            "oxidative stress",
+            "reactive oxygen",
+            "reactive oxygen species"
+          ]
+        }
+      ],
+      "evidence_type": "review_or_synthesis",
+      "population_or_model": "animal_model",
+      "evidence_limitations": [
+        "Evidence is derived from a literature record.",
+        "Study-specific limitations require review of the full publication.",
+        "Abstract-level extraction may omit experimental detail."
+      ],
+      "uncertainty": [
+        "Biological significance cannot be established from keyword extraction alone.",
+        "Causal relationships are not inferred.",
+        "Evidence strength is not independently scored at this stage."
+      ],
+      "knowledge_gaps": [
+        "Full-text methodological assessment is pending.",
+        "Independent cross-study evidence synthesis is pending.",
+        "Contradiction analysis is pending."
+      ],
+      "citation": {
+        "database": "PubMed",
+        "pmid": "36940723",
+        "title": "AGEs RAGE Pathways: Alzheimer's Disease."
+      },
+      "human_review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "agent": "Disease Biology Agent",
+      "agent_version": "0.1",
+      "disease": "Alzheimer Disease",
+      "evidence_record": {
+        "pmid": "40088370",
+        "title": "Interplay between PI3k/AKT signaling and caspase pathway in Alzheimer disease: mechanism and therapeutic implications.",
+        "source": "PubMed"
+      },
+      "biological_signals": [
+        {
+          "signal": "amyloid",
+          "matched_terms": [
+            "amyloid",
+            "a\u03b2"
+          ]
+        },
+        {
+          "signal": "tau",
+          "matched_terms": [
+            "tau"
+          ]
+        },
+        {
+          "signal": "neuroinflammation",
+          "matched_terms": [
+            "inflammation"
+          ]
+        },
+        {
+          "signal": "oxidative_stress",
+          "matched_terms": [
+            "oxidative",
+            "oxidative stress"
+          ]
+        },
+        {
+          "signal": "synaptic_dysfunction",
+          "matched_terms": [
+            "synaptic",
+            "synaptic dysfunction"
+          ]
+        },
+        {
+          "signal": "mitochondrial_dysfunction",
+          "matched_terms": [
+            "mitochondria",
+            "mitochondrial",
+            "mitochondrial dysfunction"
+          ]
+        },
+        {
+          "signal": "neuronal_loss",
+          "matched_terms": [
+            "neurodegeneration",
+            "neuronal loss"
+          ]
+        }
+      ],
+      "evidence_type": "review_or_synthesis",
+      "population_or_model": "human_or_clinical_context",
+      "evidence_limitations": [
+        "Evidence is derived from a literature record.",
+        "Study-specific limitations require review of the full publication.",
+        "Abstract-level extraction may omit experimental detail."
+      ],
+      "uncertainty": [
+        "Biological significance cannot be established from keyword extraction alone.",
+        "Causal relationships are not inferred.",
+        "Evidence strength is not independently scored at this stage."
+      ],
+      "knowledge_gaps": [
+        "Full-text methodological assessment is pending.",
+        "Independent cross-study evidence synthesis is pending.",
+        "Contradiction analysis is pending."
+      ],
+      "citation": {
+        "database": "PubMed",
+        "pmid": "40088370",
+        "title": "Interplay between PI3k/AKT signaling and caspase pathway in Alzheimer disease: mechanism and therapeutic implications."
+      },
+      "human_review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "agent": "Disease Biology Agent",
+      "agent_version": "0.1",
+      "disease": "Alzheimer Disease",
+      "evidence_record": {
+        "pmid": "17622778",
+        "title": "Current insights into molecular mechanisms of Alzheimer disease and their implications for therapeutic approaches.",
+        "source": "PubMed"
+      },
+      "biological_signals": [
+        {
+          "signal": "amyloid",
+          "matched_terms": [
+            "abeta",
+            "amyloid"
+          ]
+        },
+        {
+          "signal": "vascular_mechanisms",
+          "matched_terms": [
+            "vascular"
+          ]
+        },
+        {
+          "signal": "genetic_risk",
+          "matched_terms": [
+            "mutation"
+          ]
+        }
+      ],
+      "evidence_type": "review_or_synthesis",
+      "population_or_model": "human_or_clinical_context",
+      "evidence_limitations": [
+        "Evidence is derived from a literature record.",
+        "Study-specific limitations require review of the full publication.",
+        "Abstract-level extraction may omit experimental detail."
+      ],
+      "uncertainty": [
+        "Biological significance cannot be established from keyword extraction alone.",
+        "Causal relationships are not inferred.",
+        "Evidence strength is not independently scored at this stage."
+      ],
+      "knowledge_gaps": [
+        "Full-text methodological assessment is pending.",
+        "Independent cross-study evidence synthesis is pending.",
+        "Contradiction analysis is pending."
+      ],
+      "citation": {
+        "database": "PubMed",
+        "pmid": "17622778",
+        "title": "Current insights into molecular mechanisms of Alzheimer disease and their implications for therapeutic approaches."
+      },
+      "human_review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "agent": "Disease Biology Agent",
+      "agent_version": "0.1",
+      "disease": "Alzheimer Disease",
+      "evidence_record": {
+        "pmid": "36155517",
+        "title": "An Alzheimer's Disease Mechanism Based on Early Pathology, Anatomy, Vascular-Induced Flow, and Migration of Maximum Flow Stress Energy Location with Increasing Vascular Disease.",
+        "source": "PubMed"
+      },
+      "biological_signals": [
+        {
+          "signal": "amyloid",
+          "matched_terms": [
+            "amyloid",
+            "a\u03b2"
+          ]
+        },
+        {
+          "signal": "tau",
+          "matched_terms": [
+            "tau"
+          ]
+        },
+        {
+          "signal": "vascular_mechanisms",
+          "matched_terms": [
+            "vascular"
+          ]
+        }
+      ],
+      "evidence_type": "preclinical_or_animal",
+      "population_or_model": "animal_model",
+      "evidence_limitations": [
+        "Evidence is derived from a literature record.",
+        "Study-specific limitations require review of the full publication.",
+        "Abstract-level extraction may omit experimental detail."
+      ],
+      "uncertainty": [
+        "Biological significance cannot be established from keyword extraction alone.",
+        "Causal relationships are not inferred.",
+        "Evidence strength is not independently scored at this stage."
+      ],
+      "knowledge_gaps": [
+        "Full-text methodological assessment is pending.",
+        "Independent cross-study evidence synthesis is pending.",
+        "Contradiction analysis is pending."
+      ],
+      "citation": {
+        "database": "PubMed",
+        "pmid": "36155517",
+        "title": "An Alzheimer's Disease Mechanism Based on Early Pathology, Anatomy, Vascular-Induced Flow, and Migration of Maximum Flow Stress Energy Location with Increasing Vascular Disease."
+      },
+      "human_review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "agent": "Disease Biology Agent",
+      "agent_version": "0.1",
+      "disease": "Alzheimer Disease",
+      "evidence_record": {
+        "pmid": "27654282",
+        "title": "Potential of the Antibody Against cis-Phosphorylated Tau in the Early Diagnosis, Treatment, and Prevention of Alzheimer Disease and Brain Injury.",
+        "source": "PubMed"
+      },
+      "biological_signals": [
+        {
+          "signal": "tau",
+          "matched_terms": [
+            "phosphorylated tau",
+            "tau"
+          ]
+        },
+        {
+          "signal": "neuronal_loss",
+          "matched_terms": [
+            "neurodegeneration"
+          ]
+        }
+      ],
+      "evidence_type": "preclinical_or_animal",
+      "population_or_model": "animal_model",
+      "evidence_limitations": [
+        "Evidence is derived from a literature record.",
+        "Study-specific limitations require review of the full publication.",
+        "Abstract-level extraction may omit experimental detail."
+      ],
+      "uncertainty": [
+        "Biological significance cannot be established from keyword extraction alone.",
+        "Causal relationships are not inferred.",
+        "Evidence strength is not independently scored at this stage."
+      ],
+      "knowledge_gaps": [
+        "Full-text methodological assessment is pending.",
+        "Independent cross-study evidence synthesis is pending.",
+        "Contradiction analysis is pending."
+      ],
+      "citation": {
+        "database": "PubMed",
+        "pmid": "27654282",
+        "title": "Potential of the Antibody Against cis-Phosphorylated Tau in the Early Diagnosis, Treatment, and Prevention of Alzheimer Disease and Brain Injury."
+      },
+      "human_review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "agent": "Disease Biology Agent",
+      "agent_version": "0.1",
+      "disease": "Alzheimer Disease",
+      "evidence_record": {
+        "pmid": "16472207",
+        "title": "Amyloid beta: the alternate hypothesis.",
+        "source": "PubMed"
+      },
+      "biological_signals": [
+        {
+          "signal": "amyloid",
+          "matched_terms": [
+            "abeta",
+            "amyloid"
+          ]
+        },
+        {
+          "signal": "oxidative_stress",
+          "matched_terms": [
+            "oxidative",
+            "oxidative stress"
+          ]
+        },
+        {
+          "signal": "genetic_risk",
+          "matched_terms": [
+            "genetic",
+            "mutation"
+          ]
+        }
+      ],
+      "evidence_type": "human_or_clinical",
+      "population_or_model": "human_or_clinical_context",
+      "evidence_limitations": [
+        "Evidence is derived from a literature record.",
+        "Study-specific limitations require review of the full publication.",
+        "Abstract-level extraction may omit experimental detail."
+      ],
+      "uncertainty": [
+        "Biological significance cannot be established from keyword extraction alone.",
+        "Causal relationships are not inferred.",
+        "Evidence strength is not independently scored at this stage."
+      ],
+      "knowledge_gaps": [
+        "Full-text methodological assessment is pending.",
+        "Independent cross-study evidence synthesis is pending.",
+        "Contradiction analysis is pending."
+      ],
+      "citation": {
+        "database": "PubMed",
+        "pmid": "16472207",
+        "title": "Amyloid beta: the alternate hypothesis."
+      },
+      "human_review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "agent": "Disease Biology Agent",
+      "agent_version": "0.1",
+      "disease": "Alzheimer Disease",
+      "evidence_record": {
+        "pmid": "20008648",
+        "title": "Mild cognitive impairment: ten years later.",
+        "source": "PubMed"
+      },
+      "biological_signals": [],
+      "evidence_type": "review_or_synthesis",
+      "population_or_model": "human_or_clinical_context",
+      "evidence_limitations": [
+        "Evidence is derived from a literature record.",
+        "Study-specific limitations require review of the full publication.",
+        "Abstract-level extraction may omit experimental detail."
+      ],
+      "uncertainty": [
+        "Biological significance cannot be established from keyword extraction alone.",
+        "Causal relationships are not inferred.",
+        "Evidence strength is not independently scored at this stage."
+      ],
+      "knowledge_gaps": [
+        "Full-text methodological assessment is pending.",
+        "Independent cross-study evidence synthesis is pending.",
+        "Contradiction analysis is pending."
+      ],
+      "citation": {
+        "database": "PubMed",
+        "pmid": "20008648",
+        "title": "Mild cognitive impairment: ten years later."
+      },
+      "human_review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "agent": "Disease Biology Agent",
+      "agent_version": "0.1",
+      "disease": "Alzheimer Disease",
+      "evidence_record": {
+        "pmid": "28985936",
+        "title": "Applications of Resting-State Functional Connectivity to Neurodegenerative Disease.",
+        "source": "PubMed"
+      },
+      "biological_signals": [
+        {
+          "signal": "neuronal_loss",
+          "matched_terms": [
+            "neurodegeneration"
+          ]
+        }
+      ],
+      "evidence_type": "preclinical_or_animal",
+      "population_or_model": "human_or_clinical_context",
+      "evidence_limitations": [
+        "Evidence is derived from a literature record.",
+        "Study-specific limitations require review of the full publication.",
+        "Abstract-level extraction may omit experimental detail."
+      ],
+      "uncertainty": [
+        "Biological significance cannot be established from keyword extraction alone.",
+        "Causal relationships are not inferred.",
+        "Evidence strength is not independently scored at this stage."
+      ],
+      "knowledge_gaps": [
+        "Full-text methodological assessment is pending.",
+        "Independent cross-study evidence synthesis is pending.",
+        "Contradiction analysis is pending."
+      ],
+      "citation": {
+        "database": "PubMed",
+        "pmid": "28985936",
+        "title": "Applications of Resting-State Functional Connectivity to Neurodegenerative Disease."
+      },
+      "human_review_status": "PENDING_HUMAN_REVIEW"
+    },
+    {
+      "agent": "Disease Biology Agent",
+      "agent_version": "0.1",
+      "disease": "Alzheimer Disease",
+      "evidence_record": {
+        "pmid": "22306201",
+        "title": "RNA modifications by oxidation: a novel disease mechanism?",
+        "source": "PubMed"
+      },
+      "biological_signals": [
+        {
+          "signal": "oxidative_stress",
+          "matched_terms": [
+            "oxidative"
+          ]
+        },
+        {
+          "signal": "mitochondrial_dysfunction",
+          "matched_terms": [
+            "mitochondria",
+            "mitochondrial",
+            "mitochondrial dysfunction"
+          ]
+        }
+      ],
+      "evidence_type": "preclinical_or_animal",
+      "population_or_model": "human_or_clinical_context",
+      "evidence_limitations": [
+        "Evidence is derived from a literature record.",
+        "Study-specific limitations require review of the full publication.",
+        "Abstract-level extraction may omit experimental detail."
+      ],
+      "uncertainty": [
+        "Biological significance cannot be established from keyword extraction alone.",
+        "Causal relationships are not inferred.",
+        "Evidence strength is not independently scored at this stage."
+      ],
+      "knowledge_gaps": [
+        "Full-text methodological assessment is pending.",
+        "Independent cross-study evidence synthesis is pending.",
+        "Contradiction analysis is pending."
+      ],
+      "citation": {
+        "database": "PubMed",
+        "pmid": "22306201",
+        "title": "RNA modifications by oxidation: a novel disease mechanism?"
+      },
+      "human_review_status": "PENDING_HUMAN_REVIEW"
+    }
+  ],
+  "created_utc": "2026-09-27T10:20:30.690771+00:00"
+}

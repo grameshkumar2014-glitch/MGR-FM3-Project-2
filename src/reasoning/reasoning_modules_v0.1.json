@@ -1,0 +1,37 @@
+[
+  {
+    "module_id": "RM001",
+    "name": "Evidence Grounding Module",
+    "function": "Map reasoning inputs to evidence identifiers."
+  },
+  {
+    "module_id": "RM002",
+    "name": "Evidence Synthesis Module",
+    "function": "Organize evidence across Wisdom Engines."
+  },
+  {
+    "module_id": "RM003",
+    "name": "Uncertainty Module",
+    "function": "Track uncertainty and confidence limitations."
+  },
+  {
+    "module_id": "RM004",
+    "name": "Knowledge Gap Module",
+    "function": "Identify missing evidence required for reasoning."
+  },
+  {
+    "module_id": "RM005",
+    "name": "Contradiction Module",
+    "function": "Receive and preserve contradiction signals."
+  },
+  {
+    "module_id": "RM006",
+    "name": "Reasoning Trace Module",
+    "function": "Maintain an auditable reasoning trace."
+  },
+  {
+    "module_id": "RM007",
+    "name": "Human Review Module",
+    "function": "Route high-consequence outputs to human review."
+  }
+]

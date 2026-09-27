@@ -1,0 +1,19 @@
+{
+  "checkpoint": 17,
+  "status": "PASSED",
+  "upstream_checkpoints_valid": true,
+  "pipeline_stages": 9,
+  "validated_stages": 9,
+  "data_flow_checks_passed": 8,
+  "data_flow_checks_total": 8,
+  "traceability_validated": true,
+  "human_review_required": true,
+  "automatic_decision": false,
+  "unsupported_inference_blocked": true,
+  "llm_execution": false,
+  "scientific_conclusions": false,
+  "agent_source_links_fabricated": false,
+  "integration_status": "VALIDATED",
+  "validation": "PASSED",
+  "next_action": "CHECKPOINT_18_FINAL_EVALUATION_AND_SAFETY"
+}

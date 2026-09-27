@@ -1,0 +1,25 @@
+{
+  "trace_id": "unique_run_identifier",
+  "parent_trace_id": "optional_parent_run_identifier",
+  "project_id": "MGR-FM3-PROJECT-2",
+  "checkpoint_id": "workflow_checkpoint",
+  "component_type": [
+    "workflow",
+    "agent",
+    "tool",
+    "reasoning",
+    "critique",
+    "decision",
+    "human_review"
+  ],
+  "timestamp": "UTC ISO-8601",
+  "input_hash": "SHA256",
+  "output_hash": "SHA256",
+  "evidence_ids": [],
+  "uncertainty_ids": [],
+  "knowledge_gap_ids": [],
+  "contradiction_ids": [],
+  "status": "string",
+  "review_status": "string",
+  "error": null
+}

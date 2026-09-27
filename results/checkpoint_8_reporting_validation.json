@@ -1,0 +1,30 @@
+{
+  "checkpoint": 8,
+  "name": "Evidence-Centered Reporting",
+  "status": "PASSED",
+  "validation_checks": {
+    "evidence_foundation_present": true,
+    "unique_pmids": true,
+    "what_we_know_present": true,
+    "what_we_infer_present": true,
+    "what_we_do_not_know_present": true,
+    "what_could_falsify_present": true,
+    "what_experiment_next_present": true,
+    "traceability_complete": true,
+    "uncertainty_preserved": true,
+    "knowledge_gaps_preserved": true,
+    "human_review_required": true,
+    "scientific_conclusions_disabled": true
+  },
+  "metrics": {
+    "evidence_records": 10,
+    "unique_pmids": 10,
+    "multi_agent_signals": 43,
+    "inferred_signals": 27,
+    "uncertainties": 30,
+    "knowledge_gaps": 30
+  },
+  "json_report": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/reports/alzheimer_intelligence_dossier_v0.1.json",
+  "markdown_report": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/reports/alzheimer_intelligence_dossier_v0.1.md",
+  "timestamp_utc": "2026-09-27T10:27:19.111166+00:00"
+}

@@ -1,0 +1,115 @@
+{
+  "artifact": "MGR FM3 Project 2 Critique and Reasoning Loop",
+  "version": "0.1",
+  "created_at_utc": "2026-09-27T10:37:45.542924+00:00",
+  "disease": "Alzheimer disease",
+  "critique_targets": [
+    {
+      "target_id": "CT001",
+      "name": "Evidence Grounding",
+      "question": "Does every factual reasoning item have traceable evidence?",
+      "failure_action": "REQUEST_EVIDENCE"
+    },
+    {
+      "target_id": "CT002",
+      "name": "Source Traceability",
+      "question": "Can every evidence item be traced to its source record?",
+      "failure_action": "REPAIR_PROVENANCE"
+    },
+    {
+      "target_id": "CT003",
+      "name": "Known versus Inferred",
+      "question": "Are observations clearly separated from inference?",
+      "failure_action": "SEPARATE_CLAIM_TYPES"
+    },
+    {
+      "target_id": "CT004",
+      "name": "Uncertainty",
+      "question": "Are uncertainty and confidence limitations preserved?",
+      "failure_action": "PRESERVE_UNCERTAINTY"
+    },
+    {
+      "target_id": "CT005",
+      "name": "Knowledge Gaps",
+      "question": "Are missing evidence and unresolved questions explicitly recorded?",
+      "failure_action": "REQUEST_ADDITIONAL_EVIDENCE"
+    },
+    {
+      "target_id": "CT006",
+      "name": "Contradictions",
+      "question": "Are conflicting evidence signals preserved rather than hidden?",
+      "failure_action": "ESCALATE_CONFLICT"
+    },
+    {
+      "target_id": "CT007",
+      "name": "Unsupported Inference",
+      "question": "Has any conclusion been introduced without sufficient evidence?",
+      "failure_action": "BLOCK_REASONING"
+    },
+    {
+      "target_id": "CT008",
+      "name": "Human Review",
+      "question": "Does the workflow route high-consequence reasoning to human review?",
+      "failure_action": "REQUIRE_HUMAN_REVIEW"
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "CF001",
+      "target": "Evidence Grounding",
+      "severity": "LOW",
+      "status": "PASS",
+      "action": "NONE"
+    },
+    {
+      "finding_id": "CF002",
+      "target": "Uncertainty",
+      "severity": "LOW",
+      "status": "PASS",
+      "action": "NONE"
+    },
+    {
+      "finding_id": "CF003",
+      "target": "Knowledge Gaps",
+      "severity": "LOW",
+      "status": "PASS",
+      "action": "NONE"
+    },
+    {
+      "finding_id": "CF004",
+      "target": "Contradictions",
+      "severity": "LOW",
+      "status": "PASS",
+      "action": "NONE"
+    },
+    {
+      "finding_id": "CF005",
+      "target": "Unsupported Inference",
+      "severity": "LOW",
+      "status": "PASS",
+      "action": "NONE",
+      "basis": "Scientific conclusions remain disabled and no automatic inference engine is enabled."
+    },
+    {
+      "finding_id": "CF006",
+      "target": "Human Review",
+      "severity": "LOW",
+      "status": "PASS",
+      "action": "NONE"
+    }
+  ],
+  "repair_actions": [],
+  "loop": {
+    "status": "READY_FOR_REVIEW",
+    "iteration": 1,
+    "maximum_automatic_iterations": 0,
+    "automatic_scientific_conclusion": false,
+    "automatic_clinical_recommendation": false,
+    "human_review_required": true
+  },
+  "safety_state": {
+    "llm_execution": false,
+    "scientific_conclusions_enabled": false,
+    "human_review_required": true
+  }
+}

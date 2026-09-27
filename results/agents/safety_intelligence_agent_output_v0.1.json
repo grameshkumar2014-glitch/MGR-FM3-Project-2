@@ -1,0 +1,8 @@
+{
+  "agent": "Safety Intelligence Agent",
+  "version": "0.1",
+  "signal_type": "safety_intelligence",
+  "evidence_signals": 2,
+  "source_records": 10,
+  "human_review_status": "PENDING_HUMAN_REVIEW"
+}
