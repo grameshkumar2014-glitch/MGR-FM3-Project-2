@@ -1,0 +1,19 @@
+{
+  "project_id": "MGR-FM3-PROJECT-2",
+  "final_status": "FULLY_VALIDATED",
+  "checkpoints_0_20": "PASSED",
+  "phase_21a": "PASSED",
+  "phase_21b": "PASSED",
+  "phase_21c": "PASSED",
+  "phase_21d": "PASSED",
+  "phase_22": "PASSED",
+  "phase_23": "COMPLETE",
+  "final_completion_audit": "PASSED",
+  "github_sync": "PENDING",
+  "scientific_conclusions_disabled": true,
+  "automatic_decision_disabled": true,
+  "unsupported_inference_blocked": true,
+  "human_review_required": true,
+  "paid_api_disabled": true,
+  "created_utc": "2026-09-28T05:32:12.414542+00:00"
+}
