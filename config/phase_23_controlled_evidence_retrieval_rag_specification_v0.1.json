@@ -1,0 +1,148 @@
+{
+  "project": "MGR-FM3 PROJECT 2",
+  "project_name": "Alzheimer Disease Intelligence Engine",
+  "phase_id": "23",
+  "phase_name": "CONTROLLED_EVIDENCE_RETRIEVAL_AND_RAG_INTEGRATION",
+  "version": "0.1.0",
+  "status": "FORMALLY_DEFINED",
+  "objective": "Build and validate a provenance-preserving evidence retrieval and RAG layer connecting the validated Alzheimer Evidence Foundation, Evidence Fabric, Knowledge Graph and controlled local LLM runtime.",
+  "scientific_scope": {
+    "disease": "Alzheimer disease",
+    "retrieval_scope": "Validated project evidence only",
+    "external_live_retrieval": false,
+    "scientific_conclusions": false,
+    "automatic_decision": false
+  },
+  "upstream_dependencies": [
+    "config/project_status.json",
+    "docs/MASTER_ROADMAP.md",
+    "config/phase_22_controlled_local_llm_reasoning_specification_v0.1.json",
+    "results/evaluation/phase_22_final_validation_v0.1.json",
+    "results/evaluation/phase_22_completion_manifest_v0.1.json",
+    "data/processed/alzheimer_evidence_foundation_v0.1.json",
+    "evidence/evidence_fabric_v0.1.json",
+    "knowledge_graph/alzheimer_knowledge_graph_v0.1.json",
+    "src/reasoning/ai_reasoning_contract_v0.1.json",
+    "src/evaluation/langsmith_tracing_contract_v0.1.json",
+    "src/evaluation/langsmith_safety_contract_v0.1.json"
+  ],
+  "local_model": {
+    "model": "Qwen/Qwen3-0.6B",
+    "runtime": "Transformers + PyTorch CPU",
+    "provider": "LOCAL_OPEN_SOURCE",
+    "paid_api": false
+  },
+  "architecture": [
+    "ALZHEIMER_EVIDENCE",
+    "EVIDENCE_FOUNDATION",
+    "EVIDENCE_FABRIC",
+    "CONTROLLED_RETRIEVAL",
+    "PROVENANCE_PRESERVATION",
+    "RAG_CONTEXT",
+    "LOCAL_LLM",
+    "STRUCTURED_OUTPUT_VALIDATION",
+    "HUMAN_REVIEW"
+  ],
+  "substeps": [
+    {
+      "id": "23.1",
+      "name": "RETRIEVAL_ARCHITECTURE_AND_CONTRACT",
+      "purpose": "Define controlled retrieval inputs, outputs, ranking, provenance and safety boundaries."
+    },
+    {
+      "id": "23.2",
+      "name": "EVIDENCE_DOCUMENT_NORMALIZATION",
+      "purpose": "Convert validated Evidence Fabric records into deterministic retrieval documents."
+    },
+    {
+      "id": "23.3",
+      "name": "CONTROLLED_RETRIEVAL_INDEX",
+      "purpose": "Create a reproducible local retrieval index from validated project evidence."
+    },
+    {
+      "id": "23.4",
+      "name": "EVIDENCE_RETRIEVAL_FUNCTION",
+      "purpose": "Implement deterministic evidence retrieval with explicit query and result contracts."
+    },
+    {
+      "id": "23.5",
+      "name": "PROVENANCE_PRESERVING_RETRIEVAL",
+      "purpose": "Ensure every retrieved item retains source, identifier, citation and provenance."
+    },
+    {
+      "id": "23.6",
+      "name": "EVIDENCE_GROUNDED_RAG_PROMPT",
+      "purpose": "Connect retrieved evidence to the validated Phase 22 grounding contract."
+    },
+    {
+      "id": "23.7",
+      "name": "LANGGRAPH_RETRIEVAL_LLM_WORKFLOW",
+      "purpose": "Integrate retrieval and controlled local LLM execution into the stateful workflow."
+    },
+    {
+      "id": "23.8",
+      "name": "RETRIEVAL_AND_GROUNDING_EVALUATION",
+      "purpose": "Evaluate retrieval relevance, provenance, grounding and evidence coverage."
+    },
+    {
+      "id": "23.9",
+      "name": "LANGSMITH_RAG_TRACING",
+      "purpose": "Trace retrieval, context construction and controlled model execution."
+    },
+    {
+      "id": "23.10",
+      "name": "PHASE_23_END_TO_END_VALIDATION",
+      "purpose": "Validate all Phase 23 controls, artifacts, traceability and safety boundaries."
+    }
+  ],
+  "retrieval_rules": [
+    "Only validated project evidence may enter the controlled retrieval corpus.",
+    "Every retrieved record must retain provenance.",
+    "Every retrieved record must retain its source identifier.",
+    "Retrieval must be reproducible.",
+    "Unsupported evidence must not be silently introduced.",
+    "Missing evidence must remain explicitly missing.",
+    "Uncertainty must be preserved.",
+    "Knowledge gaps must be preserved.",
+    "Observation and inference must remain separate."
+  ],
+  "rag_rules": [
+    "Retrieved evidence must be explicitly separated from model-generated text.",
+    "The model must not treat absence of retrieved evidence as evidence of absence.",
+    "The model must not invent citations.",
+    "The model must not generate unsupported scientific claims.",
+    "Evidence provenance must survive the complete workflow."
+  ],
+  "evaluation_dimensions": [
+    "retrieval_relevance",
+    "retrieval_completeness",
+    "provenance_accuracy",
+    "citation_traceability",
+    "evidence_grounding",
+    "uncertainty_preservation",
+    "knowledge_gap_preservation",
+    "unsupported_inference_blocking",
+    "reproducibility",
+    "LangSmith_traceability"
+  ],
+  "safety": {
+    "paid_api": false,
+    "scientific_inference": "NOT_STARTED",
+    "scientific_conclusions": "DISABLED",
+    "automatic_decision": "DISABLED",
+    "unsupported_inference": "BLOCKED",
+    "human_review": "REQUIRED",
+    "semantic_task_success": "NOT_ASSERTED"
+  },
+  "execution_boundary": {
+    "model_execution": true,
+    "retrieval_execution": true,
+    "scientific_inference": false,
+    "scientific_conclusions": false,
+    "automatic_decision": false,
+    "human_review_required": true
+  },
+  "completion_requirement": "Phase 23 may be marked COMPLETE only after substeps 23.1 through 23.10 are individually validated and all required artifacts are saved to persistent Google Drive storage.",
+  "next_action": "PHASE_23_1_RETRIEVAL_ARCHITECTURE_AND_CONTRACT",
+  "defined_utc": "2026-09-28T04:07:42.493348+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "project_id": "MGR-FM3-PROJECT-2",
+  "phase_id": "23",
+  "substep_id": "23.10",
+  "validation": "PASSED",
+  "phase_23_status": "COMPLETE",
+  "validated_substeps": 10,
+  "controlled_index_entries": 10,
+  "normalized_documents": 10,
+  "langgraph_nodes": 7,
+  "langgraph_edges": 8,
+  "langsmith_rag_tracing": "PASSED",
+  "safety": {
+    "scientific_conclusions_disabled": true,
+    "automatic_decision_disabled": true,
+    "unsupported_inference_blocked": true,
+    "human_review_required": true,
+    "paid_api_disabled": true,
+    "external_search_disabled": true
+  },
+  "created_utc": "2026-09-28T05:20:43.441748+00:00"
+}

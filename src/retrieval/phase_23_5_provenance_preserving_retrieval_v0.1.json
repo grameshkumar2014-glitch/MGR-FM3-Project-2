@@ -1,0 +1,118 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_23",
+  "substep_id": "23.5",
+  "name": "Provenance-Preserving Retrieval",
+  "version": "v0.1",
+  "dependencies": {
+    "phase_23_4": "PASSED"
+  },
+  "retrieval": {
+    "retrieval_id": "RETRIEVAL-feaaba7229b77e94",
+    "query": "Alzheimer disease mitochondria mitophagy",
+    "retrieval_method": "DETERMINISTIC_TOKEN_MATCH",
+    "ranking_method": "DETERMINISTIC",
+    "index_hash_sha256": "6d1e183b9fef3ea0d32a71016b0c155922b927c3a15ebe5b70d462e71b2c0b7d"
+  },
+  "provenance_policy": {
+    "retrieval_to_document": true,
+    "document_to_evidence": true,
+    "evidence_to_source": true,
+    "source_to_source_file": true,
+    "source_to_original_record_hash": true,
+    "citation_identity_preserved": true,
+    "pmid_preserved": true,
+    "scientific_content_generated": false
+  },
+  "provenance_manifest": {
+    "record_count": 5,
+    "manifest_hash_sha256": "b2141d85339f3af4e0cf26e7c2022180aaecd7e788871943d91753ea6252998d",
+    "records": [
+      {
+        "retrieval_id": "RETRIEVAL-feaaba7229b77e94",
+        "query": "Alzheimer disease mitochondria mitophagy",
+        "document_id": "RAG-DOC-EVID-17622778",
+        "document_hash_sha256": "c963d95ce9ad6114a8724829c0c1915e603e6869da60eba32844ef3ddcca9140",
+        "evidence_id": "EVID-17622778",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "17622778",
+        "pmid": "17622778",
+        "title": "Current insights into molecular mechanisms of Alzheimer disease and their implications for therapeutic approaches.",
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "01562f5b4a0f7f7ad5ae52a3677c35652e69066a966e00c4a1ad25773b5d5f6f",
+        "provenance_status": "VERIFIED"
+      },
+      {
+        "retrieval_id": "RETRIEVAL-feaaba7229b77e94",
+        "query": "Alzheimer disease mitochondria mitophagy",
+        "document_id": "RAG-DOC-EVID-27654282",
+        "document_hash_sha256": "82dd8946371ca82e39c527644bb3b7885baa724bc41ea45be4ae2b631ce76d09",
+        "evidence_id": "EVID-27654282",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "27654282",
+        "pmid": "27654282",
+        "title": "Potential of the Antibody Against cis-Phosphorylated Tau in the Early Diagnosis, Treatment, and Prevention of Alzheimer Disease and Brain Injury.",
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "1fb07810c3e412684c4c77a3e30b8f4184ff38993f60b56dea6989e0eb6e8fd3",
+        "provenance_status": "VERIFIED"
+      },
+      {
+        "retrieval_id": "RETRIEVAL-feaaba7229b77e94",
+        "query": "Alzheimer disease mitochondria mitophagy",
+        "document_id": "RAG-DOC-EVID-36597577",
+        "document_hash_sha256": "fd30adfe97e053da843b5013c3b531c6ec4df0bbefae11f5684c5f3228b9cd34",
+        "evidence_id": "EVID-36597577",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "36597577",
+        "pmid": "36597577",
+        "title": "Mitochondria in Aging and Alzheimer's Disease: Focus on Mitophagy.",
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "4d271e9f793bc6aecafe686c1acc8a5bf8fb56c99adb82de4c7fc1741362000b",
+        "provenance_status": "VERIFIED"
+      },
+      {
+        "retrieval_id": "RETRIEVAL-feaaba7229b77e94",
+        "query": "Alzheimer disease mitochondria mitophagy",
+        "document_id": "RAG-DOC-EVID-36155517",
+        "document_hash_sha256": "aeec6186a6b450d05c6a5bb221d39d3748db1b59d3ab5d7d34b4fb5b1def9c76",
+        "evidence_id": "EVID-36155517",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "36155517",
+        "pmid": "36155517",
+        "title": "An Alzheimer's Disease Mechanism Based on Early Pathology, Anatomy, Vascular-Induced Flow, and Migration of Maximum Flow Stress Energy Location with Increasing Vascular Disease.",
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "1c8d4ab6d918ada5f1907aba6c8c87182cb7a1673a026c05d8e603ed0992096e",
+        "provenance_status": "VERIFIED"
+      },
+      {
+        "retrieval_id": "RETRIEVAL-feaaba7229b77e94",
+        "query": "Alzheimer disease mitochondria mitophagy",
+        "document_id": "RAG-DOC-EVID-40088370",
+        "document_hash_sha256": "30049fb5d423a9dadebe6e471d585aa8239d44290a6d3789ad503c88803941f3",
+        "evidence_id": "EVID-40088370",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "40088370",
+        "pmid": "40088370",
+        "title": "Interplay between PI3k/AKT signaling and caspase pathway in Alzheimer disease: mechanism and therapeutic implications.",
+        "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+        "record_hash_sha256": "1eaebf3158fde4d35c53a46870578d9a1ed54674e5e29844358b710963f41dc8",
+        "provenance_status": "VERIFIED"
+      }
+    ]
+  },
+  "safety": {
+    "scientific_inference": "NOT_STARTED",
+    "scientific_conclusions": "DISABLED",
+    "automatic_decision": "DISABLED",
+    "unsupported_inference": "BLOCKED",
+    "human_review": "REQUIRED",
+    "paid_api": "DISABLED",
+    "model_execution": "NOT_STARTED"
+  },
+  "created_utc": "2026-09-28T04:19:06.619194+00:00"
+}

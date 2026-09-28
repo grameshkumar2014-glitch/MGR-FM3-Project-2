@@ -1,0 +1,204 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_23",
+  "substep_id": "23.8",
+  "name": "Retrieval and Grounding Evaluation",
+  "version": "v0.1",
+  "dependencies": {
+    "phase_23_4": "PASSED",
+    "phase_23_5": "PASSED",
+    "phase_23_6": "PASSED",
+    "phase_23_7": "PASSED"
+  },
+  "retrieval_method": "DETERMINISTIC_TOKEN_MATCH",
+  "ranking_method": "DETERMINISTIC",
+  "retrieval_evaluations": [
+    {
+      "query_id": "Q001",
+      "question": "Alzheimer disease mitochondria mitophagy",
+      "expected_retrieval": true,
+      "returned_count": 5,
+      "relevance_test_passed": true,
+      "top_results": [
+        {
+          "evidence_id": "EVID-17622778",
+          "pmid": "17622778",
+          "title": "Current insights into molecular mechanisms of Alzheimer disease and their implications for therapeutic approaches.",
+          "score": 0.625
+        },
+        {
+          "evidence_id": "EVID-27654282",
+          "pmid": "27654282",
+          "title": "Potential of the Antibody Against cis-Phosphorylated Tau in the Early Diagnosis, Treatment, and Prevention of Alzheimer Disease and Brain Injury.",
+          "score": 0.625
+        },
+        {
+          "evidence_id": "EVID-36597577",
+          "pmid": "36597577",
+          "title": "Mitochondria in Aging and Alzheimer's Disease: Focus on Mitophagy.",
+          "score": 0.5
+        },
+        {
+          "evidence_id": "EVID-36155517",
+          "pmid": "36155517",
+          "title": "An Alzheimer's Disease Mechanism Based on Early Pathology, Anatomy, Vascular-Induced Flow, and Migration of Maximum Flow Stress Energy Location with Increasing Vascular Disease.",
+          "score": 0.375
+        },
+        {
+          "evidence_id": "EVID-40088370",
+          "pmid": "40088370",
+          "title": "Interplay between PI3k/AKT signaling and caspase pathway in Alzheimer disease: mechanism and therapeutic implications.",
+          "score": 0.375
+        }
+      ]
+    },
+    {
+      "query_id": "Q002",
+      "question": "Alzheimer disease amyloid",
+      "expected_retrieval": true,
+      "returned_count": 5,
+      "relevance_test_passed": true,
+      "top_results": [
+        {
+          "evidence_id": "EVID-17622778",
+          "pmid": "17622778",
+          "title": "Current insights into molecular mechanisms of Alzheimer disease and their implications for therapeutic approaches.",
+          "score": 0.833333
+        },
+        {
+          "evidence_id": "EVID-27654282",
+          "pmid": "27654282",
+          "title": "Potential of the Antibody Against cis-Phosphorylated Tau in the Early Diagnosis, Treatment, and Prevention of Alzheimer Disease and Brain Injury.",
+          "score": 0.833333
+        },
+        {
+          "evidence_id": "EVID-36155517",
+          "pmid": "36155517",
+          "title": "An Alzheimer's Disease Mechanism Based on Early Pathology, Anatomy, Vascular-Induced Flow, and Migration of Maximum Flow Stress Energy Location with Increasing Vascular Disease.",
+          "score": 0.5
+        },
+        {
+          "evidence_id": "EVID-40088370",
+          "pmid": "40088370",
+          "title": "Interplay between PI3k/AKT signaling and caspase pathway in Alzheimer disease: mechanism and therapeutic implications.",
+          "score": 0.5
+        },
+        {
+          "evidence_id": "EVID-16472207",
+          "pmid": "16472207",
+          "title": "Amyloid beta: the alternate hypothesis.",
+          "score": 0.416667
+        }
+      ]
+    },
+    {
+      "query_id": "Q003",
+      "question": "Alzheimer disease tau",
+      "expected_retrieval": true,
+      "returned_count": 5,
+      "relevance_test_passed": true,
+      "top_results": [
+        {
+          "evidence_id": "EVID-27654282",
+          "pmid": "27654282",
+          "title": "Potential of the Antibody Against cis-Phosphorylated Tau in the Early Diagnosis, Treatment, and Prevention of Alzheimer Disease and Brain Injury.",
+          "score": 1.25
+        },
+        {
+          "evidence_id": "EVID-17622778",
+          "pmid": "17622778",
+          "title": "Current insights into molecular mechanisms of Alzheimer disease and their implications for therapeutic approaches.",
+          "score": 0.833333
+        },
+        {
+          "evidence_id": "EVID-36155517",
+          "pmid": "36155517",
+          "title": "An Alzheimer's Disease Mechanism Based on Early Pathology, Anatomy, Vascular-Induced Flow, and Migration of Maximum Flow Stress Energy Location with Increasing Vascular Disease.",
+          "score": 0.5
+        },
+        {
+          "evidence_id": "EVID-40088370",
+          "pmid": "40088370",
+          "title": "Interplay between PI3k/AKT signaling and caspase pathway in Alzheimer disease: mechanism and therapeutic implications.",
+          "score": 0.5
+        },
+        {
+          "evidence_id": "EVID-22306201",
+          "pmid": "22306201",
+          "title": "RNA modifications by oxidation: a novel disease mechanism?",
+          "score": 0.416667
+        }
+      ]
+    },
+    {
+      "query_id": "Q004",
+      "question": "completely unrelated astronomy topic",
+      "expected_retrieval": false,
+      "returned_count": 0,
+      "relevance_test_passed": true,
+      "top_results": []
+    }
+  ],
+  "determinism_tests": [
+    {
+      "query_id": "Q001",
+      "first_hash": "b6234535105b99c7462cb2411b1cdbcd0c71b2ed11c9024e84238449c3cdea63",
+      "second_hash": "b6234535105b99c7462cb2411b1cdbcd0c71b2ed11c9024e84238449c3cdea63",
+      "deterministic": true
+    },
+    {
+      "query_id": "Q002",
+      "first_hash": "3436bee441c8adc3e27c62aa264699184c02cb74b568444b5237ecf1e6e77605",
+      "second_hash": "3436bee441c8adc3e27c62aa264699184c02cb74b568444b5237ecf1e6e77605",
+      "deterministic": true
+    },
+    {
+      "query_id": "Q003",
+      "first_hash": "e91a46058dc9069728b740494dd82ff1aa7c111db1b41eac530fc45c7b98c90d",
+      "second_hash": "e91a46058dc9069728b740494dd82ff1aa7c111db1b41eac530fc45c7b98c90d",
+      "deterministic": true
+    },
+    {
+      "query_id": "Q004",
+      "first_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "second_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "deterministic": true
+    }
+  ],
+  "provenance_evaluation": {
+    "records_checked": 15,
+    "passed": true
+  },
+  "grounding_evaluation": {
+    "model_output_present": false,
+    "output_validated": false,
+    "status": "SAFE_FAILURE_EMPTY_MODEL_OUTPUT",
+    "empty_output_safe_failure": true
+  },
+  "evaluation_summary": {
+    "retrieval_tests": 4,
+    "successful_retrieval_tests": 4,
+    "retrieval_test_pass_rate": 1.0,
+    "total_returned_results": 15,
+    "provenance_records_checked": 15,
+    "provenance_passed": true,
+    "determinism_passed": true,
+    "model_output_present": false,
+    "output_validated": false,
+    "grounding_status": "SAFE_FAILURE_EMPTY_MODEL_OUTPUT",
+    "unsupported_inference_blocked": true,
+    "human_review_required": true
+  },
+  "safety": {
+    "scientific_inference": "CONTROLLED",
+    "scientific_conclusions": "DISABLED",
+    "automatic_decision": "DISABLED",
+    "unsupported_inference": "BLOCKED",
+    "human_review": "REQUIRED",
+    "paid_api": "DISABLED",
+    "external_search": "DISABLED",
+    "semantic_embeddings": "NOT_USED",
+    "vector_database": "NOT_USED"
+  },
+  "created_utc": "2026-09-28T04:26:35.346492+00:00"
+}

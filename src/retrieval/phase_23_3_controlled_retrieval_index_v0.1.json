@@ -1,0 +1,334 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_23",
+  "substep_id": "23.3",
+  "name": "Controlled Retrieval Index",
+  "version": "v0.1",
+  "index_policy": {
+    "retrieval_method": "DETERMINISTIC_TOKEN_MATCH",
+    "ranking_method": "DETERMINISTIC",
+    "semantic_embeddings": false,
+    "vector_database": false,
+    "external_search": false,
+    "scientific_inference": false,
+    "scientific_content_generated": false
+  },
+  "source": {
+    "normalized_documents": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/src/retrieval/phase_23_2_normalized_evidence_documents_v0.1.json",
+    "document_count": 10
+  },
+  "index": {
+    "entry_count": 10,
+    "index_hash_sha256": "6d1e183b9fef3ea0d32a71016b0c155922b927c3a15ebe5b70d462e71b2c0b7d",
+    "entries": [
+      {
+        "document_id": "RAG-DOC-EVID-16472207",
+        "evidence_id": "EVID-16472207",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "16472207",
+        "title": "Amyloid beta: the alternate hypothesis.",
+        "search_text": "Amyloid beta: the alternate hypothesis. PubMed 16472207",
+        "tokens": [
+          "16472207",
+          "alternate",
+          "amyloid",
+          "beta:",
+          "hypothesis.",
+          "pubmed",
+          "the"
+        ],
+        "document_hash_sha256": "90f19b5cb9baa4955aaeebf19ab17af68acfd43f1e7cc611550e5a1f0f6597d4",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "ae2871a0205fd1d1a83e84cb7c927344cf8ddcc9c183194a1d8fe8bd25b70b1b",
+          "source_type": "PubMed",
+          "source_id": "16472207"
+        }
+      },
+      {
+        "document_id": "RAG-DOC-EVID-17622778",
+        "evidence_id": "EVID-17622778",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "17622778",
+        "title": "Current insights into molecular mechanisms of Alzheimer disease and their implications for therapeutic approaches.",
+        "search_text": "Current insights into molecular mechanisms of Alzheimer disease and their implications for therapeutic approaches. PubMed 17622778",
+        "tokens": [
+          "17622778",
+          "alzheimer",
+          "and",
+          "approaches.",
+          "current",
+          "disease",
+          "for",
+          "implications",
+          "insights",
+          "into",
+          "mechanisms",
+          "molecular",
+          "of",
+          "pubmed",
+          "their",
+          "therapeutic"
+        ],
+        "document_hash_sha256": "c963d95ce9ad6114a8724829c0c1915e603e6869da60eba32844ef3ddcca9140",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "01562f5b4a0f7f7ad5ae52a3677c35652e69066a966e00c4a1ad25773b5d5f6f",
+          "source_type": "PubMed",
+          "source_id": "17622778"
+        }
+      },
+      {
+        "document_id": "RAG-DOC-EVID-20008648",
+        "evidence_id": "EVID-20008648",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "20008648",
+        "title": "Mild cognitive impairment: ten years later.",
+        "search_text": "Mild cognitive impairment: ten years later. PubMed 20008648",
+        "tokens": [
+          "20008648",
+          "cognitive",
+          "impairment:",
+          "later.",
+          "mild",
+          "pubmed",
+          "ten",
+          "years"
+        ],
+        "document_hash_sha256": "83b38801021e6f977925e0ce5da2341eff99da3e8afe83c0e36238a349763d05",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "f8a4348d03654e7baff93f43e42f34f498b81bbc2078bd72ff8e902d5312e38d",
+          "source_type": "PubMed",
+          "source_id": "20008648"
+        }
+      },
+      {
+        "document_id": "RAG-DOC-EVID-22306201",
+        "evidence_id": "EVID-22306201",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "22306201",
+        "title": "RNA modifications by oxidation: a novel disease mechanism?",
+        "search_text": "RNA modifications by oxidation: a novel disease mechanism? PubMed 22306201",
+        "tokens": [
+          "22306201",
+          "a",
+          "by",
+          "disease",
+          "mechanism?",
+          "modifications",
+          "novel",
+          "oxidation:",
+          "pubmed",
+          "rna"
+        ],
+        "document_hash_sha256": "d9bb1553a1a4f242c76d8a0debbf8fb80fabc73a5ae44573137983464b853c61",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "33abdb7818e0d96a3bdda9f5c328a927464183f41d95f00cf479577e4f773aaa",
+          "source_type": "PubMed",
+          "source_id": "22306201"
+        }
+      },
+      {
+        "document_id": "RAG-DOC-EVID-27654282",
+        "evidence_id": "EVID-27654282",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "27654282",
+        "title": "Potential of the Antibody Against cis-Phosphorylated Tau in the Early Diagnosis, Treatment, and Prevention of Alzheimer Disease and Brain Injury.",
+        "search_text": "Potential of the Antibody Against cis-Phosphorylated Tau in the Early Diagnosis, Treatment, and Prevention of Alzheimer Disease and Brain Injury. PubMed 27654282",
+        "tokens": [
+          "27654282",
+          "against",
+          "alzheimer",
+          "and",
+          "antibody",
+          "brain",
+          "cis-phosphorylated",
+          "diagnosis,",
+          "disease",
+          "early",
+          "in",
+          "injury.",
+          "of",
+          "potential",
+          "prevention",
+          "pubmed",
+          "tau",
+          "the",
+          "treatment,"
+        ],
+        "document_hash_sha256": "82dd8946371ca82e39c527644bb3b7885baa724bc41ea45be4ae2b631ce76d09",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "1fb07810c3e412684c4c77a3e30b8f4184ff38993f60b56dea6989e0eb6e8fd3",
+          "source_type": "PubMed",
+          "source_id": "27654282"
+        }
+      },
+      {
+        "document_id": "RAG-DOC-EVID-28985936",
+        "evidence_id": "EVID-28985936",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "28985936",
+        "title": "Applications of Resting-State Functional Connectivity to Neurodegenerative Disease.",
+        "search_text": "Applications of Resting-State Functional Connectivity to Neurodegenerative Disease. PubMed 28985936",
+        "tokens": [
+          "28985936",
+          "applications",
+          "connectivity",
+          "disease.",
+          "functional",
+          "neurodegenerative",
+          "of",
+          "pubmed",
+          "resting-state",
+          "to"
+        ],
+        "document_hash_sha256": "89fa26310878e5f438e3d3a6edb98c5c85575d8cf4b26781d3b597e4421224c8",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "a7562643fafdb6932c83c430d3e2c60d647fd9b2bad549508e219b8f6af14812",
+          "source_type": "PubMed",
+          "source_id": "28985936"
+        }
+      },
+      {
+        "document_id": "RAG-DOC-EVID-36155517",
+        "evidence_id": "EVID-36155517",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "36155517",
+        "title": "An Alzheimer's Disease Mechanism Based on Early Pathology, Anatomy, Vascular-Induced Flow, and Migration of Maximum Flow Stress Energy Location with Increasing Vascular Disease.",
+        "search_text": "An Alzheimer's Disease Mechanism Based on Early Pathology, Anatomy, Vascular-Induced Flow, and Migration of Maximum Flow Stress Energy Location with Increasing Vascular Disease. PubMed 36155517",
+        "tokens": [
+          "36155517",
+          "alzheimer's",
+          "an",
+          "anatomy,",
+          "and",
+          "based",
+          "disease",
+          "disease.",
+          "early",
+          "energy",
+          "flow",
+          "flow,",
+          "increasing",
+          "location",
+          "maximum",
+          "mechanism",
+          "migration",
+          "of",
+          "on",
+          "pathology,",
+          "pubmed",
+          "stress",
+          "vascular",
+          "vascular-induced",
+          "with"
+        ],
+        "document_hash_sha256": "aeec6186a6b450d05c6a5bb221d39d3748db1b59d3ab5d7d34b4fb5b1def9c76",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "1c8d4ab6d918ada5f1907aba6c8c87182cb7a1673a026c05d8e603ed0992096e",
+          "source_type": "PubMed",
+          "source_id": "36155517"
+        }
+      },
+      {
+        "document_id": "RAG-DOC-EVID-36597577",
+        "evidence_id": "EVID-36597577",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "36597577",
+        "title": "Mitochondria in Aging and Alzheimer's Disease: Focus on Mitophagy.",
+        "search_text": "Mitochondria in Aging and Alzheimer's Disease: Focus on Mitophagy. PubMed 36597577",
+        "tokens": [
+          "36597577",
+          "aging",
+          "alzheimer's",
+          "and",
+          "disease:",
+          "focus",
+          "in",
+          "mitochondria",
+          "mitophagy.",
+          "on",
+          "pubmed"
+        ],
+        "document_hash_sha256": "fd30adfe97e053da843b5013c3b531c6ec4df0bbefae11f5684c5f3228b9cd34",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "4d271e9f793bc6aecafe686c1acc8a5bf8fb56c99adb82de4c7fc1741362000b",
+          "source_type": "PubMed",
+          "source_id": "36597577"
+        }
+      },
+      {
+        "document_id": "RAG-DOC-EVID-36940723",
+        "evidence_id": "EVID-36940723",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "36940723",
+        "title": "AGEs RAGE Pathways: Alzheimer's Disease.",
+        "search_text": "AGEs RAGE Pathways: Alzheimer's Disease. PubMed 36940723",
+        "tokens": [
+          "36940723",
+          "ages",
+          "alzheimer's",
+          "disease.",
+          "pathways:",
+          "pubmed",
+          "rage"
+        ],
+        "document_hash_sha256": "6f4d39752e23f67a0ae8d5dea33f6f38ac3a70b421693159b31ace25baaaeaa9",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "244cf5af221dffb2db8d38c1681ad2a8cfb8547795b3a2408a56f817e9d5a858",
+          "source_type": "PubMed",
+          "source_id": "36940723"
+        }
+      },
+      {
+        "document_id": "RAG-DOC-EVID-40088370",
+        "evidence_id": "EVID-40088370",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "40088370",
+        "title": "Interplay between PI3k/AKT signaling and caspase pathway in Alzheimer disease: mechanism and therapeutic implications.",
+        "search_text": "Interplay between PI3k/AKT signaling and caspase pathway in Alzheimer disease: mechanism and therapeutic implications. PubMed 40088370",
+        "tokens": [
+          "40088370",
+          "alzheimer",
+          "and",
+          "between",
+          "caspase",
+          "disease:",
+          "implications.",
+          "in",
+          "interplay",
+          "mechanism",
+          "pathway",
+          "pi3k/akt",
+          "pubmed",
+          "signaling",
+          "therapeutic"
+        ],
+        "document_hash_sha256": "30049fb5d423a9dadebe6e471d585aa8239d44290a6d3789ad503c88803941f3",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "1eaebf3158fde4d35c53a46870578d9a1ed54674e5e29844358b710963f41dc8",
+          "source_type": "PubMed",
+          "source_id": "40088370"
+        }
+      }
+    ]
+  }
+}

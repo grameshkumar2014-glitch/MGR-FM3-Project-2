@@ -1,0 +1,208 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_23",
+  "substep_id": "23.4",
+  "name": "Evidence Retrieval Function",
+  "version": "v0.1",
+  "dependencies": {
+    "phase_23_3": "PASSED"
+  },
+  "retrieval_contract": {
+    "input": {
+      "query": "required string",
+      "top_k": "optional integer >= 1"
+    },
+    "processing": [
+      "QUERY_VALIDATION",
+      "DETERMINISTIC_TOKENIZATION",
+      "CONTROLLED_INDEX_MATCH",
+      "DETERMINISTIC_RELEVANCE_SCORING",
+      "DETERMINISTIC_RANKING",
+      "PROVENANCE_VALIDATION"
+    ],
+    "output": [
+      "retrieval_id",
+      "query",
+      "query_tokens",
+      "top_k",
+      "candidate_count",
+      "returned_count",
+      "retrieval_method",
+      "ranking_method",
+      "index_hash_sha256",
+      "results"
+    ]
+  },
+  "ranking": {
+    "method": "DETERMINISTIC",
+    "primary_factor": "QUERY_TOKEN_MATCH",
+    "secondary_factor": "TITLE_TOKEN_MATCH",
+    "tie_breaker": "EVIDENCE_ID"
+  },
+  "controls": {
+    "semantic_embeddings": false,
+    "vector_database": false,
+    "external_search": false,
+    "scientific_inference": false,
+    "scientific_conclusion": false,
+    "automatic_decision": false,
+    "unsupported_inference_blocked": true,
+    "human_review_required": true
+  },
+  "controlled_test": {
+    "query": "Alzheimer disease mitochondria mitophagy",
+    "returned_count": 5,
+    "status": "PASSED"
+  },
+  "negative_test": {
+    "query": "zzzz nonexistent evidence term",
+    "returned_count": 0,
+    "status": "PASSED"
+  },
+  "retrieval_example": {
+    "retrieval_id": "RETRIEVAL-feaaba7229b77e94",
+    "query": "Alzheimer disease mitochondria mitophagy",
+    "query_tokens": [
+      "alzheimer",
+      "disease",
+      "mitochondria",
+      "mitophagy"
+    ],
+    "top_k": 5,
+    "candidate_count": 6,
+    "returned_count": 5,
+    "retrieval_method": "DETERMINISTIC_TOKEN_MATCH",
+    "ranking_method": "DETERMINISTIC",
+    "index_hash_sha256": "6d1e183b9fef3ea0d32a71016b0c155922b927c3a15ebe5b70d462e71b2c0b7d",
+    "results": [
+      {
+        "document_id": "RAG-DOC-EVID-17622778",
+        "evidence_id": "EVID-17622778",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "17622778",
+        "pmid": "17622778",
+        "title": "Current insights into molecular mechanisms of Alzheimer disease and their implications for therapeutic approaches.",
+        "search_text": "Current insights into molecular mechanisms of Alzheimer disease and their implications for therapeutic approaches. PubMed 17622778",
+        "matched_tokens": [
+          "alzheimer",
+          "disease"
+        ],
+        "query_token_count": 4,
+        "matched_token_count": 2,
+        "title_match_count": 2,
+        "relevance_score": 0.625,
+        "document_hash_sha256": "c963d95ce9ad6114a8724829c0c1915e603e6869da60eba32844ef3ddcca9140",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "01562f5b4a0f7f7ad5ae52a3677c35652e69066a966e00c4a1ad25773b5d5f6f",
+          "source_type": "PubMed",
+          "source_id": "17622778"
+        }
+      },
+      {
+        "document_id": "RAG-DOC-EVID-27654282",
+        "evidence_id": "EVID-27654282",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "27654282",
+        "pmid": "27654282",
+        "title": "Potential of the Antibody Against cis-Phosphorylated Tau in the Early Diagnosis, Treatment, and Prevention of Alzheimer Disease and Brain Injury.",
+        "search_text": "Potential of the Antibody Against cis-Phosphorylated Tau in the Early Diagnosis, Treatment, and Prevention of Alzheimer Disease and Brain Injury. PubMed 27654282",
+        "matched_tokens": [
+          "alzheimer",
+          "disease"
+        ],
+        "query_token_count": 4,
+        "matched_token_count": 2,
+        "title_match_count": 2,
+        "relevance_score": 0.625,
+        "document_hash_sha256": "82dd8946371ca82e39c527644bb3b7885baa724bc41ea45be4ae2b631ce76d09",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "1fb07810c3e412684c4c77a3e30b8f4184ff38993f60b56dea6989e0eb6e8fd3",
+          "source_type": "PubMed",
+          "source_id": "27654282"
+        }
+      },
+      {
+        "document_id": "RAG-DOC-EVID-36597577",
+        "evidence_id": "EVID-36597577",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "36597577",
+        "pmid": "36597577",
+        "title": "Mitochondria in Aging and Alzheimer's Disease: Focus on Mitophagy.",
+        "search_text": "Mitochondria in Aging and Alzheimer's Disease: Focus on Mitophagy. PubMed 36597577",
+        "matched_tokens": [
+          "mitochondria"
+        ],
+        "query_token_count": 4,
+        "matched_token_count": 1,
+        "title_match_count": 4,
+        "relevance_score": 0.5,
+        "document_hash_sha256": "fd30adfe97e053da843b5013c3b531c6ec4df0bbefae11f5684c5f3228b9cd34",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "4d271e9f793bc6aecafe686c1acc8a5bf8fb56c99adb82de4c7fc1741362000b",
+          "source_type": "PubMed",
+          "source_id": "36597577"
+        }
+      },
+      {
+        "document_id": "RAG-DOC-EVID-36155517",
+        "evidence_id": "EVID-36155517",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "36155517",
+        "pmid": "36155517",
+        "title": "An Alzheimer's Disease Mechanism Based on Early Pathology, Anatomy, Vascular-Induced Flow, and Migration of Maximum Flow Stress Energy Location with Increasing Vascular Disease.",
+        "search_text": "An Alzheimer's Disease Mechanism Based on Early Pathology, Anatomy, Vascular-Induced Flow, and Migration of Maximum Flow Stress Energy Location with Increasing Vascular Disease. PubMed 36155517",
+        "matched_tokens": [
+          "disease"
+        ],
+        "query_token_count": 4,
+        "matched_token_count": 1,
+        "title_match_count": 2,
+        "relevance_score": 0.375,
+        "document_hash_sha256": "aeec6186a6b450d05c6a5bb221d39d3748db1b59d3ab5d7d34b4fb5b1def9c76",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "1c8d4ab6d918ada5f1907aba6c8c87182cb7a1673a026c05d8e603ed0992096e",
+          "source_type": "PubMed",
+          "source_id": "36155517"
+        }
+      },
+      {
+        "document_id": "RAG-DOC-EVID-40088370",
+        "evidence_id": "EVID-40088370",
+        "source": "PubMed",
+        "source_type": "PubMed",
+        "source_id": "40088370",
+        "pmid": "40088370",
+        "title": "Interplay between PI3k/AKT signaling and caspase pathway in Alzheimer disease: mechanism and therapeutic implications.",
+        "search_text": "Interplay between PI3k/AKT signaling and caspase pathway in Alzheimer disease: mechanism and therapeutic implications. PubMed 40088370",
+        "matched_tokens": [
+          "alzheimer"
+        ],
+        "query_token_count": 4,
+        "matched_token_count": 1,
+        "title_match_count": 2,
+        "relevance_score": 0.375,
+        "document_hash_sha256": "30049fb5d423a9dadebe6e471d585aa8239d44290a6d3789ad503c88803941f3",
+        "provenance": {
+          "source_file": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/data/processed/alzheimer_evidence_foundation_v0.1.json",
+          "record_hash_sha256": "1eaebf3158fde4d35c53a46870578d9a1ed54674e5e29844358b710963f41dc8",
+          "source_type": "PubMed",
+          "source_id": "40088370"
+        }
+      }
+    ],
+    "scientific_inference": "NOT_STARTED",
+    "scientific_conclusions": "DISABLED",
+    "automatic_decision": "DISABLED",
+    "unsupported_inference": "BLOCKED",
+    "human_review": "REQUIRED"
+  },
+  "created_utc": "2026-09-28T04:17:35.222553+00:00"
+}

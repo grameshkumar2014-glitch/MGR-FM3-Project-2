@@ -1,0 +1,36 @@
+{
+  "project_id": "MGR-FM3-PROJECT-2",
+  "phase_id": "23",
+  "name": "Controlled Evidence Retrieval and RAG Integration",
+  "version": "0.1",
+  "status": "COMPLETE",
+  "validation": "PASSED",
+  "validated_substeps": [
+    "23.1",
+    "23.2",
+    "23.3",
+    "23.4",
+    "23.5",
+    "23.6",
+    "23.7",
+    "23.8",
+    "23.9",
+    "23.10"
+  ],
+  "artifacts": {
+    "phase_23_10_validation": "results/evaluation/phase_23_10_end_to_end_validation_v0.1.json",
+    "phase_23_3_index": "src/retrieval/phase_23_3_controlled_retrieval_index_v0.1.json",
+    "phase_23_2_documents": "src/retrieval/phase_23_2_normalized_evidence_documents_v0.1.json",
+    "phase_23_7_workflow": "src/retrieval/phase_23_7_langgraph_retrieval_to_llm_workflow_v0.1.json",
+    "phase_23_9_trace_manifest": "src/evaluation/phase_23_9_langsmith_rag_tracing_contract_v0.1.json"
+  },
+  "safety": {
+    "scientific_conclusions_disabled": true,
+    "automatic_decision_disabled": true,
+    "unsupported_inference_blocked": true,
+    "human_review_required": true,
+    "paid_api_disabled": true,
+    "external_search_disabled": true
+  },
+  "created_utc": "2026-09-28T05:20:43.441748+00:00"
+}

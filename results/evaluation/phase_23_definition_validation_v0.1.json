@@ -1,0 +1,23 @@
+{
+  "project": "MGR-FM3 PROJECT 2",
+  "phase": "23",
+  "phase_name": "CONTROLLED_EVIDENCE_RETRIEVAL_AND_RAG_INTEGRATION",
+  "validation": "PASSED",
+  "upstream_dependencies_found": true,
+  "phase_22_complete": true,
+  "substeps_defined": 10,
+  "local_model": "Qwen/Qwen3-0.6B",
+  "runtime": "Transformers + PyTorch CPU",
+  "provider": "LOCAL_OPEN_SOURCE",
+  "paid_api": false,
+  "retrieval_execution": true,
+  "model_execution": true,
+  "scientific_inference": false,
+  "scientific_conclusions": "DISABLED",
+  "automatic_decision": "DISABLED",
+  "unsupported_inference": "BLOCKED",
+  "human_review": "REQUIRED",
+  "status": "FORMALLY_DEFINED",
+  "next_action": "PHASE_23_1_RETRIEVAL_ARCHITECTURE_AND_CONTRACT",
+  "validated_utc": "2026-09-28T04:07:42.507702+00:00"
+}

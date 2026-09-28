@@ -1,0 +1,153 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_23",
+  "substep_id": "23.1",
+  "name": "CONTROLLED_EVIDENCE_RETRIEVAL_ARCHITECTURE",
+  "version": "0.1.0",
+  "status": "VALIDATED",
+  "objective": "Define a deterministic, provenance-preserving retrieval architecture for validated Alzheimer evidence before semantic retrieval and RAG execution.",
+  "architecture": {
+    "input": "User or workflow retrieval question",
+    "stage_1": "Question validation",
+    "stage_2": "Controlled corpus selection",
+    "stage_3": "Candidate evidence retrieval",
+    "stage_4": "Evidence relevance ranking",
+    "stage_5": "Provenance preservation",
+    "stage_6": "Evidence context construction",
+    "output": "Ranked evidence records with provenance"
+  },
+  "retrieval_flow": [
+    "QUESTION",
+    "QUESTION_VALIDATION",
+    "CONTROLLED_CORPUS",
+    "CANDIDATE_EVIDENCE",
+    "RELEVANCE_RANKING",
+    "PROVENANCE_VALIDATION",
+    "EVIDENCE_CONTEXT",
+    "CONTROLLED_LLM_INPUT"
+  ],
+  "retrieval_input_contract": {
+    "required": [
+      "query"
+    ],
+    "optional": [
+      "disease",
+      "target",
+      "mechanism",
+      "molecule",
+      "biomarker",
+      "trial_id",
+      "evidence_type",
+      "source_type",
+      "top_k"
+    ],
+    "constraints": [
+      "query must be non-empty",
+      "query must be a string",
+      "top_k must be a positive integer when supplied",
+      "retrieval scope must remain within validated project evidence"
+    ]
+  },
+  "retrieval_output_contract": {
+    "required_fields": [
+      "retrieval_id",
+      "query",
+      "rank",
+      "evidence_id",
+      "source",
+      "source_id",
+      "evidence_text",
+      "evidence_strength",
+      "confidence",
+      "provenance",
+      "retrieval_method"
+    ],
+    "optional_fields": [
+      "pmid",
+      "target",
+      "mechanism",
+      "molecule",
+      "biomarker",
+      "trial_id",
+      "evidence_direction",
+      "uncertainty",
+      "knowledge_gaps"
+    ]
+  },
+  "ranking_contract": {
+    "version": "0.1.0",
+    "primary_method": "DETERMINISTIC_CONTROLLED_RELEVANCE",
+    "ranking_factors": [
+      "query_term_match",
+      "disease_match",
+      "target_match",
+      "mechanism_match",
+      "molecule_match",
+      "biomarker_match",
+      "trial_match",
+      "evidence_strength",
+      "confidence"
+    ],
+    "tie_breaker": "evidence_id",
+    "semantic_embeddings": "NOT_USED_IN_23_1",
+    "vector_database": "NOT_USED_IN_23_1"
+  },
+  "provenance_contract": {
+    "required": true,
+    "required_fields": [
+      "evidence_id",
+      "source",
+      "source_id",
+      "provenance"
+    ],
+    "citation_traceability": true,
+    "pmid_preservation": true,
+    "source_identity_preservation": true,
+    "provenance_loss": "BLOCKED"
+  },
+  "evidence_rules": [
+    "Only validated evidence may enter the retrieval corpus.",
+    "Evidence without identifiable provenance must not be returned as validated evidence.",
+    "Evidence identifiers must remain unchanged.",
+    "Source identifiers must remain unchanged.",
+    "Retrieved evidence must remain distinguishable from model-generated text.",
+    "Evidence strength must not be silently altered.",
+    "Confidence must not be silently altered.",
+    "Uncertainty must be preserved.",
+    "Knowledge gaps must be preserved.",
+    "Missing evidence must remain explicitly represented."
+  ],
+  "safety_rules": {
+    "scientific_conclusions": "DISABLED",
+    "automatic_decision": "DISABLED",
+    "unsupported_inference": "BLOCKED",
+    "human_review": "REQUIRED",
+    "paid_api": "DISABLED",
+    "scientific_inference": "NOT_STARTED"
+  },
+  "execution_boundary": {
+    "retrieval_contract": "ACTIVE",
+    "retrieval_execution": "NOT_STARTED",
+    "model_execution": "NOT_STARTED",
+    "scientific_inference": "NOT_STARTED",
+    "scientific_conclusions": "DISABLED",
+    "automatic_decision": "DISABLED"
+  },
+  "future_extensions": {
+    "semantic_embeddings": "PLANNED_AFTER_DETERMINISTIC_RETRIEVAL_VALIDATION",
+    "vector_database": "PLANNED_AFTER_DETERMINISTIC_RETRIEVAL_VALIDATION",
+    "rag_generation": "PHASE_23.6",
+    "langgraph_integration": "PHASE_23.7",
+    "langsmith_rag_tracing": "PHASE_23.9"
+  },
+  "validation_requirements": [
+    "retrieval input contract validation",
+    "retrieval output schema validation",
+    "provenance preservation validation",
+    "evidence identity preservation validation",
+    "ranking determinism validation",
+    "unsupported inference safety validation",
+    "human review safety validation"
+  ],
+  "created_utc": "2026-09-28T04:09:21.635406+00:00"
+}

@@ -1,0 +1,85 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_23",
+  "substep_id": "23.7",
+  "name": "LangGraph Retrieval-to-LLM Workflow",
+  "version": "v0.1",
+  "dependencies": {
+    "phase_23_6": "PASSED"
+  },
+  "workflow": {
+    "nodes": [
+      "retrieval",
+      "provenance_validation",
+      "evidence_context",
+      "rag_prompt",
+      "controlled_llm",
+      "output_validation",
+      "human_review"
+    ],
+    "edges": [
+      [
+        "START",
+        "retrieval"
+      ],
+      [
+        "retrieval",
+        "provenance_validation"
+      ],
+      [
+        "provenance_validation",
+        "evidence_context"
+      ],
+      [
+        "evidence_context",
+        "rag_prompt"
+      ],
+      [
+        "rag_prompt",
+        "controlled_llm"
+      ],
+      [
+        "controlled_llm",
+        "output_validation"
+      ],
+      [
+        "output_validation",
+        "human_review"
+      ],
+      [
+        "human_review",
+        "END"
+      ]
+    ]
+  },
+  "data_flow": [
+    "QUESTION",
+    "RETRIEVAL",
+    "PROVENANCE_VALIDATION",
+    "EVIDENCE_CONTEXT",
+    "RAG_PROMPT",
+    "CONTROLLED_LOCAL_LLM",
+    "OUTPUT_VALIDATION",
+    "HUMAN_REVIEW"
+  ],
+  "controlled_test": {
+    "question": "Alzheimer disease mitochondria mitophagy",
+    "retrieval_results": 5,
+    "provenance_validated": true,
+    "rag_prompt_created": true,
+    "model_output_present": false,
+    "output_validated": false,
+    "human_review_required": true,
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  "safety": {
+    "scientific_inference": "CONTROLLED",
+    "scientific_conclusions": "DISABLED",
+    "automatic_decision": "DISABLED",
+    "unsupported_inference": "BLOCKED",
+    "human_review": "REQUIRED",
+    "paid_api": "DISABLED",
+    "external_search": "DISABLED"
+  },
+  "created_utc": "2026-09-28T04:22:47.758403+00:00"
+}
