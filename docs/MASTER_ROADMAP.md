@@ -35,3 +35,44 @@ CONTROL RULES
 8. Scientific conclusions remain disabled during infrastructure validation.
 9. No dependency may be silently skipped.
 10. Google Drive is the persistent master storage.
+
+OPERATIONAL PHASES AFTER CHECKPOINT 20
+
+These phases extend the validated infrastructure after Checkpoint 20.
+They do not replace or renumber Checkpoints 0 through 20.
+
+PHASE 21A  GitHub Production Activation
+STATUS: COMPLETED
+
+PHASE 21B  LangSmith Activation
+STATUS: COMPLETED
+
+PHASE 21C  Local LLM Provider Selection
+STATUS: COMPLETED
+
+PHASE 21D  Local LLM Runtime Selection
+STATUS: COMPLETED
+
+PHASE 22  Controlled Local LLM Reasoning Integration
+STATUS: COMPLETED
+
+Phase 22 substeps 22.1 through 22.10 were validated.
+
+Local model:
+Qwen/Qwen3-0.6B
+
+Runtime:
+Transformers + PyTorch CPU
+
+Provider:
+LOCAL/OPEN-SOURCE
+
+Safety state:
+- Paid API: DISABLED
+- Scientific inference: NOT STARTED
+- Scientific conclusions: DISABLED
+- Automatic decision: DISABLED
+- Unsupported inference: BLOCKED
+- Human review: REQUIRED
+
+NEXT PHASE: NOT DEFINED
