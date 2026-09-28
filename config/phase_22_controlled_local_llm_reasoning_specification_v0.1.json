@@ -1,0 +1,137 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_22",
+  "phase_name": "CONTROLLED_LOCAL_LLM_REASONING_INTEGRATION",
+  "version": "0.1.0",
+  "status": "FORMALLY_DEFINED",
+  "purpose": [
+    "Integrate the validated local Qwen model with the existing AI reasoning architecture.",
+    "Preserve evidence before inference.",
+    "Preserve provenance, uncertainty, and knowledge gaps.",
+    "Connect controlled local inference to LangGraph orchestration.",
+    "Trace local LLM execution through LangSmith.",
+    "Validate generated outputs before any downstream use.",
+    "Preserve mandatory human review for high-consequence scientific use."
+  ],
+  "upstream_dependencies": [
+    {
+      "artifact": "config/project_status.json",
+      "requirement": "Project status reconciled"
+    },
+    {
+      "artifact": "results/evaluation/phase_21d_local_llm_runtime_validation_v0.1.json",
+      "requirement": "Local LLM runtime validated"
+    },
+    {
+      "artifact": "src/reasoning/ai_reasoning_contract_v0.1.json",
+      "requirement": "AI reasoning contract available"
+    },
+    {
+      "artifact": "src/evaluation/langsmith_tracing_contract_v0.1.json",
+      "requirement": "LangSmith tracing contract available"
+    },
+    {
+      "artifact": "src/evaluation/langsmith_safety_contract_v0.1.json",
+      "requirement": "LangSmith safety contract available"
+    },
+    {
+      "artifact": "src/decision/decision_intelligence_contract_v0.1.json",
+      "requirement": "Decision intelligence contract available"
+    },
+    {
+      "artifact": "results/checkpoint_18_final_evaluation_safety_validation.json",
+      "requirement": "Final safety validation passed"
+    },
+    {
+      "artifact": "results/checkpoint_20_final_documentation_reproducibility_validation.json",
+      "requirement": "Final documentation and reproducibility validation passed"
+    }
+  ],
+  "planned_substeps": [
+    {
+      "id": "22.1",
+      "name": "LLM Integration Contract",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": "22.2",
+      "name": "Evidence-Grounded Prompt Contract",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": "22.3",
+      "name": "Local Model Adapter",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": "22.4",
+      "name": "LangGraph Controlled Inference Node",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": "22.5",
+      "name": "LangSmith Local Inference Tracing",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": "22.6",
+      "name": "Output Schema Validation",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": "22.7",
+      "name": "Unsupported-Inference Detection",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": "22.8",
+      "name": "Human Review Gate Integration",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": "22.9",
+      "name": "Controlled Non-Scientific Inference Test",
+      "status": "NOT_STARTED"
+    },
+    {
+      "id": "22.10",
+      "name": "Phase 22 Final Validation",
+      "status": "NOT_STARTED"
+    }
+  ],
+  "execution_constraints": {
+    "provider": "LOCAL_OPEN_SOURCE",
+    "model": "Qwen/Qwen3-0.6B",
+    "runtime": "Transformers + PyTorch CPU",
+    "paid_api": false,
+    "openai_api": false,
+    "scientific_conclusions": "DISABLED",
+    "automatic_decision": "DISABLED",
+    "unsupported_inference": "BLOCKED",
+    "human_review": "REQUIRED",
+    "model_execution": "NOT_STARTED"
+  },
+  "success_criteria": [
+    "Local model integration is reproducible.",
+    "Inference input is explicitly represented in workflow state.",
+    "Evidence and model-generated inference remain distinguishable.",
+    "Output schema validation is enforced.",
+    "Unsupported inference is blocked.",
+    "LangGraph controls the inference transition.",
+    "LangSmith captures the controlled execution trace.",
+    "Human review remains mandatory where required.",
+    "No paid API is introduced.",
+    "Scientific conclusions remain disabled until explicitly authorized."
+  ],
+  "safety_principles": [
+    "Evidence before inference.",
+    "No unsupported scientific claims.",
+    "No automatic scientific decision.",
+    "No automatic therapeutic recommendation.",
+    "Uncertainty must remain visible.",
+    "Knowledge gaps must remain visible.",
+    "Human review must not be bypassed.",
+    "All phase artifacts must be reproducible."
+  ],
+  "created_utc": "2026-09-28T01:51:39.250565+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "validation_id": "MGR-FM3-P2-PHASE-21B",
+  "phase": "21B",
+  "title": "LangSmith Connection and Controlled Tracing",
+  "timestamp_utc": "2026-09-27T12:26:15.152244+00:00",
+  "upstream_dependencies": {
+    "checkpoint_20": true,
+    "phase_21a_github_production": true
+  },
+  "langsmith": {
+    "package_available": true,
+    "sdk_version": "0.12.1",
+    "authenticated_connection": true,
+    "api_endpoint": "https://apac.api.smith.langchain.com",
+    "project_name": "MGR-FM3-Project-2-Controlled-Test",
+    "project_id": "3436d487-325c-4821-8590-44f2eb8edce8",
+    "controlled_trace_submitted": true,
+    "controlled_trace_completed": true,
+    "controlled_trace_verified": true
+  },
+  "trace": {
+    "trace_id": "f6f8c194-1975-4dfe-9e0e-11cf7e6156d4",
+    "trace_type": "chain",
+    "scientific_content": false
+  },
+  "safety": {
+    "llm_execution": false,
+    "scientific_conclusions": false,
+    "automatic_decision": false,
+    "unsupported_inference": true,
+    "human_review_required": true
+  },
+  "status": "PASSED",
+  "next_action": "PHASE_21C_LLM_PROVIDER_SELECTION"
+}

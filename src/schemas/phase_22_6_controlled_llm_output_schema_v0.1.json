@@ -1,0 +1,221 @@
+{
+  "$defs": {
+    "EvidenceReference": {
+      "properties": {
+        "evidence_id": {
+          "minLength": 1,
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        },
+        "provenance_verified": {
+          "title": "Provenance Verified",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "evidence_id",
+        "source_id",
+        "provenance_verified"
+      ],
+      "title": "EvidenceReference",
+      "type": "object"
+    },
+    "Inference": {
+      "properties": {
+        "statement": {
+          "minLength": 1,
+          "title": "Statement",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "classification": {
+          "const": "INFERENCE",
+          "title": "Classification",
+          "type": "string"
+        },
+        "supported": {
+          "title": "Supported",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "statement",
+        "evidence_ids",
+        "classification",
+        "supported"
+      ],
+      "title": "Inference",
+      "type": "object"
+    },
+    "KnowledgeGap": {
+      "properties": {
+        "description": {
+          "minLength": 1,
+          "title": "Description",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description"
+      ],
+      "title": "KnowledgeGap",
+      "type": "object"
+    },
+    "Observation": {
+      "properties": {
+        "statement": {
+          "minLength": 1,
+          "title": "Statement",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "classification": {
+          "const": "OBSERVATION",
+          "title": "Classification",
+          "type": "string"
+        }
+      },
+      "required": [
+        "statement",
+        "evidence_ids",
+        "classification"
+      ],
+      "title": "Observation",
+      "type": "object"
+    },
+    "SafetyState": {
+      "properties": {
+        "scientific_conclusions": {
+          "const": "DISABLED",
+          "title": "Scientific Conclusions",
+          "type": "string"
+        },
+        "automatic_decision": {
+          "const": "DISABLED",
+          "title": "Automatic Decision",
+          "type": "string"
+        },
+        "unsupported_inference": {
+          "const": "BLOCKED",
+          "title": "Unsupported Inference",
+          "type": "string"
+        },
+        "human_review": {
+          "const": "REQUIRED",
+          "title": "Human Review",
+          "type": "string"
+        }
+      },
+      "required": [
+        "scientific_conclusions",
+        "automatic_decision",
+        "unsupported_inference",
+        "human_review"
+      ],
+      "title": "SafetyState",
+      "type": "object"
+    },
+    "UncertaintyItem": {
+      "properties": {
+        "description": {
+          "minLength": 1,
+          "title": "Description",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description"
+      ],
+      "title": "UncertaintyItem",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "const": "0.1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "request_id": {
+      "minLength": 1,
+      "title": "Request Id",
+      "type": "string"
+    },
+    "evidence_references": {
+      "items": {
+        "$ref": "#/$defs/EvidenceReference"
+      },
+      "minItems": 1,
+      "title": "Evidence References",
+      "type": "array"
+    },
+    "observations": {
+      "items": {
+        "$ref": "#/$defs/Observation"
+      },
+      "title": "Observations",
+      "type": "array"
+    },
+    "inferences": {
+      "items": {
+        "$ref": "#/$defs/Inference"
+      },
+      "title": "Inferences",
+      "type": "array"
+    },
+    "uncertainties": {
+      "items": {
+        "$ref": "#/$defs/UncertaintyItem"
+      },
+      "title": "Uncertainties",
+      "type": "array"
+    },
+    "knowledge_gaps": {
+      "items": {
+        "$ref": "#/$defs/KnowledgeGap"
+      },
+      "title": "Knowledge Gaps",
+      "type": "array"
+    },
+    "safety": {
+      "$ref": "#/$defs/SafetyState"
+    },
+    "review_status": {
+      "const": "PENDING_HUMAN_REVIEW",
+      "title": "Review Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "request_id",
+    "evidence_references",
+    "observations",
+    "inferences",
+    "uncertainties",
+    "knowledge_gaps",
+    "safety",
+    "review_status"
+  ],
+  "title": "ControlledLLMOutput",
+  "type": "object"
+}

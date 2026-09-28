@@ -1,0 +1,32 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_22",
+  "substep_id": "22.3",
+  "validation": "PASSED",
+  "dependencies": {
+    "phase_22_1": true,
+    "phase_22_2": true,
+    "local_model_directory": true
+  },
+  "model": "Qwen/Qwen3-0.6B",
+  "runtime": "Transformers + PyTorch CPU",
+  "device": "cpu",
+  "tokenizer_loaded": true,
+  "model_loaded": true,
+  "adapter_source_created": true,
+  "adapter_path": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/src/llm/local_qwen_adapter.py",
+  "adapter_sha256": "38308b9efb3ade867429b9202920a3517ea17a3538f0b0864f26a1238294a623",
+  "scientific_context_connected": false,
+  "evidence_context_connected": false,
+  "langgraph_connected": false,
+  "langsmith_connected": false,
+  "paid_api": false,
+  "scientific_conclusions": "DISABLED",
+  "automatic_decision": "DISABLED",
+  "unsupported_inference": "BLOCKED",
+  "human_review": "REQUIRED",
+  "model_execution": "NOT_STARTED",
+  "scientific_inference": "NOT_STARTED",
+  "next_action": "PHASE_22_4_LANGGRAPH_CONTROLLED_INFERENCE_NODE",
+  "validated_utc": "2026-09-28T01:54:43.440555+00:00"
+}

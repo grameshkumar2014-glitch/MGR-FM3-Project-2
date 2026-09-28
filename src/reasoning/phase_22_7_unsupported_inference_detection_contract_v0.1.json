@@ -1,0 +1,29 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_22",
+  "substep_id": "22.7",
+  "name": "UNSUPPORTED_INFERENCE_DETECTION",
+  "version": "0.1.0",
+  "status": "VALIDATED",
+  "detection_rules": [
+    "Inference must contain a non-empty statement.",
+    "Inference must contain at least one evidence ID.",
+    "Inference must be explicitly marked as supported.",
+    "Unsupported inference must be blocked.",
+    "Missing-evidence inference must be blocked.",
+    "Human review remains required."
+  ],
+  "controls": {
+    "unsupported_inference_blocked": true,
+    "missing_evidence_blocked": true,
+    "empty_statement_blocked": true,
+    "scientific_conclusions": "DISABLED",
+    "automatic_decision": "DISABLED",
+    "human_review": "REQUIRED"
+  },
+  "execution": {
+    "model_execution": "NOT_STARTED",
+    "scientific_inference": "NOT_STARTED"
+  },
+  "created_utc": "2026-09-28T02:30:54.763604+00:00"
+}

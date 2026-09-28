@@ -1,0 +1,33 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_22",
+  "substep_id": "22.6",
+  "name": "CONTROLLED_LLM_OUTPUT_SCHEMA",
+  "version": "0.1.0",
+  "status": "VALIDATED",
+  "required_output_components": [
+    "schema_version",
+    "request_id",
+    "evidence_references",
+    "observations",
+    "inferences",
+    "uncertainties",
+    "knowledge_gaps",
+    "safety",
+    "review_status"
+  ],
+  "controls": {
+    "evidence_reference_required": true,
+    "provenance_required": true,
+    "observation_inference_separation": true,
+    "uncertainty_preservation": true,
+    "knowledge_gap_preservation": true,
+    "unsupported_inference_detection": true,
+    "scientific_conclusions": "DISABLED",
+    "automatic_decision": "DISABLED",
+    "human_review": "REQUIRED"
+  },
+  "model_execution": "NOT_STARTED",
+  "scientific_inference": "NOT_STARTED",
+  "created_utc": "2026-09-28T02:28:48.904915+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "validation_id": "MGR-FM3-P2-PHASE-21C",
+  "phase": "21C",
+  "title": "Zero-Cost Local/Open-Source LLM Provider Selection",
+  "timestamp_utc": "2026-09-27T12:33:33.313085+00:00",
+  "upstream_dependencies": {
+    "checkpoint_20": true,
+    "phase_21a": true,
+    "phase_21b": true
+  },
+  "provider_selection": {
+    "provider": "LOCAL_OPEN_SOURCE",
+    "provider_selected": true,
+    "model_selected": false,
+    "model_selection_deferred_to_21d": true
+  },
+  "cost_control": {
+    "paid_api": false,
+    "openai_api": false,
+    "api_key_required": false,
+    "target_api_cost": 0
+  },
+  "execution": {
+    "llm_execution": false,
+    "scientific_execution": false,
+    "scientific_conclusions": false
+  },
+  "safety": {
+    "automatic_decision": false,
+    "unsupported_inference": true,
+    "human_review_required": true
+  },
+  "status": "PASSED",
+  "next_action": "PHASE_21D_LOCAL_LLM_RUNTIME_SELECTION"
+}

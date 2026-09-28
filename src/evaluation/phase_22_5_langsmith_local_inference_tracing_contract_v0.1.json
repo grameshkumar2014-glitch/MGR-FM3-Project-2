@@ -1,0 +1,29 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_22",
+  "substep_id": "22.5",
+  "name": "LANGSMITH_LOCAL_INFERENCE_TRACING",
+  "version": "0.1.0",
+  "status": "VALIDATED",
+  "langsmith": {
+    "endpoint": "https://apac.api.smith.langchain.com",
+    "project": "MGR-FM3-Project-2-Controlled-Test",
+    "project_id": "3436d487-325c-4821-8590-44f2eb8edce8",
+    "trace_id": "c77875f4-ae3c-4a7a-b537-026b1b76e526"
+  },
+  "model": {
+    "provider": "LOCAL_OPEN_SOURCE",
+    "model": "Qwen/Qwen3-0.6B",
+    "runtime": "Transformers + PyTorch CPU",
+    "paid_api": false
+  },
+  "trace_scope": {
+    "controlled_trace": true,
+    "actual_model_generation": false,
+    "scientific_inference": false,
+    "scientific_conclusions": false,
+    "automatic_decision": false,
+    "unsupported_inference_blocked": true,
+    "human_review_required": true
+  }
+}

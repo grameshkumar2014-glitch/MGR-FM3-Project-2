@@ -1,0 +1,20 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_22",
+  "phase_name": "CONTROLLED_LOCAL_LLM_REASONING_INTEGRATION",
+  "validation": "PASSED",
+  "specification_created": true,
+  "specification_path": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/config/phase_22_controlled_local_llm_reasoning_specification_v0.1.json",
+  "upstream_dependency_count": 8,
+  "planned_substep_count": 10,
+  "paid_api": false,
+  "model": "Qwen/Qwen3-0.6B",
+  "runtime": "Transformers + PyTorch CPU",
+  "model_execution": "NOT_STARTED",
+  "scientific_conclusions": "DISABLED",
+  "automatic_decision": "DISABLED",
+  "unsupported_inference": "BLOCKED",
+  "human_review": "REQUIRED",
+  "next_action": "PHASE_22_1_LLM_INTEGRATION_CONTRACT",
+  "validated_utc": "2026-09-28T01:51:39.277071+00:00"
+}

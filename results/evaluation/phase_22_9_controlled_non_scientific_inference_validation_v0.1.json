@@ -1,0 +1,38 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_22",
+  "substep_id": "22.9",
+  "validation": "PASSED",
+  "upstream_phases": {
+    "22.4": "PASSED",
+    "22.5": "PASSED",
+    "22.6": "PASSED",
+    "22.7": "PASSED",
+    "22.8": "PASSED"
+  },
+  "local_model": {
+    "model": "Qwen/Qwen3-0.6B",
+    "runtime": "Transformers + PyTorch CPU",
+    "provider": "LOCAL_OPEN_SOURCE",
+    "execution": "COMPLETED"
+  },
+  "test_type": "CONTROLLED_NON_SCIENTIFIC_SOFTWARE_VALIDATION",
+  "scientific_inference": "NOT_STARTED",
+  "scientific_conclusions": "DISABLED",
+  "automatic_decision": "DISABLED",
+  "unsupported_inference": "BLOCKED",
+  "human_review": "REQUIRED",
+  "review_status": "PENDING_HUMAN_REVIEW",
+  "semantic_task_success": "NOT_ASSERTED",
+  "semantic_task_note": "The local model executed successfully, but its generated text was repetitive instruction-like text. The test therefore validates controlled execution, safety boundaries, schema handling, human review, and tracing; it does not establish semantic task performance.",
+  "langsmith": {
+    "endpoint": "https://apac.api.smith.langchain.com",
+    "project": "MGR-FM3-Project-2-Controlled-Test",
+    "project_id": "3436d487-325c-4821-8590-44f2eb8edce8",
+    "trace_id": "c77875f4-ae3c-4a7a-b537-026b1b76e526",
+    "trace_verification": "PASSED"
+  },
+  "paid_api": false,
+  "next_action": "PHASE_22_10_FINAL_VALIDATION",
+  "validated_utc": "2026-09-28T02:35:54.476632+00:00"
+}

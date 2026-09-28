@@ -1,0 +1,29 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_22",
+  "substep_id": "22.8",
+  "name": "HUMAN_REVIEW_GATE_INTEGRATION",
+  "version": "0.1.0",
+  "status": "VALIDATED",
+  "review_states": [
+    "PENDING_HUMAN_REVIEW",
+    "APPROVED",
+    "REJECTED"
+  ],
+  "transitions": {
+    "PENDING_HUMAN_REVIEW": "HUMAN_REVIEW",
+    "APPROVED": "CONTINUE_AFTER_HUMAN_REVIEW",
+    "REJECTED": "STOP_AND_ESCALATE"
+  },
+  "controls": {
+    "human_review_required": true,
+    "scientific_conclusions": "DISABLED",
+    "automatic_decision": "DISABLED",
+    "unsupported_inference": "BLOCKED"
+  },
+  "execution": {
+    "model_execution": "NOT_STARTED",
+    "scientific_inference": "NOT_STARTED"
+  },
+  "created_utc": "2026-09-28T02:32:19.575754+00:00"
+}

@@ -1,0 +1,134 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_22",
+  "substep_id": "22.2",
+  "name": "EVIDENCE_GROUNDED_PROMPT_CONTRACT",
+  "version": "0.1.0",
+  "status": "FORMALLY_DEFINED",
+  "purpose": [
+    "Define a controlled prompt boundary for the local LLM.",
+    "Require evidence before inference.",
+    "Prevent unsupported scientific claims.",
+    "Preserve provenance, uncertainty, and knowledge gaps.",
+    "Ensure observations remain separate from model-generated inferences."
+  ],
+  "prompt_sections": [
+    {
+      "section": "SYSTEM_BOUNDARY",
+      "required": true,
+      "purpose": "Define the model's permitted role and safety restrictions."
+    },
+    {
+      "section": "TASK",
+      "required": true,
+      "purpose": "Define the exact requested task."
+    },
+    {
+      "section": "EVIDENCE",
+      "required": true,
+      "purpose": "Provide only explicitly supplied evidence records."
+    },
+    {
+      "section": "PROVENANCE",
+      "required": true,
+      "purpose": "Identify the source associated with each evidence item."
+    },
+    {
+      "section": "UNCERTAINTY",
+      "required": true,
+      "purpose": "Preserve known uncertainty."
+    },
+    {
+      "section": "KNOWLEDGE_GAPS",
+      "required": true,
+      "purpose": "Preserve unresolved information gaps."
+    },
+    {
+      "section": "OUTPUT_SCHEMA",
+      "required": true,
+      "purpose": "Constrain the response to the validated output structure."
+    },
+    {
+      "section": "SAFETY_RULES",
+      "required": true,
+      "purpose": "Prevent unsupported inference and automatic decisions."
+    }
+  ],
+  "grounding_rules": [
+    "Use only evidence explicitly supplied in the prompt context.",
+    "Do not invent evidence.",
+    "Do not invent citations.",
+    "Do not attribute unsupported claims to a source.",
+    "Do not convert an inference into an observation.",
+    "Do not remove uncertainty.",
+    "Do not remove knowledge gaps.",
+    "When evidence is insufficient, explicitly state that evidence is insufficient.",
+    "Do not present model memory as supplied evidence."
+  ],
+  "observation_rules": [
+    "Observations must be directly traceable to supplied evidence.",
+    "Each observation must retain its evidence identifier.",
+    "Observations must not contain unsupported causal conclusions."
+  ],
+  "inference_rules": [
+    "Inferences must be explicitly labeled as inference.",
+    "Every inference must identify supporting evidence.",
+    "Inference confidence must not exceed the evidence support.",
+    "If supporting evidence is inadequate, the inference must be rejected or marked unsupported."
+  ],
+  "provenance_rules": [
+    "Every evidence item must have a source identifier.",
+    "PMID provenance must be retained when applicable.",
+    "The model must not generate replacement provenance.",
+    "Missing provenance must trigger validation failure."
+  ],
+  "uncertainty_rules": [
+    "Existing uncertainty must be preserved.",
+    "The model must not convert uncertainty into certainty.",
+    "Uncertainty must remain visible in the output."
+  ],
+  "knowledge_gap_rules": [
+    "Existing knowledge gaps must be preserved.",
+    "The model must not silently fill knowledge gaps.",
+    "Knowledge gaps may be identified but not fabricated as facts."
+  ],
+  "forbidden_behaviors": [
+    "Fabricated citations",
+    "Fabricated evidence",
+    "Unsupported scientific conclusions",
+    "Automatic therapeutic recommendations",
+    "Automatic decision making",
+    "Hidden assumptions presented as facts",
+    "Removal of uncertainty",
+    "Removal of knowledge gaps",
+    "Claiming external verification without supplied evidence"
+  ],
+  "insufficient_evidence_behavior": {
+    "required": true,
+    "response_action": "STATE_INSUFFICIENT_EVIDENCE",
+    "automatic_completion": false,
+    "human_review": "REQUIRED"
+  },
+  "output_requirements": [
+    "observations",
+    "inferences",
+    "evidence_links",
+    "uncertainties",
+    "knowledge_gaps",
+    "unsupported_claims",
+    "review_status"
+  ],
+  "safety_state": {
+    "scientific_conclusions": "DISABLED",
+    "automatic_decision": "DISABLED",
+    "unsupported_inference": "BLOCKED",
+    "human_review": "REQUIRED",
+    "paid_api": false
+  },
+  "execution_state": {
+    "prompt_contract_created": true,
+    "model_execution": "NOT_STARTED",
+    "scientific_inference": "NOT_STARTED"
+  },
+  "created_utc": "2026-09-28T01:52:49.240562+00:00"
+}

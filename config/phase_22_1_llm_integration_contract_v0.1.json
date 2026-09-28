@@ -1,0 +1,121 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_22",
+  "substep_id": "22.1",
+  "name": "LLM_INTEGRATION_CONTRACT",
+  "version": "0.1.0",
+  "status": "FORMALLY_DEFINED",
+  "purpose": [
+    "Define the controlled interface between the existing reasoning architecture and the validated local LLM.",
+    "Prevent uncontrolled model execution.",
+    "Ensure evidence remains distinguishable from model-generated inference.",
+    "Define validation and human-review requirements before downstream use."
+  ],
+  "model_interface": {
+    "provider": "LOCAL_OPEN_SOURCE",
+    "model": "Qwen/Qwen3-0.6B",
+    "runtime": "Transformers + PyTorch CPU",
+    "execution_environment": "Google Colab",
+    "paid_api": false,
+    "external_api": false
+  },
+  "input_contract": {
+    "required_fields": [
+      "request_id",
+      "task_type",
+      "evidence_records",
+      "reasoning_context",
+      "uncertainties",
+      "knowledge_gaps",
+      "safety_constraints"
+    ],
+    "evidence_required": true,
+    "empty_evidence_allowed": false,
+    "provenance_required": true,
+    "uncertainty_required": true,
+    "knowledge_gaps_required": true
+  },
+  "evidence_boundary": {
+    "principle": "EVIDENCE_BEFORE_INFERENCE",
+    "model_may_use": [
+      "explicitly supplied evidence records",
+      "validated reasoning context",
+      "validated task instructions"
+    ],
+    "model_may_not_use_as_evidence": [
+      "unstated assumptions",
+      "fabricated citations",
+      "unverified external facts",
+      "unsupported model memory"
+    ]
+  },
+  "output_contract": {
+    "required_fields": [
+      "request_id",
+      "observations",
+      "inferences",
+      "evidence_links",
+      "uncertainties",
+      "knowledge_gaps",
+      "unsupported_claims",
+      "review_status"
+    ],
+    "observations_must_be_separate_from_inferences": true,
+    "evidence_links_required": true,
+    "uncertainty_preservation_required": true,
+    "knowledge_gap_preservation_required": true,
+    "unsupported_claim_detection_required": true
+  },
+  "safety_contract": {
+    "scientific_conclusions": "DISABLED",
+    "automatic_decision": "DISABLED",
+    "therapeutic_recommendation": "DISABLED",
+    "unsupported_inference": "BLOCKED",
+    "human_review": "REQUIRED",
+    "automatic_approval": "DISABLED"
+  },
+  "langgraph_contract": {
+    "execution_controlled_by_langgraph": true,
+    "model_node_requires_valid_state": true,
+    "model_node_requires_evidence": true,
+    "model_output_requires_validation": true,
+    "validation_failure_route": "HUMAN_REVIEW_OR_ESCALATION",
+    "automatic_decision_route": false
+  },
+  "langsmith_contract": {
+    "tracing_required": true,
+    "input_trace_required": true,
+    "model_execution_trace_required": true,
+    "output_trace_required": true,
+    "validation_trace_required": true,
+    "human_review_trace_required": true,
+    "paid_api_required": false
+  },
+  "failure_conditions": [
+    "Missing evidence",
+    "Missing provenance",
+    "Malformed reasoning state",
+    "Malformed model output",
+    "Unsupported inference detected",
+    "Evidence link missing",
+    "Uncertainty information lost",
+    "Knowledge gap information lost",
+    "Safety constraint violation",
+    "Human-review requirement bypassed"
+  ],
+  "reproducibility": {
+    "model_identifier_recorded": true,
+    "runtime_recorded": true,
+    "input_schema_versioned": true,
+    "output_schema_versioned": true,
+    "contract_versioned": true,
+    "trace_identifier_required": true
+  },
+  "execution_state": {
+    "contract_created": true,
+    "model_execution": "NOT_STARTED",
+    "scientific_inference": "NOT_STARTED",
+    "scientific_conclusions": "DISABLED"
+  },
+  "created_utc": "2026-09-28T01:52:14.221889+00:00"
+}

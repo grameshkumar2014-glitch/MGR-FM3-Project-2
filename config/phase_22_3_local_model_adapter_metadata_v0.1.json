@@ -1,0 +1,71 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_22",
+  "substep_id": "22.3",
+  "name": "LOCAL_MODEL_ADAPTER",
+  "version": "0.1.0",
+  "model": {
+    "identifier": "Qwen/Qwen3-0.6B",
+    "local_path": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/models/Qwen3-0.6B",
+    "runtime": "Transformers + PyTorch CPU",
+    "device": "cpu",
+    "local_files_only": true
+  },
+  "environment": {
+    "transformers_version": "5.16.1",
+    "pytorch_version": "2.11.0+cpu",
+    "cuda_available": false
+  },
+  "contracts": {
+    "integration_contract": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/config/phase_22_1_llm_integration_contract_v0.1.json",
+    "prompt_contract": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/config/phase_22_2_evidence_grounded_prompt_contract_v0.1.json"
+  },
+  "model_files": [
+    ".cache/huggingface/.gitignore",
+    ".cache/huggingface/CACHEDIR.TAG",
+    ".cache/huggingface/download/config.json.lock",
+    ".cache/huggingface/download/config.json.metadata",
+    ".cache/huggingface/download/generation_config.json.lock",
+    ".cache/huggingface/download/generation_config.json.metadata",
+    ".cache/huggingface/download/merges.txt.lock",
+    ".cache/huggingface/download/merges.txt.metadata",
+    ".cache/huggingface/download/model.safetensors.lock",
+    ".cache/huggingface/download/model.safetensors.metadata",
+    ".cache/huggingface/download/tokenizer.json.lock",
+    ".cache/huggingface/download/tokenizer.json.metadata",
+    ".cache/huggingface/download/tokenizer_config.json.lock",
+    ".cache/huggingface/download/tokenizer_config.json.metadata",
+    ".cache/huggingface/download/vocab.json.lock",
+    ".cache/huggingface/download/vocab.json.metadata",
+    ".cache/huggingface/trees/c1899de289a04d12100db370d81485cdf75e47ca.json",
+    "config.json",
+    "generation_config.json",
+    "merges.txt",
+    "model.safetensors",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "vocab.json"
+  ],
+  "adapter_interface": {
+    "load_tokenizer": true,
+    "load_model": true,
+    "generate_method_defined": true,
+    "scientific_context_connected": false,
+    "evidence_context_connected": false,
+    "langgraph_connected": false,
+    "langsmith_connected": false
+  },
+  "safety": {
+    "paid_api": false,
+    "scientific_conclusions": "DISABLED",
+    "automatic_decision": "DISABLED",
+    "unsupported_inference": "BLOCKED",
+    "human_review": "REQUIRED"
+  },
+  "execution": {
+    "adapter_loaded": true,
+    "model_execution": "NOT_STARTED",
+    "scientific_inference": "NOT_STARTED"
+  },
+  "created_utc": "2026-09-28T01:54:43.223790+00:00"
+}

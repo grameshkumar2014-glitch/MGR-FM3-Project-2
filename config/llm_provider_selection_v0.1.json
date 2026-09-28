@@ -1,0 +1,55 @@
+{
+  "project": "MGR-FM3-Project-2",
+  "phase": "21C",
+  "title": "Zero-Cost Local/Open-Source LLM Provider Selection",
+  "selected_provider": "LOCAL_OPEN_SOURCE",
+  "selected_model": null,
+  "cost_policy": {
+    "paid_api_required": false,
+    "openai_api_required": false,
+    "anthropic_api_required": false,
+    "google_api_required": false,
+    "api_cost_target": 0
+  },
+  "execution_architecture": {
+    "provider_type": "local_or_open_source",
+    "execution_environment": "Google Colab",
+    "llm_runtime": "TO_BE_SELECTED_IN_PHASE_21D",
+    "model_download": "PHASE_21D",
+    "llm_execution": false
+  },
+  "candidate_runtimes": [
+    "Hugging Face Transformers",
+    "llama.cpp",
+    "Ollama"
+  ],
+  "selection_requirements": {
+    "zero_paid_api_cost": true,
+    "colab_compatible": true,
+    "LangChain_compatible": true,
+    "LangGraph_compatible": true,
+    "LangSmith_traceable": true,
+    "structured_output_preferred": true,
+    "tool_calling_preferred": true
+  },
+  "credentials": {
+    "openai_api_key": false,
+    "anthropic_api_key": false,
+    "google_api_key": false,
+    "paid_api_key_required": false
+  },
+  "safety_gates": {
+    "llm_execution": false,
+    "scientific_conclusions": false,
+    "automatic_decision": false,
+    "unsupported_inference": true,
+    "human_review_required": true
+  },
+  "upstream_dependencies": {
+    "checkpoint_20": true,
+    "phase_21a": true,
+    "phase_21b": true
+  },
+  "status": "READY_FOR_LOCAL_MODEL_SELECTION",
+  "next_action": "PHASE_21D_LOCAL_LLM_RUNTIME_SELECTION"
+}

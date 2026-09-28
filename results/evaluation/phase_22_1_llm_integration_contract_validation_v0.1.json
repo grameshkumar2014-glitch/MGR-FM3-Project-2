@@ -1,0 +1,23 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_22",
+  "substep_id": "22.1",
+  "validation": "PASSED",
+  "contract_created": true,
+  "contract_path": "/content/drive/MyDrive/MGR-FM3-PROJECT-2/config/phase_22_1_llm_integration_contract_v0.1.json",
+  "model": "Qwen/Qwen3-0.6B",
+  "runtime": "Transformers + PyTorch CPU",
+  "evidence_before_inference": true,
+  "provenance_required": true,
+  "uncertainty_preserved": true,
+  "knowledge_gaps_preserved": true,
+  "unsupported_inference_blocked": true,
+  "automatic_decision": false,
+  "scientific_conclusions": "DISABLED",
+  "human_review": "REQUIRED",
+  "langgraph_controlled": true,
+  "langsmith_tracing_required": true,
+  "model_execution": "NOT_STARTED",
+  "next_action": "PHASE_22_2_EVIDENCE_GROUNDED_PROMPT_CONTRACT",
+  "validated_utc": "2026-09-28T01:52:14.230961+00:00"
+}

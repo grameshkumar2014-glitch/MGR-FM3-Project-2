@@ -1,0 +1,44 @@
+{
+  "project_id": "MGR-FM3-P2",
+  "phase_id": "PHASE_22",
+  "substep_id": "22.4",
+  "name": "LANGGRAPH_CONTROLLED_INFERENCE_NODE",
+  "version": "0.1.0",
+  "status": "VALIDATED",
+  "langgraph_version": "1.2.11",
+  "nodes": [
+    "initialize",
+    "validate_evidence",
+    "controlled_model",
+    "output_validation",
+    "human_review"
+  ],
+  "edges": [
+    "START -> initialize",
+    "initialize -> validate_evidence",
+    "validate_evidence -> controlled_model OR human_review",
+    "controlled_model -> output_validation",
+    "output_validation -> human_review",
+    "human_review -> END"
+  ],
+  "control_properties": {
+    "evidence_required": true,
+    "provenance_required": true,
+    "model_execution_requires_valid_evidence": true,
+    "output_validation_required": true,
+    "human_review_required": true,
+    "automatic_decision": false,
+    "scientific_conclusions": "DISABLED",
+    "unsupported_inference": "BLOCKED"
+  },
+  "model_execution": {
+    "actual_generation": "NOT_STARTED",
+    "scientific_inference": "NOT_STARTED"
+  },
+  "test_result": {
+    "status": "PASSED",
+    "model_output": "EMPTY",
+    "review_status": "PENDING_HUMAN_REVIEW"
+  },
+  "created_utc": "2026-09-28T01:59:51.153810+00:00"
+}

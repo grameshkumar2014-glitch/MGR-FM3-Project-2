@@ -30,3 +30,9 @@ temp/
 # OS
 .DS_Store
 Thumbs.db
+# Local model files - never commit to GitHub
+models/
+# Python cache
+*.pyc
+# Local environment secrets
+.env.local
